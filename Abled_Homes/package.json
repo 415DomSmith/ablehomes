@@ -1,22 +1,13 @@
 {
-  "name": "Abled_Homes",
+  "name": "AbledHomes",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
 		"express": "3.4.0",
-		"underscore": "1.5.2",
+
 		"forever": "0.10.9",
-		"request": "2.27.0",
-		"mongoose": "~3.8.8",
-		"nodeunit": "~0.8.6",
-		"nock": "0.45.0",
-		"validator": "3.16.1",
-		"node-uuid": "1.4.1",
-		"moment": "2.8.1",
-		"async": "0.9.0",
-		"z-schema": "3.0.1",
-		"simple-log": "1.1.0"
-  	},
+    "ejs":"*"
+  },
 	"scripts": {
 		"start": "node app.js"
 	}
