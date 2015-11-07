@@ -1,0 +1,1568 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "wc6f-brai",
+      "name" : "Disabled Parking",
+      "attribution" : "SFMTA, SFpark",
+      "attributionLink" : "http://sfpark.org/resources/disabled-parking-census-gis-data/",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1335763763,
+      "description" : "All disabled parking spaces as of September 2011. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. Data includes locations and site details; space characteristics, such as space length, side of street the space is located on, curb quality; post ID equivalent, if located in a metered area; date of site visit for available data.",
+      "displayType" : "table",
+      "downloadCount" : 452,
+      "indexUpdatedAt" : 1442441397,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 1,
+      "oid" : 640794,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1335763990,
+      "publicationGroup" : 330436,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1335763980,
+      "rowsUpdatedBy" : "zn8n-8wyr",
+      "tableId" : 330436,
+      "totalTimesRated" : 0,
+      "viewCount" : 681,
+      "viewLastModified" : 1442432955,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 8590596,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713875,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "Vicente",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2800 Sloat Blvd"
+          }, {
+            "count" : 19,
+            "item" : "Grove"
+          }, {
+            "count" : 18,
+            "item" : " "
+          }, {
+            "count" : 17,
+            "item" : "McAllister"
+          }, {
+            "count" : 16,
+            "item" : "HERBST"
+          }, {
+            "count" : 15,
+            "item" : "SLOAT BLVD"
+          }, {
+            "count" : 14,
+            "item" : "BERRY ST"
+          }, {
+            "count" : 13,
+            "item" : "CALIFORNIA ST"
+          }, {
+            "count" : 12,
+            "item" : "STEVENSON ST"
+          }, {
+            "count" : 11,
+            "item" : "EDDY ST"
+          }, {
+            "count" : 10,
+            "item" : "ANZA ST"
+          }, {
+            "count" : 9,
+            "item" : "MISSION ST"
+          }, {
+            "count" : 8,
+            "item" : "TELEGRAPH HILL BLVD"
+          }, {
+            "count" : 7,
+            "item" : "FUNSTON AVE"
+          }, {
+            "count" : 6,
+            "item" : "GEARY BLVD"
+          }, {
+            "count" : 5,
+            "item" : "RANDOLPH ST"
+          }, {
+            "count" : 4,
+            "item" : "32ND AVE"
+          }, {
+            "count" : 3,
+            "item" : "DIAMOND HEIGHTS BLVD"
+          }, {
+            "count" : 2,
+            "item" : "10TH ST"
+          }, {
+            "count" : 1,
+            "item" : "MOSCOW ST"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590597,
+        "name" : "CROSSST",
+        "dataTypeName" : "text",
+        "fieldName" : "crossst",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713876,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "Zoo",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Geary"
+          }, {
+            "count" : 19,
+            "item" : "Golden Gate"
+          }, {
+            "count" : 18,
+            "item" : "Arguello"
+          }, {
+            "count" : 17,
+            "item" : "McAllister"
+          }, {
+            "count" : 16,
+            "item" : "Green"
+          }, {
+            "count" : 15,
+            "item" : "Union"
+          }, {
+            "count" : 14,
+            "item" : " "
+          }, {
+            "count" : 13,
+            "item" : "Howard"
+          }, {
+            "count" : 12,
+            "item" : "Bush"
+          }, {
+            "count" : 11,
+            "item" : "Chestnut St"
+          }, {
+            "count" : 10,
+            "item" : "Steiner St"
+          }, {
+            "count" : 9,
+            "item" : "Skyline"
+          }, {
+            "count" : 8,
+            "item" : "46th Ave"
+          }, {
+            "count" : 7,
+            "item" : "30th Ave"
+          }, {
+            "count" : 6,
+            "item" : "Ramsell"
+          }, {
+            "count" : 5,
+            "item" : "Safira"
+          }, {
+            "count" : 4,
+            "item" : "Market"
+          }, {
+            "count" : 3,
+            "item" : "Italy"
+          }, {
+            "count" : 2,
+            "item" : "Turk"
+          }, {
+            "count" : 1,
+            "item" : "24th St"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590598,
+        "name" : "SITEDETAIL",
+        "dataTypeName" : "text",
+        "fieldName" : "sitedetail",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713877,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "west of Mission",
+          "top" : [ {
+            "count" : 20,
+            "item" : " "
+          }, {
+            "count" : 19,
+            "item" : "Pierce St Garage - metered spaces"
+          }, {
+            "count" : 18,
+            "item" : "Cal Steiner lot"
+          }, {
+            "count" : 17,
+            "item" : "SE part of zoo"
+          }, {
+            "count" : 16,
+            "item" : "S side of median"
+          }, {
+            "count" : 15,
+            "item" : "SE corner of intersection"
+          }, {
+            "count" : 14,
+            "item" : "NE corner of intersection"
+          }, {
+            "count" : 13,
+            "item" : "E side of intersection"
+          }, {
+            "count" : 12,
+            "item" : "NW corner of intersection"
+          }, {
+            "count" : 11,
+            "item" : "S side of Sloat"
+          }, {
+            "count" : 10,
+            "item" : "SW corner of intersection"
+          }, {
+            "count" : 9,
+            "item" : "SW side of intersection"
+          }, {
+            "count" : 8,
+            "item" : "NE side of intersection"
+          }, {
+            "count" : 7,
+            "item" : "19' to 41' south of the north property line"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590599,
+        "name" : "SPACELENG",
+        "dataTypeName" : "number",
+        "fieldName" : "spaceleng",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 2713878,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : "0",
+          "sum" : "8804",
+          "null" : 0,
+          "average" : "12.01091405184175",
+          "largest" : "129",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "22"
+          }, {
+            "count" : 18,
+            "item" : "18"
+          }, {
+            "count" : 17,
+            "item" : "24"
+          }, {
+            "count" : 16,
+            "item" : "50"
+          }, {
+            "count" : 15,
+            "item" : "38"
+          }, {
+            "count" : 14,
+            "item" : "28"
+          }, {
+            "count" : 13,
+            "item" : "31"
+          }, {
+            "count" : 12,
+            "item" : "52"
+          }, {
+            "count" : 11,
+            "item" : "20"
+          }, {
+            "count" : 10,
+            "item" : "36"
+          }, {
+            "count" : 9,
+            "item" : "44"
+          }, {
+            "count" : 8,
+            "item" : "45"
+          }, {
+            "count" : 7,
+            "item" : "26"
+          }, {
+            "count" : 6,
+            "item" : "9"
+          }, {
+            "count" : 5,
+            "item" : "21"
+          }, {
+            "count" : 4,
+            "item" : "42"
+          }, {
+            "count" : 3,
+            "item" : "19"
+          }, {
+            "count" : 2,
+            "item" : "12"
+          }, {
+            "count" : 1,
+            "item" : "34"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590600,
+        "name" : "STSIDE",
+        "dataTypeName" : "text",
+        "fieldName" : "stside",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713879,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "W",
+          "top" : [ {
+            "count" : 20,
+            "item" : "E"
+          }, {
+            "count" : 19,
+            "item" : "NE"
+          }, {
+            "count" : 18,
+            "item" : "S"
+          }, {
+            "count" : 17,
+            "item" : "SW"
+          }, {
+            "count" : 16,
+            "item" : "W"
+          }, {
+            "count" : 15,
+            "item" : "SE"
+          }, {
+            "count" : 14,
+            "item" : "N"
+          }, {
+            "count" : 13,
+            "item" : " "
+          }, {
+            "count" : 12,
+            "item" : "s"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590601,
+        "name" : "CURBQUAL",
+        "dataTypeName" : "text",
+        "fieldName" : "curbqual",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713880,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "poor",
+          "top" : [ {
+            "count" : 20,
+            "item" : " "
+          }, {
+            "count" : 19,
+            "item" : "poor"
+          }, {
+            "count" : 18,
+            "item" : "good"
+          }, {
+            "count" : 17,
+            "item" : "fair"
+          }, {
+            "count" : 16,
+            "item" : "none"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590602,
+        "name" : "POSTID",
+        "dataTypeName" : "text",
+        "fieldName" : "postid",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2713881,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : " ",
+          "null" : 0,
+          "largest" : "924-00220",
+          "top" : [ {
+            "count" : 20,
+            "item" : " "
+          }, {
+            "count" : 19,
+            "item" : "778-03230"
+          }, {
+            "count" : 18,
+            "item" : "132-05480"
+          }, {
+            "count" : 17,
+            "item" : "775-51650"
+          }, {
+            "count" : 16,
+            "item" : "765-27890"
+          }, {
+            "count" : 15,
+            "item" : "766-01310"
+          }, {
+            "count" : 14,
+            "item" : "775-51610"
+          }, {
+            "count" : 13,
+            "item" : "210-00020"
+          }, {
+            "count" : 12,
+            "item" : "780-07950"
+          }, {
+            "count" : 11,
+            "item" : "609-06010"
+          }, {
+            "count" : 10,
+            "item" : "583-10710"
+          }, {
+            "count" : 9,
+            "item" : "766-01330"
+          }, {
+            "count" : 8,
+            "item" : "766-01030"
+          }, {
+            "count" : 7,
+            "item" : "220-36040"
+          }, {
+            "count" : 6,
+            "item" : "901-00020"
+          }, {
+            "count" : 5,
+            "item" : "763-00400"
+          }, {
+            "count" : 4,
+            "item" : "442-25370"
+          }, {
+            "count" : 3,
+            "item" : "797-15020"
+          }, {
+            "count" : 2,
+            "item" : "526-01790"
+          }, {
+            "count" : 1,
+            "item" : "767-00180"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590603,
+        "name" : "LASTFIELDC",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "lastfieldc",
+        "position" : 9,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 2713882,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 278,
+          "smallest" : "1988-04-08T00:00:00",
+          "null" : 455,
+          "largest" : "2007-09-01T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2007-04-13T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "1991-06-30T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "1990-06-27T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "1988-04-20T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "1988-04-08T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "1988-05-25T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "1988-04-12T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "1988-05-06T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "1992-06-05T00:00:00"
+          }, {
+            "count" : 11,
+            "item" : "1992-06-06T00:00:00"
+          }, {
+            "count" : 10,
+            "item" : "1988-04-09T00:00:00"
+          }, {
+            "count" : 9,
+            "item" : "1992-04-16T00:00:00"
+          }, {
+            "count" : 8,
+            "item" : "1992-11-01T00:00:00"
+          }, {
+            "count" : 7,
+            "item" : "1988-04-27T00:00:00"
+          }, {
+            "count" : 6,
+            "item" : "1993-08-25T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "1991-07-31T00:00:00"
+          }, {
+            "count" : 4,
+            "item" : "1991-10-10T00:00:00"
+          }, {
+            "count" : 3,
+            "item" : "1993-10-01T00:00:00"
+          }, {
+            "count" : 2,
+            "item" : "1994-03-03T00:00:00"
+          }, {
+            "count" : 1,
+            "item" : "1990-04-30T00:00:00"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 8590604,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2713883,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 733,
+          "smallest" : {
+            "longitude" : -122.39901,
+            "latitude" : 37.79491
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : -122.38767,
+            "latitude" : 37.76049
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : -122.50225,
+              "latitude" : 37.72991
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : -122.42386,
+              "latitude" : 37.78245
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : -122.4675,
+              "latitude" : 37.77901
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : -122.5012,
+              "latitude" : 37.73069
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : -122.50414,
+              "latitude" : 37.73544
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : -122.50419,
+              "latitude" : 37.73528
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : -122.4185,
+              "latitude" : 37.74791
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : -122.40596,
+              "latitude" : 37.80269
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : -122.47226,
+              "latitude" : 37.78646
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : -122.48991,
+              "latitude" : 37.77972
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : -122.46595,
+              "latitude" : 37.71421
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : -122.49209,
+              "latitude" : 37.77877
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : -122.44003,
+              "latitude" : 37.74647
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : -122.50391,
+              "latitude" : 37.73528
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : -122.50146,
+              "latitude" : 37.73058
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : -122.44005,
+              "latitude" : 37.74666
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : -122.41737,
+              "latitude" : 37.77632
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : -122.43227,
+              "latitude" : 37.715
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : -122.45345,
+              "latitude" : 37.77765
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -122.43181,
+              "latitude" : 37.75159
+            }
+          } ]
+        },
+        "format" : {
+          "view" : "address_coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Daily",
+            "Publishing frequency" : "Daily"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Municipal Transportation Agency "
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "",
+          "blobId" : "54578C4A-D448-4F3D-98E2-8C1305DBF378",
+          "name" : "DisabledParking_09162011_Data_Preview.pdf",
+          "filename" : "DisabledParking_09162011_Data_Preview.pdf"
+        }, {
+          "assetId" : "",
+          "blobId" : "DC71EDDE-D2E9-42D6-BE88-0BEB0D25ACE0",
+          "name" : "DisabledParking_09162011.zip",
+          "filename" : "DisabledParking_09162011.zip"
+        }, {
+          "assetId" : "",
+          "blobId" : "3523E2A9-B7E7-4526-BC0B-ACB3774C07AA",
+          "name" : "DisabledParking_09162011_Data_Preview.pdf",
+          "filename" : "DisabledParking_09162011_Data_Preview.pdf"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "zn8n-8wyr",
+        "displayName" : "Leslie Bienenfeld",
+        "roleName" : "editor",
+        "screenName" : "Leslie Bienenfeld",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "zn8n-8wyr",
+        "displayName" : "Leslie Bienenfeld",
+        "roleName" : "editor",
+        "screenName" : "Leslie Bienenfeld",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "sfmta", "sfpark", "parking", "disabled", "accessible", "handicapped" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "0F7E0A69-B9CC-4217-907E-6898FEA07600", 1, 1335763765, "401820", 1335763765, "401820", "{\n}", "318 FRONT ST", "Clay", "SE corner of intersection", "0", "E", " ", "422-03180", "2007-04-13T00:00:00", [ null, "37.79491", "-122.39901", null, false ] ]
+, [ 2, "136DFF27-0DDF-449D-AB92-A9AAB1EC58A2", 2, 1335763765, "401820", 1335763765, "401820", "{\n}", "220 VAN NESS AVE", "Lech Walesa", "NE corner of intersection", "0", "E", " ", "701-02200", "2007-04-13T00:00:00", [ null, "37.7779", "-122.41964", null, false ] ]
+, [ 3, "38742914-D51B-4DEF-A0FF-88FC455A258F", 3, 1335763765, "401820", 1335763765, "401820", "{\n}", "355 MAIN ST", "Harrison", "N side of intersection", "0", "NE", " ", "561-03550", "2007-04-13T00:00:00", [ null, "37.78834", "-122.39043", null, false ] ]
+, [ 4, "3BDBA7E1-27CD-4E3C-B8C7-92F6B667615A", 4, 1335763765, "401820", 1335763765, "401820", "{\n}", "447 MCALLISTER ST", "Van Ness", "SE corner of intersection", "0", "S", " ", "563-04470", "2007-04-10T00:00:00", [ null, "37.78002", "-122.41971", null, false ] ]
+, [ 5, "7A49E785-B3AF-4BF7-A309-9C8C97440AD2", 5, 1335763765, "401820", 1335763765, "401820", "{\n}", "1502 SCOTT ST", "Geary", "NE corner of intersection", "0", "E", " ", "652-15020", "2007-09-01T00:00:00", [ null, "37.78399", "-122.43784", null, false ] ]
+, [ 6, "BBC7197E-AA59-4815-868C-D517AEFFC967", 6, 1335763765, "401820", 1335763765, "401820", "{\n}", "213 THE EMBARCADERO", "Washington", "NE corner of intersection", "0", "E", " ", "830-02130", "2007-04-13T00:00:00", [ null, "37.79715", "-122.39549", null, false ] ]
+, [ 7, "17599284-37A8-499D-9E3E-FD42D527C4A5", 7, 1335763765, "401820", 1335763765, "401820", "{\n}", "2614 JONES ST", "Bay", "NE corner of intersection", "0", "E", " ", "502-26140", "2007-08-09T00:00:00", [ null, "37.80564", "-122.41691", null, false ] ]
+, [ 8, "510374BE-70C8-4064-949B-A78B377087E2", 8, 1335763765, "401820", 1335763765, "401820", "{\n}", "2141 POST ST", "Scott", "SE corner of intersection", "0", "S", " ", "614-21410", "2007-08-31T00:00:00", [ null, "37.78449", "-122.43785", null, false ] ]
+, [ 9, "1971DD68-8387-4E9C-B771-A9E02917E0E6", 9, 1335763765, "401820", 1335763765, "401820", "{\n}", "316 FRONT ST", "Clay", "SE corner of intersection", "0", "E", " ", "422-03160", "2007-04-13T00:00:00", [ null, "37.79487", "-122.399", null, false ] ]
+, [ 10, "FC3C50D4-3047-4FD8-8014-E17F2BC8B889", 10, 1335763765, "401820", 1335763765, "401820", "{\n}", "940 GENEVA AVE", "London", "SW side of intersection", "0", "S", " ", "441-09400", "2007-07-19T00:00:00", [ null, "37.71595", "-122.44033", null, false ] ]
+, [ 11, "B88A29A1-43A0-448B-8940-9984F25358C5", 11, 1335763765, "401820", 1335763765, "401820", "{\n}", "108 STEUART ST", "Mission", "S side of intersection", "0", "SW", " ", "665-01080", "2007-04-13T00:00:00", [ null, "37.79303", "-122.39307", null, false ] ]
+, [ 12, "8A619D5A-22DE-4925-9EF2-568C7CC69AE9", 12, 1335763765, "401820", 1335763765, "401820", "{\n}", "331 POLK ST", "Mcallister", "SW corner of intersection", "0", "W", " ", "612-03310", "2007-04-10T00:00:00", [ null, "37.78003", "-122.41866", null, false ] ]
+, [ 13, "E80799C7-36BA-4973-B54D-2B6202907DA1", 13, 1335763765, "401820", 1335763765, "401820", "{\n}", "415 VAN NESS AVE", "Mcallister", "SW corner of intersection", "0", "W", " ", "701-04150", "2007-04-13T00:00:00", [ null, "37.77955", "-122.42036", null, false ] ]
+, [ 14, "6139E08C-879D-4E4A-9732-0FC4C1A62F26", 14, 1335763765, "401820", 1335763765, "401820", "{\n}", "47 MISSION ST", "Spear", "NE side of intersection", "0", "SE", " ", "568-00470", "2007-04-13T00:00:00", [ null, "37.79267", "-122.39376", null, false ] ]
+, [ 15, "ED7E7A8E-8B7D-44FC-B220-61F66DE565DC", 15, 1335763765, "401820", 1335763765, "401820", "{\n}", "4 OCEAN AVE", "Mission", "NW corner of intersection", "0", "N", " ", "591-00040", "2007-07-19T00:00:00", [ null, "37.72395", "-122.43564", null, false ] ]
+, [ 16, "FA1AA2A5-5A07-47A5-BED2-CC7B88DB704B", 16, 1335763765, "401820", 1335763765, "401820", "{\n}", "1615 STEINER ST", "Post", "SW corner of intersection", "0", "W", " ", "663-16150", "2007-09-01T00:00:00", [ null, "37.78474", "-122.43475", null, false ] ]
+, [ 17, "6CAC7BA1-21EF-41EC-A246-065E2299C5FB", 17, 1335763765, "401820", 1335763765, "401820", "{\n}", "3626 Balboa St", "37th Ave", "114' to 136' east of 38th Ave", "22", "N", "poor", " ", null, [ null, "37.77577", "-122.49754", null, false ] ]
+, [ 18, "6BEBDD28-4932-4E72-B0E7-2A3F174CDFEA", 18, 1335763765, "401820", 1335763765, "401820", "{\n}", "1299 Battery St", "Greenwich", "south of Greenwich 1 parking place", "22", "E", " ", " ", null, [ null, "37.80305", "-122.40202", null, false ] ]
+, [ 19, "5E213925-CD8E-47A8-8C81-F3E62D3C4226", 19, 1335763765, "401820", 1335763765, "401820", "{\n}", "999 Battery St", "Green", "5' to 23' south of Green", "18", "W", "good", " ", "1991-06-30T00:00:00", [ null, "37.80031", "-122.40148", null, false ] ]
+, [ 20, "8D45DBF2-E6AA-4522-8721-2C3D883EC912", 20, 1335763765, "401820", 1335763765, "401820", "{\n}", "618 Beach St", "Columbus", "4' to 28' east of the west crosswalk", "24", "N", " ", " ", null, [ null, "37.80682", "-122.41971", null, false ] ]
+, [ 21, "CF8DBE90-F9CA-4944-B289-4A9D29CC1E80", 21, 1335763765, "401820", 1335763765, "401820", "{\n}", "890 Beach St", "Polk", "18' to 68' east of the cross walk at Polk", "50", "N", " ", " ", null, [ null, "37.8063", "-122.4237", null, false ] ]
+, [ 22, "B7F9AC16-29FD-41E8-AE7C-5CF0FCE17ABD", 22, 1335763765, "401820", 1335763765, "401820", "{\n}", "200 Beale St", "Howard", "From Howard to 38' south", "38", "W", "good", " ", null, [ null, "37.78975", "-122.39421", null, false ] ]
+, [ 23, "CDC8F7DC-B929-437E-85D7-ECA0B340EBB9", 23, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Belvedere St", "Haight", "4' to 22' south of Haight", "18", "W", "good", " ", "1993-01-21T00:00:00", [ null, "37.76962", "-122.44945", null, false ] ]
+, [ 24, "5817A306-A7D2-445D-9B97-94381721E45E", 24, 1335763765, "401820", 1335763765, "401820", "{\n}", "185 Berry Street", "3rd St", "129' to 157' west of 3rd St", "28", "S", " ", " ", "1991-08-21T00:00:00", [ null, "37.77622", "-122.39266", null, false ] ]
+, [ 25, "41DC5576-D49D-424C-A418-A5EB0D96F574", 25, 1335763765, "401820", 1335763765, "401820", "{\n}", "185 Berry Street", "4th St", "184' to 215' east of 4th St", "31", "S", " ", " ", "1991-08-21T00:00:00", [ null, "37.77616", "-122.39273", null, false ] ]
+, [ 26, "CDFF78FB-0EBD-45BE-9384-FCB82A8BF26F", 26, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Beverly St", "Garfield", "8' to 30' south of Garfield", "22", "W", "good", " ", null, [ null, "37.71951", "-122.47171", null, false ] ]
+, [ 27, "0FEE342D-3318-4328-9BE0-48AECBB14BEC", 27, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Blake St", "Geary", "0' to 18' north of Geary", "18", "E", "good", " ", "1992-04-16T00:00:00", [ null, "37.78222", "-122.45111", null, false ] ]
+, [ 28, "3712340F-47FD-4CD7-808F-F95B48720B15", 28, 1335763765, "401820", 1335763765, "401820", "{\n}", "902 Brannan St", "8th St", "11' to 33' west of 8th St", "22", "N", " ", " ", null, [ null, "37.77123", "-122.40567", null, false ] ]
+, [ 29, "800DC2CC-2C6B-454C-BF34-07B0F4FBC190", 29, 1335763765, "401820", 1335763765, "401820", "{\n}", "899 Brannan St", "8th St", "0' to 18' east of 8th St", "18", "S", "good", " ", "1992-05-30T00:00:00", [ null, "37.77136", "-122.4052", null, false ] ]
+, [ 30, "10B79CE8-23D3-4D13-AB22-899542AF5FEF", 30, 1335763765, "401820", 1335763765, "401820", "{\n}", "2222 Broadway", "Fillmore", "111'-163' east of Fillmore", "52", "N", " ", " ", null, [ null, "37.79446", "-122.4341", null, false ] ]
+, [ 31, "71C1B2BA-8BD5-4E3D-BA04-5BC6BA9B347B", 31, 1335763765, "401820", 1335763765, "401820", "{\n}", "1600 Bryant St", "15th St", "7' to 27' south of 15th St", "20", "W", " ", " ", null, [ null, "37.76674", "-122.41068", null, false ] ]
+, [ 32, "5AFF3FF3-CC29-4B13-BD3F-63D2602F5FC8", 32, 1335763765, "401820", 1335763765, "401820", "{\n}", "857 Bryant St", "7th St", "13' to 33' east of Gilbert", "20", "S", " ", " ", null, [ null, "37.77483", "-122.40389", null, false ] ]
+, [ 33, "CB0D1FA4-CD64-45CA-94DA-C7410C4FBCA2", 33, 1335763765, "401820", 1335763765, "401820", "{\n}", "870 Bryant St", "Harriet", "267-303' west of Harriet", "36", "N", " ", " ", null, [ null, "37.775", "-122.40401", null, false ] ]
+, [ 34, "1251AF13-B5A8-400A-B8B9-C7F90833FD1D", 34, 1335763765, "401820", 1335763765, "401820", "{\n}", "850 Bryant St", "Harriet", "0-44' east of Harriet", "44", "N", "good", " ", "1992-01-07T00:00:00", [ null, "37.77504", "-122.40396", null, false ] ]
+, [ 35, "77A150D9-B9AA-48D4-AADD-8988E2EAED46", 35, 1335763765, "401820", 1335763765, "401820", "{\n}", "100 Buchanan St", "Hermann", "15' to 33' north of Hermann", "18", "E", "good", " ", "1994-01-23T00:00:00", [ null, "37.77084", "-122.42675", null, false ] ]
+, [ 36, "2940EDC1-4F22-4499-8C53-7B1E18435CD9", 36, 1335763765, "401820", 1335763765, "401820", "{\n}", "2699 Bush St", "Broderick", "Broderick to 18' east", "18", "S", " ", " ", null, [ null, "37.78592", "-122.44155", null, false ] ]
+, [ 37, "007644F2-3FF3-49E2-AF2A-B09D4B0A50B6", 37, 1335763765, "401820", 1335763765, "401820", "{\n}", "2599 Bush St", "Divisadero", " ", "18", "S", " ", " ", null, [ null, "37.78614", "-122.43984", null, false ] ]
+, [ 38, "75E73CA3-6171-4687-9D97-FB041033CEB1", 38, 1335763765, "401820", 1335763765, "401820", "{\n}", "3355 19th Ave", " ", "53' to 97' north of the south property line", "44", "W", " ", " ", null, [ null, "37.7282", "-122.47505", null, false ] ]
+, [ 39, "C0EB724C-4DE0-4024-A1A3-CC046F8E5A85", 39, 1335763765, "401820", 1335763765, "401820", "{\n}", "3199 22nd St", "Mission", "10' to 55' east of Mission", "45", "S", "poor", " ", "1988-04-14T00:00:00", [ null, "37.7554", "-122.4185", null, false ] ]
+, [ 40, "09D775BF-622E-46D9-A017-333DB9DDCF2F", 40, 1335763765, "401820", 1335763765, "401820", "{\n}", "1801 30th Ave", "Noriega", "From Noriega St to 20' south", "20", "S", " ", " ", "1990-06-27T00:00:00", [ null, "37.75354", "-122.48833", null, false ] ]
+, [ 41, "6A63FBC4-9EAC-438C-93AE-08E2C6B6882A", 41, 1335763765, "401820", 1335763765, "401820", "{\n}", "8th St", "Irwin", "5' to 23' north of Irwin", "18", "E", "good", " ", null, [ null, "37.76681", "-122.39968", null, false ] ]
+, [ 42, "C6C0185B-D909-4C30-9E99-4FAA61655353", 42, 1335763765, "401820", 1335763765, "401820", "{\n}", "2850 19th Ave", "Wawona", "41' to 63' south of north property line", "22", "E", "good", " ", null, [ null, "37.73552", "-122.47502", null, false ] ]
+, [ 43, "4D364E62-532C-4D72-82BB-8590A1851275", 43, 1335763765, "401820", 1335763765, "401820", "{\n}", "3600 23rd Ave", "Guerrero", "9-27'west of Guerrero", "18", "N", " ", " ", "1990-04-30T00:00:00", [ null, "37.7536", "-122.42324", null, false ] ]
+, [ 44, "96313DF3-A539-4AD5-85E0-0ACB04477738", 44, 1335763765, "401820", 1335763765, "401820", "{\n}", "1199 Arguello Blvd", "Frederick", "7' to 33' south of driveway into Kezar Stadium", "26", " ", " ", " ", null, [ null, "37.76667", "-122.45784", null, false ] ]
+, [ 45, "AEB58722-178B-4C26-9754-B44274941871", 45, 1335763765, "401820", 1335763765, "401820", "{\n}", "815 Buena Vista Av West", " ", "From east of white zone 22' west", "22", " ", " ", " ", null, [ null, "37.76905", "-122.44302", null, false ] ]
+, [ 46, "0B6B0A07-1873-4F46-933A-E74EB0C908AD", 46, 1335763765, "401820", 1335763765, "401820", "{\n}", "Buena Vista West", "Waller", "0' to 9' north of driveway", "9", "E", "good", " ", "1993-12-01T00:00:00", [ null, "37.76976", "-122.44278", null, false ] ]
+, [ 47, "F5EF40ED-C1F0-4766-B2BC-6868173048C9", 47, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 California St", "Drumm", "15' to 36' west of Drumm", "21", "N", "good", " ", "1992-03-19T00:00:00", [ null, "37.7937", "-122.39669", null, false ] ]
+, [ 48, "E1B9164C-F8AD-47C4-9516-A73C42353852", 48, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Franklin St", "Page", "15' to 33' north of Page", "18", "E", "good", " ", "1991-06-30T00:00:00", [ null, "37.77446", "-122.42071", null, false ] ]
+, [ 49, "A5CF8645-785C-46E8-8CCB-DCD85DDC42DD", 49, 1335763765, "401820", 1335763765, "401820", "{\n}", "1500 Geary Blvd", "Laguna", "0-22' west of Laguna", "22", "N", " ", " ", "1990-12-19T00:00:00", [ null, "37.78511", "-122.4282", null, false ] ]
+, [ 50, "BEC7BB4D-B4BB-49CA-9A1C-3A559C9F0FC2", 50, 1335763765, "401820", 1335763765, "401820", "{\n}", "2599 Golden Gate Av", "Parker", "16' to 37' east of Parker", "21", "S", "good", " ", "1992-03-02T00:00:00", [ null, "37.77685", "-122.45268", null, false ] ]
+, [ 51, "2BCA7755-B5EF-4CAE-A24A-2FDA31063909", 51, 1335763765, "401820", 1335763765, "401820", "{\n}", "349 Mason St", "Geary", "10' to 28' south of Geary", "18", "W", "good", " ", "1992-08-21T00:00:00", [ null, "37.78699", "-122.40991", null, false ] ]
+, [ 52, "2EC0B3A5-1819-4B53-914E-CFF9455E4FA4", 52, 1335763765, "401820", 1335763765, "401820", "{\n}", "258 Noe Street", "Beaver", "19'-37' south of Beaver", "18", "W", " ", " ", "1990-06-27T00:00:00", [ null, "37.76488", "-122.43324", null, false ] ]
+, [ 53, "827DB592-5759-4829-AFBD-2F39C600E25B", 53, 1335763765, "401820", 1335763765, "401820", "{\n}", "1040 O'Farrell St", "Van Ness", "From east end of existing white zone 22' east", "22", "N", " ", " ", null, [ null, "37.78476", "-122.4217", null, false ] ]
+, [ 54, "8D7CBF51-C0CD-4D5F-8E38-BCCDF82FE1B6", 54, 1335763765, "401820", 1335763765, "401820", "{\n}", "60 Palace Dr", "Lyon", "Angled Parking at west entrance", "24", " ", " ", " ", null, [ null, "37.80261", "-122.44946", null, false ] ]
+, [ 55, "0339DC45-5433-4788-AB73-C9DAEB41FF75", 55, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Palace Dr", "Lyon", "Right angle parking at north entrance", "24", " ", " ", " ", null, [ null, "37.80268", "-122.44948", null, false ] ]
+, [ 56, "43FB11C5-F71B-4F8E-B597-93A9FEBD3B11", 56, 1335763765, "401820", 1335763765, "401820", "{\n}", "389 Parnassus Av", "Arguello", "2' to 44' east of the driveway", "42", " ", " ", " ", null, [ null, "37.76356", "-122.45732", null, false ] ]
+, [ 57, "6A9CF22E-0ADA-4E3E-8A3B-9F436BFDB935", 57, 1335763765, "401820", 1335763765, "401820", "{\n}", "1060 Point Lobos Av", "Near Cliffhouse", "2 diag zones frm north crnr of 1060PtLobos 20'sout", "20", " ", "good", " ", null, [ null, "37.77852", "-122.51373", null, false ] ]
+, [ 58, "A0FBB910-1A80-400B-A918-A796410A0D28", 58, 1335763765, "401820", 1335763765, "401820", "{\n}", "1096 Point Lobos Av", "Near Cliffhouse", "5' to 24' north of the driveway", "19", " ", "good", " ", null, [ null, "37.77689", "-122.51231", null, false ] ]
+, [ 59, "5D6ED418-F6B8-4592-BB3A-DACBC3149291", 59, 1335763765, "401820", 1335763765, "401820", "{\n}", "77 Post St", "Kearny", "10' to 32' east of Kearny", "22", "S", " ", " ", null, [ null, "37.78887", "-122.40344", null, false ] ]
+, [ 60, "DB56D82C-4AF1-4293-B223-27036016AF06", 60, 1335763765, "401820", 1335763765, "401820", "{\n}", "south of Market", "Market", "19 to 31 south of Market", "12", "E", " ", " ", null, [ null, "37.79371", "-122.3954", null, false ] ]
+, [ 61, "4D4EBDB2-71F3-46AA-BDC0-91F963B84512", 61, 1335763765, "401820", 1335763765, "401820", "{\n}", "16 Taylor St", "Golden Gate", "15' to 49' north of Golden Gate", "34", "E", " ", " ", null, [ null, "37.78245", "-122.41053", null, false ] ]
+, [ 62, "A2AC453F-35A1-478D-AC6F-2E49011A8E33", 62, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Herbst Rd", "Skyline", "10' diag space north of the south entrance of zoo", "40", "W", " ", " ", null, [ null, "37.73069", "-122.5014", null, false ] ]
+, [ 63, "775D5BC7-FDA0-4C9A-B37A-F9028727C73B", 63, 1335763765, "401820", 1335763765, "401820", "{\n}", "202 1st St", "Howard", "10' to 28' south of Howard", "18", "W", "good", " ", "1992-05-28T00:00:00", [ null, "37.78835", "-122.39594", null, false ] ]
+, [ 64, "651AA6B0-D99A-4E15-87F9-8D5B369386A7", 64, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 2nd St", "Mission", "3' to 25' north of Mission", "22", "E", "good", " ", "1993-10-02T00:00:00", [ null, "37.78818", "-122.39988", null, false ] ]
+, [ 65, "A535F02A-FBDB-411A-88F4-63DB5FAB9E54", 65, 1335763765, "401820", 1335763765, "401820", "{\n}", "5815 3rd St", "Carroll", "75' south of the north propertyline to 97'", "22", "E", "poor", " ", null, [ null, "37.72536", "-122.39412", null, false ] ]
+, [ 66, "F46D9954-FC9E-458D-8164-F7C7259192CA", 66, 1335763765, "401820", 1335763765, "401820", "{\n}", "5075 3rd St", "Revere", "12' to 34' north of Revere", "22", "E", "good", " ", "1992-02-29T00:00:00", [ null, "37.73259", "-122.39133", null, false ] ]
+, [ 67, "3E725E9E-19D4-4616-8FD0-0DCF7DD9D8F5", 67, 1335763765, "401820", 1335763765, "401820", "{\n}", "360 4th St", "Clara", "27' to 93' north of Clara", "66", "W", " ", " ", null, [ null, "37.78125", "-122.40034", null, false ] ]
+, [ 68, "2868EF44-DC6A-4B0B-A7D0-88BC792C99B0", 68, 1335763765, "401820", 1335763765, "401820", "{\n}", "301 5th Ave", "Clement", "10' to 32' south of Clement", "22", "W", "good", " ", "1992-08-08T00:00:00", [ null, "37.78283", "-122.46341", null, false ] ]
+, [ 69, "DB6015BD-C749-4B65-9127-C2E3D7126C83", 69, 1335763765, "401820", 1335763765, "401820", "{\n}", "110 5th St", "Mission", "0 to 21' south of Mission", "21", "W", " ", " ", null, [ null, "37.78256", "-122.40639", null, false ] ]
+, [ 70, "15444D40-1FB0-4F42-94D6-FE830CE4DD40", 70, 1335763765, "401820", 1335763765, "401820", "{\n}", "461 6th Ave", "Anza", "252' to 272' north of Anza", "20", "W", "good", " ", "1988-04-12T00:00:00", [ null, "37.77985", "-122.46427", null, false ] ]
+, [ 71, "328F62F0-577D-4350-B846-518F784CEAAD", 71, 1335763765, "401820", 1335763765, "401820", "{\n}", "1301 7th Ave", "Irving", "Irving to 18' south", "18", "W", " ", " ", null, [ null, "37.76396", "-122.46424", null, false ] ]
+, [ 72, "1F6534F8-44B3-44DB-A100-EB76EE178068", 72, 1335763765, "401820", 1335763765, "401820", "{\n}", "398 7th Ave", "Geary", "0' to 18' north of Geary", "18", "E", "good", " ", "1992-04-17T00:00:00", [ null, "37.7812", "-122.4653", null, false ] ]
+, [ 73, "38AF833E-5BF0-4975-B95F-326940AB713D", 73, 1335763765, "401820", 1335763765, "401820", "{\n}", "298 7th Ave", "Clement", "4' to 22' north of Clement", "18", "E", "good", " ", "1992-08-04T00:00:00", [ null, "37.78307", "-122.46544", null, false ] ]
+, [ 74, "4E4A0652-8390-4474-80C1-8665065B1A2B", 74, 1335763765, "401820", 1335763765, "401820", "{\n}", "555 7th St", "Brannan", "north of Brannan", "22", "E", " ", " ", "1990-11-13T00:00:00", [ null, "37.77401", "-122.40426", null, false ] ]
+, [ 75, "3F402EA1-FCF6-4F52-841C-5151EC1AC076", 75, 1335763765, "401820", 1335763765, "401820", "{\n}", "499 7th St", "Harrison", "10' to 28' north of Harrison", "18", "E", "good", " ", "1991-09-12T00:00:00", [ null, "37.77586", "-122.40658", null, false ] ]
+, [ 76, "ABC1E6AC-1159-4426-8E43-110F9CB88907", 76, 1335763765, "401820", 1335763765, "401820", "{\n}", "1331 8th Ave", "Irving", "off-street public parking lot", "20", "W", " ", " ", "1990-01-31T00:00:00", [ null, "37.76358", "-122.46534", null, false ] ]
+, [ 77, "546A75F2-6955-4B73-8FE5-C4C3C3D20B9A", 77, 1335763765, "401820", 1335763765, "401820", "{\n}", "1298 8th Ave", "Irving", "6' to 24' north of Irving", "18", "E", "good", " ", "1992-04-17T00:00:00", [ null, "37.76427", "-122.46519", null, false ] ]
+, [ 78, "E531CCF4-9A61-4F58-B5F4-DDAEC7694439", 78, 1335763765, "401820", 1335763765, "401820", "{\n}", "1 8th St", "Market", "0' to 20' south of Market", "20", "E", "good", " ", "1988-04-09T00:00:00", [ null, "37.77888", "-122.4152", null, false ] ]
+, [ 79, "38DBB137-D221-4FE5-999A-3954F3F9D342", 79, 1335763765, "401820", 1335763765, "401820", "{\n}", "160 8th St", "Natoma", "0' to 22' south of Natoma", "22", "W", "good", " ", "1991-06-30T00:00:00", [ null, "37.77653", "-122.41215", null, false ] ]
+, [ 80, "5C164B49-445F-484F-80D7-DD189DE5B867", 80, 1335763765, "401820", 1335763765, "401820", "{\n}", "500 8th St", "Bryant", "0' to 18' south of Bryant", "18", "W", "good", " ", "1991-08-14T00:00:00", [ null, "37.7723", "-122.40697", null, false ] ]
+, [ 81, "77B1E8D8-DFE1-4F0C-9998-C765FDF5CD50", 81, 1335763765, "401820", 1335763765, "401820", "{\n}", "30 8th St", "Stevenson", "2' to 20' south of Stevenson", "18", "W", "good", " ", "1992-07-17T00:00:00", [ null, "37.77811", "-122.41413", null, false ] ]
+, [ 82, "B5352DE5-2244-4C54-A3CA-A91F0EF51DC6", 82, 1335763765, "401820", 1335763765, "401820", "{\n}", "1330 9th Ave", "Irving", "off-street public parking lot", "20", "E", " ", " ", "1990-01-31T00:00:00", [ null, "37.76357", "-122.4661", null, false ] ]
+, [ 83, "25B1E3E5-08F3-48B7-962D-3DF194883BDF", 83, 1335763765, "401820", 1335763765, "401820", "{\n}", "1301 10th Ave", "Irving", "6' to 26' south of Irving", "20", "W", "good", " ", "1992-07-23T00:00:00", [ null, "37.76387", "-122.46744", null, false ] ]
+, [ 84, "5511CED5-F175-4611-B19B-3E44F7E1F323", 84, 1335763765, "401820", 1335763765, "401820", "{\n}", "70 10th St", "Jessie", "10' to 31' north of Jessie", "21", "W", "good", " ", "1988-05-06T00:00:00", [ null, "37.7757", "-122.41659", null, false ] ]
+, [ 85, "AD5734A7-444F-4F21-9AB0-A4B926BC1F7F", 85, 1335763765, "401820", 1335763765, "401820", "{\n}", "4 10th St", "Market", "7' to 35' south of Market", "28", "W", "good", " ", "1991-04-24T00:00:00", [ null, "37.77638", "-122.41744", null, false ] ]
+, [ 86, "90E15604-C431-4232-856E-7B629C260DE6", 86, 1335763765, "401820", 1335763765, "401820", "{\n}", "301 11th Ave", "Clement", "10' to 32' south of Clement", "22", "W", "good", " ", "1992-08-08T00:00:00", [ null, "37.78259", "-122.46984", null, false ] ]
+, [ 87, "09454A72-C458-45D6-9D68-B051D8BB91EF", 87, 1335763765, "401820", 1335763765, "401820", "{\n}", "301 14th Ave", "Clement", "0-18' south of Clement Street", "18", "W", " ", " ", "1990-02-28T00:00:00", [ null, "37.7825", "-122.4731", null, false ] ]
+, [ 88, "4E110BA8-E10D-4AAE-A05B-0776D6A8D46A", 88, 1335763765, "401820", 1335763765, "401820", "{\n}", "2801 14th Avenue", "West Portal", "10-30' east of West Portal", "0", " ", " ", " ", "1990-04-30T00:00:00", [ null, "37.73781", "-122.46892", null, false ] ]
+, [ 89, "9BAE367C-B23D-4B95-B6F2-83D5836256BF", 89, 1335763765, "401820", 1335763765, "401820", "{\n}", "699 14th St", "Market", "9' to 31' east of Market", "22", "S", "good", " ", "1990-06-27T00:00:00", [ null, "37.76771", "-122.42829", null, false ] ]
+, [ 90, "99DC300A-5660-4358-AA75-ECD2368C95D3", 90, 1335763765, "401820", 1335763765, "401820", "{\n}", "1656 15th St", "Julian", "15' to 37' west of Julian", "22", "N", "good", " ", null, [ null, "37.76663", "-122.42129", null, false ] ]
+, [ 91, "41CBE250-1C6C-4B32-A0B6-D0F82A2A959D", 91, 1335763765, "401820", 1335763765, "401820", "{\n}", "777 Stockton St", "Sacramento", "6' to 30' south of Sacramento", "24", "W", " ", " ", null, [ null, "37.79304", "-122.40776", null, false ] ]
+, [ 92, "5A79F8F7-B35D-4029-8431-7175B512597E", 92, 1335763765, "401820", 1335763765, "401820", "{\n}", "270 6th St", "Folsom", "110' to 141' north of Folsom", "31", "W", "good", " ", "1988-04-08T00:00:00", [ null, "37.77877", "-122.4061", null, false ] ]
+, [ 93, "9FD3D8B1-F745-4105-8744-B7B2177CE7B2", 93, 1335763765, "401820", 1335763765, "401820", "{\n}", "3351 16th St", "Landers", "176' to 196' west of Dolores", "20", "S", "good", " ", null, [ null, "37.76452", "-122.42737", null, false ] ]
+, [ 94, "A0CBBD8B-27DD-4AE2-860F-30139E4A3A01", 94, 1335763765, "401820", 1335763765, "401820", "{\n}", "3104 16th St", "Valencia", "5' to 25' west of Valencia", "20", "N", " ", " ", null, [ null, "37.76497", "-122.42213", null, false ] ]
+, [ 95, "6688F7A0-30FA-4D97-89AF-4A3CF615D540", 95, 1335763765, "401820", 1335763765, "401820", "{\n}", "Vicente", "17th Ave", "172' to 196' north of Vicente on 17th Ave - diagon", "24", "N", " ", " ", null, [ null, "37.73947", "-122.47355", null, false ] ]
+, [ 96, "5609ADBD-5CC9-4EE7-8234-4ED46FC50943", 96, 1335763765, "401820", 1335763765, "401820", "{\n}", "382 18th Ave", "Geary", "76' to 101' north of Geary", "25", "E", "poor", " ", "1988-04-14T00:00:00", [ null, "37.78069", "-122.47718", null, false ] ]
+, [ 97, "25578652-192B-4224-BA80-08CFFEF8E666", 97, 1335763765, "401820", 1335763765, "401820", "{\n}", "4200 18th St", "Collingwood", "9' to 32' west of Collingwood", "23", "N", "good", " ", "1988-04-20T00:00:00", [ null, "37.76087", "-122.4363", null, false ] ]
+, [ 98, "38913DF9-11CB-460C-9198-A703F5666714", 98, 1335763765, "401820", 1335763765, "401820", "{\n}", "4052 18th St", "Hartford", "4' to 22' west of Hartford", "18", "N", "good", " ", "1988-04-20T00:00:00", [ null, "37.761", "-122.43407", null, false ] ]
+, [ 99, "9811DB55-6993-4DED-A4F3-3DF031011639", 99, 1335763765, "401820", 1335763765, "401820", "{\n}", "3545 18th St", "Linda", "0-18' east of Linda Street", "18", "S", "good", " ", "1990-12-19T00:00:00", [ null, "37.76157", "-122.42285", null, false ] ]
+, [ 100, "8A8D4B63-9C16-45C1-864B-5B7EC6141F0B", 100, 1335763765, "401820", 1335763765, "401820", "{\n}", "990 Hyde Street", "Pine", "40' south of Pine St.-in parking bay", "10", "E", " ", " ", "1990-09-08T00:00:00", [ null, "37.78986", "-122.41705", null, false ] ]
+, [ 101, "D42E84C9-8DF9-4DB8-BD68-63FBCEA6DC01", 101, 1335763765, "401820", 1335763765, "401820", "{\n}", "3101 19th Ave", "Eucalyptus", "60' to 82' south of Eucalyptus", "22", "W", "good", " ", null, [ null, "37.73087", "-122.47498", null, false ] ]
+, [ 102, "761DB3EC-EB4C-4038-9870-5899D027130C", 102, 1335763765, "401820", 1335763765, "401820", "{\n}", "3699 19th Ave", "Holloway", "129' within Parking Bay", "129", "W", " ", " ", null, [ null, "37.72142", "-122.47545", null, false ] ]
+, [ 103, "85B40E94-A7E6-4017-85F9-13D89E123BBD", 103, 1335763765, "401820", 1335763765, "401820", "{\n}", "4735 19th St", "Diamond", "9-27' east of Diamond", "18", "S", " ", " ", null, [ null, "37.75915", "-122.43642", null, false ] ]
+, [ 104, "1EEF21B5-A132-4FE3-B699-B45EDCF0D197", 104, 1335763765, "401820", 1335763765, "401820", "{\n}", "3699 19th St", "Dolores", "20' to 42' east of Dolores", "22", "S", "fair", " ", "1988-04-20T00:00:00", [ null, "37.75981", "-122.42555", null, false ] ]
+, [ 105, "591BA7CE-356E-4073-8235-339E6CEEB822", 105, 1335763765, "401820", 1335763765, "401820", "{\n}", "3400 19th St", "Mission", "west of Mission", "0", "N", "good", " ", "1991-02-02T00:00:00", [ null, "37.76027", "-122.41947", null, false ] ]
+, [ 106, "BB9C3CEB-E026-42E7-A339-2844CE8C60A9", 106, 1335763765, "401820", 1335763765, "401820", "{\n}", "398 20th Ave", "Geary", "5' to 25' north of Geary", "20", "E", "good", " ", "1992-06-06T00:00:00", [ null, "37.78059", "-122.47933", null, false ] ]
+, [ 107, "BB5D7986-E599-45E3-951C-FD1F215302D4", 107, 1335763765, "401820", 1335763765, "401820", "{\n}", "3000 21st St", "Folsom", "11' to 29' west of Folsom", "18", "N", "good", " ", "1994-07-06T00:00:00", [ null, "37.75733", "-122.41472", null, false ] ]
+, [ 108, "A47E3D8F-FC13-4750-B493-97A1BB6DC235", 108, 1335763765, "401820", 1335763765, "401820", "{\n}", "1300 22nd Ave", "Irving", "5' to 25' south of Irving", "20", "E", " ", " ", null, [ null, "37.76326", "-122.4804", null, false ] ]
+, [ 109, "D7D5AB9C-B8FD-406D-A704-1692A7B929C3", 109, 1335763765, "401820", 1335763765, "401820", "{\n}", "2098 22nd Ave", "Quintara", "north of Quintara", "20", "E", " ", " ", "1990-11-13T00:00:00", [ null, "37.74867", "-122.47924", null, false ] ]
+, [ 110, "40E22391-F433-46BD-8CCA-3C0B9623EA46", 110, 1335763765, "401820", 1335763765, "401820", "{\n}", "3100 22nd St", "Capp", "6' to 24' west of S. Van Ness", "18", "N", "good", " ", "1992-03-25T00:00:00", [ null, "37.75561", "-122.41677", null, false ] ]
+, [ 111, "A45145D6-C6B6-4ECE-B38E-0E9E956A6F44", 111, 1335763765, "401820", 1335763765, "401820", "{\n}", "3300 22nd St", "Valencia", "16.5' to 34.5' west of Valencia", "18", "N", "good", " ", "1992-11-01T00:00:00", [ null, "37.75526", "-122.42073", null, false ] ]
+, [ 112, "3A11BFAA-1054-4A92-AFB3-11120A90AC3F", 112, 1335763765, "401820", 1335763765, "401820", "{\n}", "1298 23rd Ave", "Irving", "5' to 23' north of Irving", "18", "E", "good", " ", "1992-07-23T00:00:00", [ null, "37.76354", "-122.48135", null, false ] ]
+, [ 113, "93ADF512-0331-4110-A622-8B601C418474", 113, 1335763765, "401820", 1335763765, "401820", "{\n}", "1351 24th Ave", "Judah", "17' to 39' north of the south property line", "22", "W", " ", " ", null, [ null, "37.76225", "-122.48248", null, false ] ]
+, [ 114, "09783509-E5F0-4041-887C-1967D0779280", 114, 1335763765, "401820", 1335763765, "401820", "{\n}", "3359 24th St", "Bartlett", "6' to 26' west of Bartlett", "20", "S", "good", " ", "1988-04-08T00:00:00", [ null, "37.75208", "-122.41995", null, false ] ]
+, [ 115, "FC71A682-381A-45E1-8B2F-EECA458509C9", 115, 1335763765, "401820", 1335763765, "401820", "{\n}", "3997 24th St", "Noe", "1' west of Noe to 18' east of Noe", "19", "S", "poor", " ", "1988-04-08T00:00:00", [ null, "37.75138", "-122.43167", null, false ] ]
+, [ 116, "FCEC62AB-88B1-4836-87CF-E408F9F69C80", 116, 1335763765, "401820", 1335763765, "401820", "{\n}", "3902 24th St", "Sanchez", "9' to 28' west of Sanchez", "19", "N", "good", " ", "1988-04-08T00:00:00", [ null, "37.7516", "-122.42989", null, false ] ]
+, [ 117, "4B1DB99E-E1AC-4C82-A467-EF3AF86BB681", 117, 1335763765, "401820", 1335763765, "401820", "{\n}", "3301 24th St", "Mission", "10' to 34' east of Mission", "24", "S", "good", " ", "1990-06-27T00:00:00", [ null, "37.75219", "-122.41819", null, false ] ]
+, [ 118, "96F6CCA3-CF98-4DCC-8C8A-6B2730C6C42B", 118, 1335763765, "401820", 1335763765, "401820", "{\n}", "750 26th Ave", "Cabrillo", "From south property line 22' north", "22", "E", " ", " ", null, [ null, "37.77531", "-122.48534", null, false ] ]
+, [ 119, "6AF4D7BB-7101-4BA6-AC7B-3EB824062395", 119, 1335763765, "401820", 1335763765, "401820", "{\n}", "1750 29th Ave", "Noriega", "7' to 33' south of the north property line", "26", "E", "good", " ", "1991-10-22T00:00:00", [ null, "37.75469", "-122.48713", null, false ] ]
+, [ 120, "1970E769-CDA8-489A-ADB4-37145D59F0A1", 120, 1335763765, "401820", 1335763765, "401820", "{\n}", "225 30th St", "Dolores", "35' to 55' west of the east property line", "20", "S", "good", " ", null, [ null, "37.74209", "-122.42501", null, false ] ]
+, [ 121, "782B0E7A-12A7-47EE-AA75-BA142691E910", 121, 1335763765, "401820", 1335763765, "401820", "{\n}", "2001 37th Ave", "Pacheco", "2' north to 30' south of the south side of chapel", "32", "W", " ", " ", null, [ null, "37.74848", "-122.4955", null, false ] ]
+, [ 122, "4694E027-62C3-42AC-9FB4-4E2FF520FF0F", 122, 1335763765, "401820", 1335763765, "401820", "{\n}", "749 Arkansas St", "Madera", "33' to 51' north of Madera", "18", "E", "good", " ", "1994-03-01T00:00:00", [ null, "37.75609", "-122.3978", null, false ] ]
+, [ 123, "B2A90BF7-43AB-4176-999A-C5BD892C76D1", 123, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 California St", "Davis", "5' to 24' east of Davis", "19", "S", " ", " ", null, [ null, "37.79346", "-122.3974", null, false ] ]
+, [ 124, "0BBB08A9-B498-4490-A8C6-DF4F8A5FB254", 124, 1335763765, "401820", 1335763765, "401820", "{\n}", "204 California St", "Front", "5' to 27' west of Front", "22", "N", " ", " ", null, [ null, "37.79341", "-122.39901", null, false ] ]
+, [ 125, "53A0FFC9-92EF-4A1A-923D-CB71586E777F", 125, 1335763765, "401820", 1335763765, "401820", "{\n}", "3110 California St", "Lyon", "88' to 108' west of Lyon", "20", "N", "good", " ", null, [ null, "37.78746", "-122.44588", null, false ] ]
+, [ 126, "0F6E9FAB-1153-4AAE-BD76-9410237549B1", 126, 1335763765, "401820", 1335763765, "401820", "{\n}", "3750 California St", "Cherry", "0' to 20' east of Cherry", "20", "N", "good", " ", "1988-04-08T00:00:00", [ null, "37.78609", "-122.45658", null, false ] ]
+, [ 127, "778D7676-7EAD-40E4-8856-87ADC2FEFD3C", 127, 1335763765, "401820", 1335763765, "401820", "{\n}", "3838 California St", "Cherry", "120' to 142' west of Cherry", "22", "N", "good", " ", "1988-04-08T00:00:00", [ null, "37.78603", "-122.45722", null, false ] ]
+, [ 128, "A4FA5DD0-9CC8-4B59-B89F-B20E905E4B90", 128, 1335763765, "401820", 1335763765, "401820", "{\n}", "102 California St", "Davis", "9' to 27' west of Davis", "18", "N", "good", " ", "1992-03-19T00:00:00", [ null, "37.79356", "-122.39782", null, false ] ]
+, [ 129, "3AD29219-6FA3-49D4-A738-856E14F88E75", 129, 1335763765, "401820", 1335763765, "401820", "{\n}", "1100 California St", "Taylor", "5' to 27' west of Taylor", "22", "N", "good", " ", "1993-05-18T00:00:00", [ null, "37.79168", "-122.41265", null, false ] ]
+, [ 130, "B71A2A1F-074B-4988-B0B5-64B609A826C1", 130, 1335763765, "401820", 1335763765, "401820", "{\n}", "1177 California St", "Jones", "0' to 18' east of Jones", "18", "S", "good", " ", "1994-03-30T00:00:00", [ null, "37.79136", "-122.41392", null, false ] ]
+, [ 131, "084D064D-6D1C-4517-98D2-DD819596ECCF", 131, 1335763765, "401820", 1335763765, "401820", "{\n}", "810 Capp St", "23rd St", "99' to 121' south of 23rd St", "22", "W", "poor", " ", "1988-04-08T00:00:00", [ null, "37.75365", "-122.41755", null, false ] ]
+, [ 132, "FADDEADC-EDE3-475E-8FAA-6E64DC5EC1A1", 132, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Capp St", "16th St", "0' to 18' north of 16th St", "18", "E", "good", " ", "1992-03-31T00:00:00", [ null, "37.7653", "-122.41852", null, false ] ]
+, [ 133, "AD782842-758F-4583-BF83-D595FE99DBCE", 133, 1335763765, "401820", 1335763765, "401820", "{\n}", "1000 Cayuga Av", "Balhi", "From the northside of exsting white zone 25' north", "25", " ", " ", " ", null, [ null, "37.72151", "-122.44019", null, false ] ]
+, [ 134, "B386386E-D567-4AB9-8B03-69E73C22B927", 134, 1335763765, "401820", 1335763765, "401820", "{\n}", "1800 Chestnut", "Buchanan", "11' to 29' west of Buchanan", "18", "N", "good", " ", "1992-03-17T00:00:00", [ null, "37.8013", "-122.4329", null, false ] ]
+, [ 135, "8C15398C-DDF9-4584-8E25-B86145C7DAF2", 135, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Church St", "24th St", "10 to 34' east of Mission", "20", "W", "good", " ", "1990-06-27T00:00:00", [ null, "37.75155", "-122.42751", null, false ] ]
+, [ 136, "1165E4E7-BAF5-47B5-B6B7-C1AF74EBAA7E", 136, 1335763765, "401820", 1335763765, "401820", "{\n}", "521 Clay St", "Sansome", "6' to 28' east of Liedesdorff", "22", "S", " ", " ", null, [ null, "37.79469", "-122.40222", null, false ] ]
+, [ 137, "0B2E91F9-16D4-44D3-9BE9-968555B3064F", 137, 1335763765, "401820", 1335763765, "401820", "{\n}", "554 Clayton St", "Haight", "12' to 30' north of Haight", "18", "E", " ", " ", null, [ null, "37.76994", "-122.44854", null, false ] ]
+, [ 138, "A153308C-AE9A-4833-A474-2298F581557C", 138, 1335763765, "401820", 1335763765, "401820", "{\n}", "2321 Clement St", "24th Ave", "81' to 103' west of 24th Ave", "22", "N", "poor", " ", "1988-04-16T00:00:00", [ null, "37.78213", "-122.48403", null, false ] ]
+, [ 139, "24C7F86A-2D06-491F-8E14-653EADCC0296", 139, 1335763765, "401820", 1335763765, "401820", "{\n}", "2422 Clement St", "25th Ave", "87' to 98' west of 25th Ave", "11", "N", "good", " ", "1988-04-16T00:00:00", [ null, "37.78207", "-122.48532", null, false ] ]
+, [ 140, "874CF975-B333-45AE-BC8B-AE9D3A0793CA", 140, 1335763765, "401820", 1335763765, "401820", "{\n}", "726 Clement St", "9th Ave", "12' to 30' east of 9th Ave", "18", "N", "poor", " ", "1988-04-16T00:00:00", [ null, "37.78288", "-122.46751", null, false ] ]
+, [ 141, "DA7DFED9-2991-4E47-B787-44D730604913", 141, 1335763765, "401820", 1335763765, "401820", "{\n}", "698 Columbus Ave", "Filbert", "19' to 37' south of Filbert", "18", "E", "good", " ", "1991-12-25T00:00:00", [ null, "37.80102", "-122.41105", null, false ] ]
+, [ 142, "EA5D08CB-BB76-472E-B6BB-B4E518067CC8", 142, 1335763765, "401820", 1335763765, "401820", "{\n}", "704 Lake Merced Blvd", "South State", "15' to 37' west of South State Drive", "22", " ", " ", " ", null, [ null, "37.72508", "-122.48446", null, false ] ]
+, [ 143, "49AD8367-6A61-4917-BA55-68C1C60A592D", 143, 1335763765, "401820", 1335763765, "401820", "{\n}", "200 Larkin St", "Fulton", "8' to 29' north of Fulton", "21", "E", "good", " ", "1988-05-25T00:00:00", [ null, "37.77974", "-122.4166", null, false ] ]
+, [ 144, "D24B9E7F-A593-49A4-8C29-0ACC799754BF", 144, 1335763765, "401820", 1335763765, "401820", "{\n}", "140 Larkin St", "Grove", "143' to 177' north of Grove", "34", "E", "good", " ", "1992-04-16T00:00:00", [ null, "37.77923", "-122.41659", null, false ] ]
+, [ 145, "B685DC91-A8D9-491D-BF84-7EC3A90F72E7", 145, 1335763765, "401820", 1335763765, "401820", "{\n}", "10 Larkin St", "Hayes", "24' to 46' north of Hayes", "22", "E", "good", " ", "1993-04-09T00:00:00", [ null, "37.77788", "-122.41635", null, false ] ]
+, [ 146, "F7E0BA29-66CE-4C6D-B6D3-41D436039689", 146, 1335763765, "401820", 1335763765, "401820", "{\n}", "2800 Leavenworth St", "Beach", "112' to 134' south of north building line", "22", "E", " ", " ", null, [ null, "37.80741", "-122.41895", null, false ] ]
+, [ 147, "0D512384-9081-4CF5-9BDF-5D6A7EB19966", 147, 1335763765, "401820", 1335763765, "401820", "{\n}", "102 Leavenworth St", "Golden Gate", "5' to 27' north of Golden Gate", "22", "E", "good", " ", "1992-02-12T00:00:00", [ null, "37.78204", "-122.41383", null, false ] ]
+, [ 148, "BF2228B2-6479-48D4-BC36-FF25FA1F3AA4", 148, 1335763765, "401820", 1335763765, "401820", "{\n}", "422 Leland Av", "Elliot", "7' to 34' west of the east property line", "27", " ", " ", " ", null, [ null, "37.71388", "-122.41215", null, false ] ]
+, [ 149, "76F525DB-C65F-41DF-9EEF-58E8A5980CC7", 149, 1335763765, "401820", 1335763765, "401820", "{\n}", "45 Leland Av", "Desmond", "7' to 27' east of Desmond", "20", "S", "good", " ", "1992-03-02T00:00:00", [ null, "37.7115", "-122.40466", null, false ] ]
+, [ 150, "1663FDF6-9F4C-4E79-8749-C751874CB49D", 150, 1335763765, "401820", 1335763765, "401820", "{\n}", "798 Lincoln Way", "9th Ave", "10' to 32' east of 9th Ave", "22", " ", " ", " ", null, [ null, "37.76602", "-122.46624", null, false ] ]
+, [ 151, "8E3ABB0F-2428-4876-97BD-BE55829E15E6", 151, 1335763765, "401820", 1335763765, "401820", "{\n}", "699 Lyon St", "McAllister", "0-20' south of McAllister", "22", "S", " ", " ", null, [ null, "37.77705", "-122.44337", null, false ] ]
+, [ 152, "CE107ED9-638C-40F0-977F-5758D59AC39E", 152, 1335763765, "401820", 1335763765, "401820", "{\n}", "407 Mason St", "Geary", "5'-26' south of Derby", "21", "W", " ", " ", null, [ null, "37.78734", "-122.40998", null, false ] ]
+, [ 153, "681637AF-FFC1-4DFA-957B-1F3CE801E8B4", 153, 1335763765, "401820", 1335763765, "401820", "{\n}", "599 Mason St", "Sutter", "14' to 32' south of Sutter", "18", "W", " ", " ", null, [ null, "37.78885", "-122.41028", null, false ] ]
+, [ 154, "104A2B87-2AA7-4BFD-BB9A-236B6EC2AFE1", 154, 1335763765, "401820", 1335763765, "401820", "{\n}", "599 McAllister St", "Franklin", "55' to 80' east of Franklin", "25", "S", "good", " ", "1988-04-08T00:00:00", [ null, "37.77985", "-122.42171", null, false ] ]
+, [ 155, "C4645FED-1C45-41E5-A50F-52396BB976D3", 155, 1335763765, "401820", 1335763765, "401820", "{\n}", "499 McAllister St", "Van Ness", "86' to 100' east of Van Ness (1 diagonal space)", "14", "S", "good", " ", "1988-04-08T00:00:00", [ null, "37.78025", "-122.42045", null, false ] ]
+, [ 156, "7739B7BF-7C6C-4702-98BC-EA996750D185", 156, 1335763765, "401820", 1335763765, "401820", "{\n}", "154 McAllister St", "Hyde", "98' to 120' east of Hyde", "22", "N", "good", " ", "1988-05-25T00:00:00", [ null, "37.78084", "-122.41488", null, false ] ]
+, [ 157, "21BC6F2C-8767-43C2-BD03-198C79579F3A", 157, 1335763765, "401820", 1335763765, "401820", "{\n}", "80 McAllister St", "7th St. North", "4' to 23' west of 7th Street North", "19", "N", "good", " ", "1993-06-02T00:00:00", [ null, "37.78107", "-122.41303", null, false ] ]
+, [ 158, "5E93CFA8-5829-45AF-8FD2-7855B4CFBB7C", 158, 1335763765, "401820", 1335763765, "401820", "{\n}", "102 McAllister St", "Leavenworth", "0' to 20' west of Leavenworth", "20", "N", "good", " ", "1993-06-02T00:00:00", [ null, "37.78097", "-122.41386", null, false ] ]
+, [ 159, "BE462810-CED5-46B2-B6B9-C63A1DC9908F", 159, 1335763765, "401820", 1335763765, "401820", "{\n}", "402 Merchant St", "Battery", "Battery to 20' west", "20", "N", " ", " ", null, [ null, "37.79546", "-122.40059", null, false ] ]
+, [ 160, "B2A60043-E15A-454C-BD5B-C3AF22AF6AA2", 160, 1335763765, "401820", 1335763765, "401820", "{\n}", "502 Minna St", "6th St", "0' to 18' west of 6th St", "18", "N", "good", " ", "1992-07-04T00:00:00", [ null, "37.78043", "-122.40835", null, false ] ]
+, [ 161, "344A7D1F-9714-4AA9-9B20-D1540BEF1B65", 161, 1335763765, "401820", 1335763765, "401820", "{\n}", "80 Miramar Av", "Grafton", "7' to 27' north of south property line", "22", " ", " ", " ", null, [ null, "37.71966", "-122.45805", null, false ] ]
+, [ 162, "00B80C24-00C4-42FF-A2F1-A33C627EB8AC", 162, 1335763765, "401820", 1335763765, "401820", "{\n}", "3120 Mission St", "Army", "4' to 48' south of north property line", "44", "W", " ", " ", null, [ null, "37.74769", "-122.41864", null, false ] ]
+, [ 163, "4EBB8073-A79C-4202-BB32-5E890E7CE163", 163, 1335763765, "401820", 1335763765, "401820", "{\n}", "1825 Mission St", "14th St", "101' to 122' south of 14th St", "21", "E", "poor", " ", "1988-04-14T00:00:00", [ null, "37.76796", "-122.41986", null, false ] ]
+, [ 164, "3B7DF061-19DA-4A58-9867-F0D25B1D012B", 164, 1335763765, "401820", 1335763765, "401820", "{\n}", "5020 Mission St", "Seneca", "15' to 33' south of Seneca", "18", "W", "good", " ", "1992-09-24T00:00:00", [ null, "37.71757", "-122.4403", null, false ] ]
+, [ 165, "0132D853-DDAA-445A-838B-EE2ED80C6933", 165, 1335763765, "401820", 1335763765, "401820", "{\n}", "4402 Mission St", "Cotter", "14' to 34' south of Cotter", "20", "W", "good", " ", "1994-04-20T00:00:00", [ null, "37.72709", "-122.4331", null, false ] ]
+, [ 166, "666BFAF1-89DD-482A-A781-8CCDCDF8A73F", 166, 1335763765, "401820", 1335763765, "401820", "{\n}", "1790 Montgomery St", "Francisco", "From north property line 22' south", "22", "E", " ", " ", null, [ null, "37.80573", "-122.40542", null, false ] ]
+, [ 167, "68C544F8-D248-4D31-AEB3-E1F20165D8A6", 167, 1335763765, "401820", 1335763765, "401820", "{\n}", "799 Moscow Street", "Italy", "0-26' north of Italy ?", "0", " ", " ", " ", "1990-04-30T00:00:00", [ null, "37.71503", "-122.43219", null, false ] ]
+, [ 168, "47D33071-D34D-4595-BCFA-BFB61138FFE7", 168, 1335763765, "401820", 1335763765, "401820", "{\n}", "402 Moultrie", "Cortland", "0' to 18' south of Cortland", "18", "W", "good", " ", "1994-02-04T00:00:00", [ null, "37.73887", "-122.41585", null, false ] ]
+, [ 169, "15203CAE-DC54-4CDA-A1D5-A873E1296F8E", 169, 1335763765, "401820", 1335763765, "401820", "{\n}", "Newhall", "Williams", "10' to 28' south of Williams", "18", "W", "good", " ", "1993-05-07T00:00:00", [ null, "37.72983", "-122.39759", null, false ] ]
+, [ 170, "63922DFD-FE1B-42F0-A5B6-744B36ED9565", 170, 1335763765, "401820", 1335763765, "401820", "{\n}", "6 Oak St", "Van Ness", "17' to 42' west of Van Ness - diagonal", "25", "N", "good", " ", "1988-05-25T00:00:00", [ null, "37.77547", "-122.41964", null, false ] ]
+, [ 171, "A06E2F2A-1458-423B-8C27-9C4B0F522481", 171, 1335763765, "401820", 1335763765, "401820", "{\n}", "695 Jackson St", "Grant", "4 to 23' east of Grant", "19", "S", " ", " ", null, [ null, "37.796", "-122.40651", null, false ] ]
+, [ 172, "18114FFC-D067-475F-B807-7E588747FBFD", 172, 1335763765, "401820", 1335763765, "401820", "{\n}", "302 Larkin St", "McAllister", "8' to 26' north of McAllister", "18", "E", "good", " ", "1992-08-08T00:00:00", [ null, "37.7807", "-122.41692", null, false ] ]
+, [ 173, "68B209FA-813E-425D-A22E-AFCA1ECA2238", 173, 1335763765, "401820", 1335763765, "401820", "{\n}", "1490 Mason St", "Broadway", "0' to 19' north of south frontage road of Broadway", "19", "E", "good", " ", "1993-10-06T00:00:00", [ null, "37.79711", "-122.41181", null, false ] ]
+, [ 174, "2DCEFC3E-853E-403E-A060-2E4AC853A02C", 174, 1335763765, "401820", 1335763765, "401820", "{\n}", "1345 Ocean Av", "Plymouth", "55' to 77' east of west property line", "22", "S", " ", " ", null, [ null, "37.72396", "-122.45694", null, false ] ]
+, [ 175, "2E233C0B-EFBC-4AC0-824C-8393F9A80987", 175, 1335763765, "401820", 1335763765, "401820", "{\n}", "2729 Octavia Street", "Union", "4' to 25' south of Union", "20", "W", " ", " ", "1990-06-27T00:00:00", [ null, "37.79777", "-122.42895", null, false ] ]
+, [ 176, "B6855082-90A9-4960-83FC-196904ECD81C", 176, 1335763765, "401820", 1335763765, "401820", "{\n}", "150 Otis St", "Mission", "From the north property line 44' north", "44", " ", " ", " ", null, [ null, "37.77112", "-122.42036", null, false ] ]
+, [ 177, "F8E0E528-F3D8-4C0E-9462-A8D4B42A7907", 177, 1335763765, "401820", 1335763765, "401820", "{\n}", "70 Otis St", "Brady", "5' to 25' west of Brady Street", "20", "N", "good", " ", "1992-05-29T00:00:00", [ null, "37.77229", "-122.41984", null, false ] ]
+, [ 178, "6E5574DC-BEA0-49BB-AC44-EFF464031B60", 178, 1335763765, "401820", 1335763765, "401820", "{\n}", "1900 Pacific Avenue", "Gough", "6 to 24' west of Gough Street", "18", "N", " ", " ", null, [ null, "37.79443", "-122.42672", null, false ] ]
+, [ 179, "9B179625-8C81-4707-921E-3F6925484814", 179, 1335763765, "401820", 1335763765, "401820", "{\n}", "875 Pacific Av", "Trenton", "From Trenton Street to 18' west", "18", "S", " ", " ", null, [ null, "37.79655", "-122.40934", null, false ] ]
+, [ 180, "1B262182-95E1-4298-8E4C-09FCFC81C841", 180, 1335763765, "401820", 1335763765, "401820", "{\n}", "500 Cortland", "Andover", "6' to 26' east of Andover", "20", "S", "good", " ", "1992-02-28T00:00:00", [ null, "37.73898", "-122.41628", null, false ] ]
+, [ 181, "2258789E-F98A-49B7-A9B8-1151D3BF3E23", 181, 1335763765, "401820", 1335763765, "401820", "{\n}", "55 Cyril Magnin St", "Ellis", "1' to 21' south of Ellis", "20", "W", " ", " ", null, [ null, "37.78528", "-122.40872", null, false ] ]
+, [ 182, "8CFBA00A-AB29-4611-A2BC-A99EDE7F14A9", 182, 1335763765, "401820", 1335763765, "401820", "{\n}", "599 Davis St", "Jackson", "252' to 270' north of Jackson", "18", "W", "good", " ", "1993-05-08T00:00:00", [ null, "37.79785", "-122.39857", null, false ] ]
+, [ 183, "0EA018E0-1B18-4196-8D26-D8667641507B", 183, 1335763765, "401820", 1335763765, "401820", "{\n}", "118 Diamond St", "18th St", "7-25' south of 18th St", "18", "W", " ", " ", null, [ null, "37.76061", "-122.43724", null, false ] ]
+, [ 184, "0D27CE92-BE01-4DDD-8F68-E25A49312780", 184, 1335763765, "401820", 1335763765, "401820", "{\n}", "5157 Diamond Heights Blvd", "Duncan/Carnelia", "From the east property line to 65' east", "65", "N", "good", " ", null, [ null, "37.74657", "-122.44003", null, false ] ]
+, [ 185, "0D045B8D-6DB7-4D37-80D1-F275E4125515", 185, 1335763765, "401820", 1335763765, "401820", "{\n}", "1234 Divisadero St", "Eddy", "16' to 38' north of south property line", "22", "E", " ", " ", null, [ null, "37.78093", "-122.43889", null, false ] ]
+, [ 186, "A021C07D-2280-4DFC-B0B0-43331847A6C1", 186, 1335763765, "401820", 1335763765, "401820", "{\n}", "509 Divisadero St", "Fell", "96' to 120' north of Fell", "24", "W", "good", " ", "1988-04-12T00:00:00", [ null, "37.77428", "-122.43754", null, false ] ]
+, [ 187, "379B0D9C-44F2-41F0-8F4D-2E6675E9B609", 187, 1335763765, "401820", 1335763765, "401820", "{\n}", "800 Divisadero St", "Fulton", "3' to 21' north of Fulton", "18", "E", "good", " ", "1994-04-22T00:00:00", [ null, "37.77702", "-122.4381", null, false ] ]
+, [ 188, "496E3766-EDF6-4C53-9CAA-2E1D9E75A6B5", 188, 1335763765, "401820", 1335763765, "401820", "{\n}", "324 Divisadero St", "Page", "91' to 111' north of Page", "20", "E", "poor", " ", "1988-04-12T00:00:00", [ null, "37.77261", "-122.43721", null, false ] ]
+, [ 189, "C975D576-4FEE-47EE-B191-A0DDE4735C20", 189, 1335763765, "401820", 1335763765, "401820", "{\n}", "500 Dolores St", "18th St", "0' to 25' south of 18th St", "25", "W", "poor", " ", "1988-04-20T00:00:00", [ null, "37.76129", "-122.4262", null, false ] ]
+, [ 190, "D943320E-DBDB-43ED-B85B-13CC6B86D98C", 190, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Dorado St", "Ocean", "0' to 24' north of Ocean", "24", "E", "good", " ", "1993-04-03T00:00:00", [ null, "37.7251", "-122.46107", null, false ] ]
+, [ 191, "C2CC8E9F-0074-4B35-AB41-DC93F7B3E1CA", 191, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Dorland St", "Dolores", "0' to 18' east of Dolores", "18", "S", "good", " ", "1992-10-10T00:00:00", [ null, "37.76218", "-122.42584", null, false ] ]
+, [ 192, "AFC9788D-08EB-4AC3-8AF6-A1AFDA393355", 192, 1335763765, "401820", 1335763765, "401820", "{\n}", "750 Douglass St", "Elizabeth", "11'-29' south of Elizabeth", "18", "W", " ", " ", "1990-02-28T00:00:00", [ null, "37.75168", "-122.4386", null, false ] ]
+, [ 193, "30EBD79D-659C-439A-84A6-4B5D63822C3C", 193, 1335763765, "401820", 1335763765, "401820", "{\n}", "106 Drumm St", "Sacramento", "11' to 33' north of Sacramento", "22", "E", " ", " ", null, [ null, "37.79473", "-122.39648", null, false ] ]
+, [ 194, "3AD0F4DE-7135-4FD2-BF67-CF6A1C748E49", 194, 1335763765, "401820", 1335763765, "401820", "{\n}", "151 Drumm St", "Sacramento", "89' to 107' north of Sacramento", "18", "W", "good", " ", "1992-02-08T00:00:00", [ null, "37.79491", "-122.39677", null, false ] ]
+, [ 195, "0433FED1-8A83-41EC-9061-40C96F816C59", 195, 1335763765, "401820", 1335763765, "401820", "{\n}", "799 Duboce Ave", "Castro", "18' to 36' east of Castro", "18", "S", "good", " ", "1992-07-04T00:00:00", [ null, "37.76899", "-122.4355", null, false ] ]
+, [ 196, "5F574716-21D0-4E76-918C-7C8302E0DEA8", 196, 1335763765, "401820", 1335763765, "401820", "{\n}", "89 Hyde Street", "Golden Gate", "7-27' south of Golden Gate", "20", "W", " ", " ", "1991-01-14T00:00:00", [ null, "37.78149", "-122.41555", null, false ] ]
+, [ 197, "02DE8B2A-C782-47C4-B4A9-3EBF0D6F1084", 197, 1335763765, "401820", 1335763765, "401820", "{\n}", "600 Ellis St", "Hyde", "10' to 36' west of Hyde", "26", "N", " ", " ", "1991-08-28T00:00:00", [ null, "37.78448", "-122.41631", null, false ] ]
+, [ 198, "A8A88A0B-801D-4B90-9C43-84F890B291CC", 198, 1335763765, "401820", 1335763765, "401820", "{\n}", "310 Elm St", "Franklin", "17' to 61' west of Franklin", "44", "N", " ", " ", null, [ null, "37.78129", "-122.42237", null, false ] ]
+, [ 199, "B35C20E7-1CC6-44EC-9FF2-069153FA5D2F", 199, 1335763765, "401820", 1335763765, "401820", "{\n}", "225 Eucalyptus Dr", "19th Ave/20th", "From east end of white 22' east", "22", " ", "good", " ", null, [ null, "37.73099", "-122.47544", null, false ] ]
+, [ 200, "C357DD9A-CBF1-4404-AF1E-C8C9B6EE7CA3", 200, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Felton St", "San Bruno", "5' to 24' west of San Bruno", "19", "N", "good", " ", "1993-11-12T00:00:00", [ null, "37.73004", "-122.40481", null, false ] ]
+, [ 201, "7AE5FF67-F4B1-4020-9FB4-6EC1F78D12EC", 201, 1335763765, "401820", 1335763765, "401820", "{\n}", "1528 Fillmore St", "O'Farrell", "100' to 144' north of O'Farrell", "44", "E", "good", " ", "1988-04-08T00:00:00", [ null, "37.78347", "-122.43267", null, false ] ]
+, [ 202, "ADB311B6-EC8C-4E6D-A0C2-C550CF45A4F7", 202, 1335763765, "401820", 1335763765, "401820", "{\n}", "926 Fillmore St", "Fulton", "11' to 33' north of Fulton", "22", "E", "good", " ", "1988-04-12T00:00:00", [ null, "37.77797", "-122.43155", null, false ] ]
+, [ 203, "EA6D1F84-53E9-4315-8A57-E91A2A66B3E2", 203, 1335763765, "401820", 1335763765, "401820", "{\n}", "1340 Golden Gate Ave", "Golden Gate", "11 to 34' south of Golden Gate", "23", "W", " ", " ", "1990-11-13T00:00:00", [ null, "37.77948", "-122.43207", null, false ] ]
+, [ 204, "64DB0174-C0FC-44A0-B20B-D8E9DE4E2B5A", 204, 1335763765, "401820", 1335763765, "401820", "{\n}", "1899 Fillmore St", "Bush", "12' to 34' south of Bush", "22", "W", "good", " ", "1991-03-15T00:00:00", [ null, "37.78683", "-122.43349", null, false ] ]
+, [ 205, "032F8CB9-9BDE-4EF9-AB42-CD9C1DA343C3", 205, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Fillmore St", "Turk", "11' to 30' north of Turk", "19", "E", "good", " ", "1991-03-31T00:00:00", [ null, "37.78068", "-122.43211", null, false ] ]
+, [ 206, "8F844E17-B8C6-4E5C-9495-5B50FDC6F3DC", 206, 1335763765, "401820", 1335763765, "401820", "{\n}", "1400 Fillmore St", "Ellis", "5' to 23' north of Ellis", "18", "E", "good", " ", "1992-04-18T00:00:00", [ null, "37.7825", "-122.43248", null, false ] ]
+, [ 207, "EC42D332-42D9-4D5D-B130-8CCA52393DFC", 207, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Florida St", "24th St", "5' to 27' south of 24th St", "22", "W", "good", " ", "1990-06-27T00:00:00", [ null, "37.75261", "-122.41011", null, false ] ]
+, [ 208, "23A902E8-23C0-4188-A9C4-7338CA53269C", 208, 1335763765, "401820", 1335763765, "401820", "{\n}", "1800 Folsom St", "14th St", "90' to 114' south of the north property line", "24", "W", " ", " ", null, [ null, "37.76849", "-122.41573", null, false ] ]
+, [ 209, "23CAA942-D082-4713-960D-A2F48DBD9063", 209, 1335763765, "401820", 1335763765, "401820", "{\n}", "2075 Folsom St", "17th St", "2' to 27' south of the north property line", "25", "E", " ", " ", null, [ null, "37.7641", "-122.41507", null, false ] ]
+, [ 210, "1028F929-FF21-4D03-96EA-2F8634ECC8D4", 210, 1335763765, "401820", 1335763765, "401820", "{\n}", "751 Folsom St", "Mabini", "0' to 22' west of Mabini", "22", "S", "good", " ", null, [ null, "37.78251", "-122.40037", null, false ] ]
+, [ 211, "8990C9B2-F0A4-4405-AC8D-1595789BB757", 211, 1335763765, "401820", 1335763765, "401820", "{\n}", "200 Folsom St", "Main", "96' to 116' west of Main", "20", "N", " ", " ", null, [ null, "37.789", "-122.39248", null, false ] ]
+, [ 212, "67D0CE80-DA6E-4F50-825E-D602DD0DCDDF", 212, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 California St", "Davis", "37' to 66' east of Davis", "29", "N", "good", " ", "1993-08-15T00:00:00", [ null, "37.79362", "-122.39736", null, false ] ]
+, [ 213, "AA5B2248-2296-411E-9818-B7BCE1685E24", 213, 1335763765, "401820", 1335763765, "401820", "{\n}", "1199 Clement St", "Funston", "0' to 19' east of Funston", "19", "S", "good", " ", "1992-08-08T00:00:00", [ null, "37.78254", "-122.47174", null, false ] ]
+, [ 214, "0061F29F-1010-4CED-939C-E3F388A58313", 214, 1335763765, "401820", 1335763765, "401820", "{\n}", "560 Davis St", "Jackson", "6' to 28' north of Jackson", "22", "E", "good", " ", "1993-05-08T00:00:00", [ null, "37.79811", "-122.39846", null, false ] ]
+, [ 215, "0297356A-EEF6-4E48-8C4C-87D3ECC649FB", 215, 1335763765, "401820", 1335763765, "401820", "{\n}", "939 Ellis St", "Van Ness", "From east side of east driveway 22' east", "22", "S", " ", " ", null, [ null, "37.78368", "-122.42168", null, false ] ]
+, [ 216, "C532E20F-69DA-4824-8217-DDD210CEB391", 216, 1335763765, "401820", 1335763765, "401820", "{\n}", "2800 Folsom St", "24th St", "8' to 30' south of 24th St", "22", "W", "poor", " ", "1990-06-27T00:00:00", [ null, "37.75237", "-122.41416", null, false ] ]
+, [ 217, "E57EF7D2-4573-4BC7-82D6-2146BE96A318", 217, 1335763765, "401820", 1335763765, "401820", "{\n}", "633 Folsom St", "Hawthorne", "6' to 28' east of Hawthorne", "22", "S", "good", " ", "1991-06-30T00:00:00", [ null, "37.7847", "-122.39761", null, false ] ]
+, [ 218, "01461EBD-6F8F-4B70-BFC2-2A15EEA3E0A2", 218, 1335763765, "401820", 1335763765, "401820", "{\n}", "700 Font Blvd", "Tapia", "5' to 71' west of Tapia", "66", "N", "good", " ", null, [ null, "37.72198", "-122.48223", null, false ] ]
+, [ 219, "8AB53338-0051-4705-9ABF-FDA515428B3A", 219, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Francis", "Mission", "6' to 24' west of Mission", "18", "N", "good", " ", "1992-08-15T00:00:00", [ null, "37.72672", "-122.43352", null, false ] ]
+, [ 220, "7445CEE4-C94B-4529-9205-31D283325C47", 220, 1335763765, "401820", 1335763765, "401820", "{\n}", "434 Franklin St", "Fulton", "2' to 24' north of the south crosswalk", "22", "E", "good", " ", "1988-05-06T00:00:00", [ null, "37.77897", "-122.42162", null, false ] ]
+, [ 221, "170882F4-4920-49AF-B815-C9F8281F3644", 221, 1335763765, "401820", 1335763765, "401820", "{\n}", "404 Franklin St", "Grove", "22' to 44' north of Grove", "22", "E", "fair", " ", "1988-05-06T00:00:00", [ null, "37.7782", "-122.42147", null, false ] ]
+, [ 222, "33B69152-8822-4E91-A9C4-2E6E354F484A", 222, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Franklin St", "Geary", "9' to 29' north of Geary", "20", "E", "good", " ", "1993-10-26T00:00:00", [ null, "37.78565", "-122.42297", null, false ] ]
+, [ 223, "0AE97D62-01BC-45F6-9932-F81AD52F769E", 223, 1335763765, "401820", 1335763765, "401820", "{\n}", "1400 Franklin St", "Sutter", "0' to 20' north of Sutter", "20", "E", "good", " ", "1994-08-16T00:00:00", [ null, "37.78751", "-122.42335", null, false ] ]
+, [ 224, "F416ACC5-7E18-49A3-9B19-C5B95B013B7F", 224, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Fremont St", "Howard", "8'-30' north of Howard", "22", "E", " ", " ", null, [ null, "37.78939", "-122.39522", null, false ] ]
+, [ 225, "2808AAA7-402A-4913-9CED-54E24572D332", 225, 1335763765, "401820", 1335763765, "401820", "{\n}", "700 Front St", "Pacific", "4' to 26' north of Pacific", "22", "E", "good", " ", "1993-11-13T00:00:00", [ null, "37.79795", "-122.39963", null, false ] ]
+, [ 226, "B2377E99-06C9-4500-B285-90AFC0C169D2", 226, 1335763765, "401820", 1335763765, "401820", "{\n}", "800 Front St", "Broadway", "0' to 22' north of Broadway", "22", "E", "good", " ", "1994-06-28T00:00:00", [ null, "37.7989", "-122.39984", null, false ] ]
+, [ 227, "A8889F5C-9E62-4A07-BBF8-D228D00FC5C3", 227, 1335763765, "401820", 1335763765, "401820", "{\n}", "350 Front St", "Clay", "78' to 110' south of Clay", "32", "E", "good", " ", "1992-02-08T00:00:00", [ null, "37.79466", "-122.39896", null, false ] ]
+, [ 228, "EA0DB109-CADE-4ECF-B113-3FD39DC45FDB", 228, 1335763765, "401820", 1335763765, "401820", "{\n}", "1399 Funston Av", "Judah", "22' north from south property line on Funston", "22", "W", " ", " ", null, [ null, "37.76212", "-122.47054", null, false ] ]
+, [ 229, "7D2719C2-98AA-404B-8751-2EF5172FC8C3", 229, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Funston Av", "Lake", "4' to 13' north of Lake", "9", "W", "good", " ", "1994-09-20T00:00:00", [ null, "37.78634", "-122.47231", null, false ] ]
+, [ 230, "01B6887E-5C49-4C35-A232-BE9578AC4C69", 230, 1335763765, "401820", 1335763765, "401820", "{\n}", "3330 Geary Blvd", " ", "2' to 20' west of east property line", "18", "N", " ", " ", null, [ null, "37.78168", "-122.4546", null, false ] ]
+, [ 231, "FC2D8223-3C63-47D6-AAA1-68CBC0473CC5", 231, 1335763765, "401820", 1335763765, "401820", "{\n}", "6210 Geary Blvd", "26th Ave", "12' to 29' west of 26th Ave", "17", "N", "good", " ", null, [ null, "37.78017", "-122.48599", null, false ] ]
+, [ 232, "2E8DC6B7-CA87-4788-8888-0DC1FEAEE905", 232, 1335763765, "401820", 1335763765, "401820", "{\n}", "6599 Geary Blvd", "30th Ave", "0'-18' east of 30th Ave", "18", "S", " ", " ", null, [ null, "37.77975", "-122.49015", null, false ] ]
+, [ 233, "9D1B1895-E551-4939-AB71-5B0105952E8E", 233, 1335763765, "401820", 1335763765, "401820", "{\n}", "4225 Geary Blvd", "6th Ave", "From east property line 22' west", "22", "S", " ", " ", null, [ null, "37.78086", "-122.46478", null, false ] ]
+, [ 234, "EC816BE1-1EB8-4E7A-97B5-561E9E181D4B", 234, 1335763765, "401820", 1335763765, "401820", "{\n}", "2350 Geary Blvd", "Baker", "15' west to 29' east of west building line", "44", "N", " ", " ", null, [ null, "37.78312", "-122.44211", null, false ] ]
+, [ 235, "A2C2698D-B85F-4628-87BD-5C74E3341A0E", 235, 1335763765, "401820", 1335763765, "401820", "{\n}", "1902 Geary Blvd", "Steiner", "0' to 20' west of Steiner", "20", "N", "good", " ", "1992-04-16T00:00:00", [ null, "37.78398", "-122.43432", null, false ] ]
+, [ 236, "013352C9-EEDE-4367-A8E5-F547FDDA8F78", 236, 1335763765, "401820", 1335763765, "401820", "{\n}", "4700 Geary Blvd", "11th Ave", "14' to 36' west of 11th Ave", "22", "N", "good", " ", "1992-06-05T00:00:00", [ null, "37.7809", "-122.46987", null, false ] ]
+, [ 237, "1718E128-B65D-4BA1-8429-CBE5CEBD64D2", 237, 1335763765, "401820", 1335763765, "401820", "{\n}", "4100 Geary Blvd", "5th Ave", "0' to 18' west of 5th Ave", "18", "N", "good", " ", "1992-06-05T00:00:00", [ null, "37.7812", "-122.46341", null, false ] ]
+, [ 238, "F1FDD743-657C-4BE6-A06B-0182769EFFE8", 238, 1335763765, "401820", 1335763765, "401820", "{\n}", "3700 Geary Blvd", "Arguello", "18' to 36' west of Arguello", "18", "N", "good", " ", "1992-06-05T00:00:00", [ null, "37.78139", "-122.45911", null, false ] ]
+, [ 239, "2E30BA5D-2745-43BC-82F4-2A90F5F9457E", 239, 1335763765, "401820", 1335763765, "401820", "{\n}", "5000 Geary Blvd", "14th Ave", "15' to 35' west of 14th Ave", "20", "N", "good", " ", "1992-06-06T00:00:00", [ null, "37.78076", "-122.47307", null, false ] ]
+, [ 240, "7CD20B50-1827-4CF7-BBF6-EFDEED813134", 240, 1335763765, "401820", 1335763765, "401820", "{\n}", "5200 Geary Blvd", "16th Ave", "17' to 34' west of 16th Ave", "17", "N", "good", " ", "1992-06-06T00:00:00", [ null, "37.78066", "-122.4753", null, false ] ]
+, [ 241, "AE337562-C3F0-48E2-A866-7B3B937A4CA4", 241, 1335763765, "401820", 1335763765, "401820", "{\n}", "5400 Geary Blvd", "18th Ave", "13' to 30' west of 18th Ave", "17", "N", "good", " ", "1992-06-06T00:00:00", [ null, "37.78056", "-122.47744", null, false ] ]
+, [ 242, "C843D1FC-3D6F-485F-AE9B-D7C35258C71B", 242, 1335763765, "401820", 1335763765, "401820", "{\n}", "5999 Geary Blvd", "24th Ave", "19' to 36' east of 24th Ave", "17", "S", "good", " ", "1992-06-06T00:00:00", [ null, "37.78001", "-122.48344", null, false ] ]
+, [ 243, "F53A5E34-0B55-4C2D-BBC8-2716C5A58E8F", 243, 1335763765, "401820", 1335763765, "401820", "{\n}", "6100 Geary Blvd", "25th Ave", "8' to 25' west of 25th Ave", "17", "N", "good", " ", "1992-06-06T00:00:00", [ null, "37.78021", "-122.48492", null, false ] ]
+, [ 244, "BC96D138-C2A5-4E47-91BD-8A82FF39E860", 244, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Geary Blvd", "Franklin", "1' to 19' west of Franklin", "18", "N", "good", " ", "1993-10-15T00:00:00", [ null, "37.78552", "-122.42324", null, false ] ]
+, [ 245, "EA53B3C2-D9AA-4E03-8DE1-B8295CA465A0", 245, 1335763765, "401820", 1335763765, "401820", "{\n}", "300 Golden Gate Av", "Hyde", "87' to 112' west of Hyde", "25", "N", "fair", " ", "1988-04-08T00:00:00", [ null, "37.78165", "-122.41604", null, false ] ]
+, [ 246, "195B31F2-0E98-47CF-9123-FF7F1C23BAAB", 246, 1335763765, "401820", 1335763765, "401820", "{\n}", "35 Gough Street", "Stevenson", "0-20' north of Stevenson", "20", "W", " ", " ", null, [ null, "37.77283", "-122.42183", null, false ] ]
+, [ 247, "20D57213-68E7-4577-BE26-D5668C987CD5", 247, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Grace St", "Howard", "Howard to 25' north", "25", "E", " ", " ", null, [ null, "37.77491", "-122.41341", null, false ] ]
+, [ 248, "6381BC57-BD96-4908-80A1-68E0782DC174", 248, 1335763765, "401820", 1335763765, "401820", "{\n}", "601 Green St", "Columbus", "9' to 30' west of Columbus on Green", "21", "S", " ", " ", null, [ null, "37.79944", "-122.40918", null, false ] ]
+, [ 249, "341EB676-2924-4821-8DA1-2805319685A0", 249, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Greenwich St", "Sansome", "From east property line 66' to 88' west", "22", "S", " ", " ", null, [ null, "37.80306", "-122.40295", null, false ] ]
+, [ 250, "77728707-06C3-406F-816D-00CD7344E248", 250, 1335763765, "401820", 1335763765, "401820", "{\n}", "200 Grove St", "Van Ness", "30' to 55' west of Van Ness", "25", "N", " ", " ", null, [ null, "37.77826", "-122.42018", null, false ] ]
+, [ 251, "6F3BE145-C5DC-4A05-BACD-814C02C28EC8", 251, 1335763765, "401820", 1335763765, "401820", "{\n}", "101 Grove St", "Polk", "14' to 58' west of Polk", "44", "S", "good", " ", "1988-04-09T00:00:00", [ null, "37.77824", "-122.41828", null, false ] ]
+, [ 252, "EBE55892-D778-4FBD-9A0A-7C223583D018", 252, 1335763765, "401820", 1335763765, "401820", "{\n}", "250 Grove St", "Van Ness", "89' to 170' west of Van Ness", "81", "S", "good", " ", "1988-04-09T00:00:00", [ null, "37.77808", "-122.42059", null, false ] ]
+, [ 253, "8C2BA6EB-0B9B-43B2-BC12-67F550005F5A", 253, 1335763765, "401820", 1335763765, "401820", "{\n}", "299 Grove St", "Franklin", "17' to 39' east of Franklin", "22", "S", "good", " ", "1992-02-07T00:00:00", [ null, "37.77799", "-122.42126", null, false ] ]
+, [ 254, "78F19FF5-D9A0-4091-B8B6-4E40D119FA2D", 254, 1335763765, "401820", 1335763765, "401820", "{\n}", "100 Grove St", "Hyde", "22' to 42' west of Hyde", "20", "N", "good", " ", "1992-04-16T00:00:00", [ null, "37.77854", "-122.41857", null, false ] ]
+, [ 255, "6B8B961A-0562-4D47-9ADB-B76034E48F91", 255, 1335763765, "401820", 1335763765, "401820", "{\n}", "1899 Grove St", "Ashbury", "3' to 21' east of Ashbury", "18", "S", "good", " ", "1993-04-15T00:00:00", [ null, "37.77464", "-122.44769", null, false ] ]
+, [ 256, "8F99D46A-60B0-4145-BF44-52EA7AB7E563", 256, 1335763765, "401820", 1335763765, "401820", "{\n}", "851 Guerrero St", "Liberty", "26' south from Liberty", "26", "E", " ", " ", null, [ null, "37.75743", "-122.42329", null, false ] ]
+, [ 257, "C2096C56-E84A-4C75-9D15-7C620F1AA445", 257, 1335763765, "401820", 1335763765, "401820", "{\n}", "145 Guerrero St", "Brosnan", "10' to 32' north Brosnan", "22", "E", "good", " ", "1988-04-20T00:00:00", [ null, "37.76876", "-122.42438", null, false ] ]
+, [ 258, "246A6BC6-645F-4EF6-8658-29B5AC9720D8", 258, 1335763765, "401820", 1335763765, "401820", "{\n}", "1545 Haight St", "Clayton", "5' to 23' east of Clayton", "18", "S", " ", " ", null, [ null, "37.76976", "-122.44838", null, false ] ]
+, [ 259, "7B77D656-3472-424E-952C-562F51613682", 259, 1335763765, "401820", 1335763765, "401820", "{\n}", "1729 Haight St", "Shrader", "0' to 26' east of Shrader", "26", "S", " ", " ", "1989-07-05T00:00:00", [ null, "37.76934", "-122.45167", null, false ] ]
+, [ 260, "58F11C7B-E402-400E-B64A-4C6FA8FB723F", 260, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Harriet St", "Howard", "0' to 18' south of Howard", "18", "W", "good", " ", "1993-12-16T00:00:00", [ null, "37.77917", "-122.40759", null, false ] ]
+, [ 261, "C2BB6CBD-E3D6-43F2-B4C2-0F6AFE769117", 261, 1335763765, "401820", 1335763765, "401820", "{\n}", "1440 Harrison St", "10th St", "2' to 24' west of driveway", "22", "N", " ", " ", null, [ null, "37.77117", "-122.41195", null, false ] ]
+, [ 262, "9290ED51-E388-456B-9313-226E4FDD722B", 262, 1335763765, "401820", 1335763765, "401820", "{\n}", "75 Hawthorne St", "Folsom", "From the south property line to 40' north", "40", "E", " ", " ", null, [ null, "37.78512", "-122.39831", null, false ] ]
+, [ 263, "99E5A2B6-4D17-46BF-A77C-BB990E54ABCE", 263, 1335763765, "401820", 1335763765, "401820", "{\n}", "100 Hawthorne", "Folsom", "5' to 25' south of Folsom", "20", "W", "good", " ", "1992-03-26T00:00:00", [ null, "37.78451", "-122.39771", null, false ] ]
+, [ 264, "F5430A95-F9AC-4D95-BC21-D2605E680F4C", 264, 1335763765, "401820", 1335763765, "401820", "{\n}", "500 Hayes St", "Octavia", "8' to 27' west of Octavia", "19", "N", "none", " ", "1988-05-25T00:00:00", [ null, "37.77671", "-122.42481", null, false ] ]
+, [ 265, "596CE9D0-986A-4D6D-ACD1-6405E2B10326", 265, 1335763765, "401820", 1335763765, "401820", "{\n}", "1 Hickory St", "Van Ness", "10' to 28' west of Van Ness", "18", "S", "good", " ", null, [ null, "37.77585", "-122.41963", null, false ] ]
+, [ 266, "07D7B0DC-4C33-46D5-8F9D-48C49B3B511F", 266, 1335763765, "401820", 1335763765, "401820", "{\n}", "102 Front St", "Pine", "Pine to 26' north", "26", "E", " ", " ", null, [ null, "37.79256", "-122.39854", null, false ] ]
+, [ 267, "86653288-F749-45F7-83DD-961BAFC52DFB", 267, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Fulton St", "Larkin", "11' to 20' east of Larkin", "9", "S", "good", " ", null, [ null, "37.77963", "-122.4153", null, false ] ]
+, [ 268, "F89BEF19-537C-4D16-8E1C-A1348CC45610", 268, 1335763765, "401820", 1335763765, "401820", "{\n}", "1902 Geary Blvd", "Steiner", "130' to 150' west of Steiner", "20", "N", "good", " ", "1992-04-16T00:00:00", [ null, "37.7843", "-122.43482", null, false ] ]
+, [ 269, "A86472A4-39E7-4010-A702-4CEBB8E94565", 269, 1335763765, "401820", 1335763765, "401820", "{\n}", "1600 Holloway Av", "Cardenas", "6' to 28' west of west side of d/way to Admin Bldg", "22", "N", " ", " ", null, [ null, "37.7209", "-122.47721", null, false ] ]
+, [ 270, "3BDC0DA6-0C1F-41E6-92E9-BB65D08D5C58", 270, 1335763765, "401820", 1335763765, "401820", "{\n}", "1700 Holloway Av", "Arrellano", "West from west crosswalk", "22", "N", " ", " ", null, [ null, "37.72097", "-122.47916", null, false ] ]
+, [ 271, "E8F1D52D-7C5F-4FF7-9CCF-923F1FDA49A7", 271, 1335763765, "401820", 1335763765, "401820", "{\n}", "120 Howard St", "Spear", "5' west to 17' east of west building line", "22", "N", " ", " ", null, [ null, "37.79122", "-122.39277", null, false ] ]
+, [ 272, "44F4AEFB-16BB-44E2-BD96-9DA2B3CBEF4C", 272, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Howard St", "Steuart", "3' to 23' west of Steuart", "20", "N", " ", " ", null, [ null, "37.79192", "-122.39186", null, false ] ]
+, [ 273, "3E9C2C33-579C-4870-AF43-F43A9288AA03", 273, 1335763765, "401820", 1335763765, "401820", "{\n}", "399 Howard St", "Fremont", "13' to 33' east of Fremont", "20", "S", "good", " ", "1991-03-31T00:00:00", [ null, "37.78931", "-122.39489", null, false ] ]
+, [ 274, "898EE272-B02F-45C6-B6E0-4A74459E9796", 274, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Howard St", "Main", "13' to 32' east of Main", "19", "S", "good", " ", "1994-08-23T00:00:00", [ null, "37.79069", "-122.39315", null, false ] ]
+, [ 275, "6E97EA86-6884-4E4C-A9CD-77234D84CAA5", 275, 1335763765, "401820", 1335763765, "401820", "{\n}", "920 Hyde St", "Bush", "South of parking bay", "22", "E", " ", " ", null, [ null, "37.78963", "-122.41704", null, false ] ]
+, [ 276, "FE6A60C1-FD34-4782-83A9-71A8DB33C7B8", 276, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Hyde St", "Fulton", "4' to 44' north of Fulton", "40", "E", "good", " ", "1988-05-25T00:00:00", [ null, "37.78005", "-122.41511", null, false ] ]
+, [ 277, "27D3C6C1-F0F4-4F38-8175-E70D18E14D76", 277, 1335763765, "401820", 1335763765, "401820", "{\n}", "47 Hyde Street", "McAllister", "9'-29' south of McAllister", "20", "W", " ", " ", "1991-01-14T00:00:00", [ null, "37.7799", "-122.41533", null, false ] ]
+, [ 278, "82F6C88E-5389-4D57-8747-3CFFA41042D7", 278, 1335763765, "401820", 1335763765, "401820", "{\n}", "1410 Irving St", "15th Ave", "first angled stall west of 15th Ave", "12", "N", "good", " ", "1992-07-23T00:00:00", [ null, "37.76382", "-122.47299", null, false ] ]
+, [ 279, "192893CC-6C3E-40B0-9CC5-403E657D2339", 279, 1335763765, "401820", 1335763765, "401820", "{\n}", "229 Jackson St", "Battery", "5-27' east of Battery", "22", "S", " ", " ", null, [ null, "37.79676", "-122.40046", null, false ] ]
+, [ 280, "9F884979-C988-4D47-8365-395B07D48DD1", 280, 1335763765, "401820", 1335763765, "401820", "{\n}", "900 Jessie St", "10th St", "From 10th St to 50' west", "50", "N", "good", " ", "1988-05-06T00:00:00", [ null, "37.77589", "-122.41642", null, false ] ]
+, [ 281, "C7FF37F0-202A-4044-8412-90342F6EC160", 281, 1335763765, "401820", 1335763765, "401820", "{\n}", "471 Jessie St", "6th St", "0' to 22' east of west property line", "22", "S", " ", " ", "1991-04-24T00:00:00", [ null, "37.78179", "-122.40869", null, false ] ]
+, [ 282, "E0B7A170-446F-4B09-93E6-7F82F3FD374A", 282, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Jones St", "Turk", "0-20' south of Turk", "0", " ", " ", " ", "1990-04-30T00:00:00", [ null, "37.78284", "-122.41246", null, false ] ]
+, [ 283, "B4C466FE-DF76-4E47-B1DF-3965E44D3C8E", 283, 1335763765, "401820", 1335763765, "401820", "{\n}", "299 Jones St", "Eddy", "5' to 24' south of Eddy", "19", "W", "good", " ", "1991-06-30T00:00:00", [ null, "37.78376", "-122.41264", null, false ] ]
+, [ 284, "BE3C81CC-67D0-4683-B3F5-33CAC9FB7161", 284, 1335763765, "401820", 1335763765, "401820", "{\n}", "23 Jones St", "Golden Gate", "12' to 30' south of Golden Gate Avenue", "18", "W", "good", " ", "1991-06-30T00:00:00", [ null, "37.78191", "-122.41225", null, false ] ]
+, [ 285, "3D638F38-812A-4FBA-B3D1-4C92D9C7BDF1", 285, 1335763765, "401820", 1335763765, "401820", "{\n}", "198 Jordan St", "Geary", "3' to 21' north of Geary", "18", "E", "good", " ", "1992-04-16T00:00:00", [ null, "37.78162", "-122.45656", null, false ] ]
+, [ 286, "FF0F556F-B950-4C31-BC21-FABB9840D7CE", 286, 1335763765, "401820", 1335763765, "401820", "{\n}", "56 Julian Av", " ", "20' south of driveway", "20", " ", " ", " ", null, [ null, "37.76731", "-122.42118", null, false ] ]
+, [ 287, "0C053F01-C7B8-45C7-A1D2-DC542B213020", 287, 1335763765, "401820", 1335763765, "401820", "{\n}", "916 Laguna St", "Golden Gate", "43' to 65' south of Golden Gate", "22", "E", " ", " ", null, [ null, "37.77994", "-122.4269", null, false ] ]
+, [ 288, "CF471D43-4A4B-4A2F-9DD7-C20A6ECAC8D5", 288, 1335763765, "401820", 1335763765, "401820", "{\n}", "25 Lake St", "Arguello", "From the east property line 22' west", "22", "S", " ", " ", null, [ null, "37.78683", "-122.45944", null, false ] ]
+, [ 289, "0C23ECD2-E5E6-463E-AD03-E85260188539", 289, 1335763765, "401820", 1335763765, "401820", "{\n}", "22 Lake St", "Arguello", "From the northwest corner 22' west", "22", "N", " ", " ", null, [ null, "37.78721", "-122.4594", null, false ] ]
+, [ 290, "C5C120D6-E3FA-4701-9EA1-A325EA670FFE", 290, 1335763765, "401820", 1335763765, "401820", "{\n}", "2300 Sutter St", "Scott", "From Scott to 20' west", "20", "N", " ", " ", null, [ null, "37.78549", "-122.43839", null, false ] ]
+, [ 291, "8EEE443D-DC08-4ECD-B497-0773021BEBC3", 291, 1335763765, "401820", 1335763765, "401820", "{\n}", "2135 Sutter St", "Steiner", "16' west of the east property line to 38' west", "22", "S", " ", " ", null, [ null, "37.78576", "-122.43541", null, false ] ]
+, [ 292, "4657893E-4794-4D9C-9A43-0C7A0E714E82", 292, 1335763765, "401820", 1335763765, "401820", "{\n}", "2370 Sutter St", "Divisadero", "91' to 109' east of Divisadero", "18", "N", "good", " ", "1991-05-01T00:00:00", [ null, "37.78536", "-122.43943", null, false ] ]
+, [ 293, "728B4E9E-05F2-47ED-8ED9-F0C9A64EA58B", 293, 1335763765, "401820", 1335763765, "401820", "{\n}", "1002 Taraval St", "20th Ave", "3' to 23' west of 20th Ave", "20", "N", "good", " ", null, [ null, "37.74308", "-122.47697", null, false ] ]
+, [ 294, "4F701747-DE44-4316-867A-AFFAA6445FAD", 294, 1335763765, "401820", 1335763765, "401820", "{\n}", "1206 Taraval St", "22nd Ave", "8' to 26' west of 22nd Ave", "18", "N", "good", " ", "1992-05-17T00:00:00", [ null, "37.74298", "-122.47913", null, false ] ]
+, [ 295, "5451FC21-282F-4BB4-BC8D-C33F2FD0E008", 295, 1335763765, "401820", 1335763765, "401820", "{\n}", "504 Taylor St", "Geary", "6' to 28' north of Geary", "22", "E", "good", " ", "1992-08-21T00:00:00", [ null, "37.78711", "-122.41146", null, false ] ]
+, [ 296, "4FC219F1-4DB0-4E7F-8683-5F53E24A8F78", 296, 1335763765, "401820", 1335763765, "401820", "{\n}", "210 Taylor St", "Eddy", "22' to 44' north of Eddy", "22", "E", "good", " ", "1992-11-01T00:00:00", [ null, "37.78436", "-122.41091", null, false ] ]
+, [ 297, "D3A67ABF-8C9D-4C76-83B9-1510EF522325", 297, 1335763765, "401820", 1335763765, "401820", "{\n}", "1 Teresita", "Portola", "8' to 26' south of Portola", "18", "W", "good", " ", "1992-11-13T00:00:00", [ null, "37.74492", "-122.45212", null, false ] ]
+, [ 298, "A91A0828-0B1A-4C61-B433-D0EC29CF2D1E", 298, 1335763765, "401820", 1335763765, "401820", "{\n}", "333 Turk St", "Leavenworth", "6' to 28' east of the west property line", "22", "S", " ", " ", null, [ null, "37.78271", "-122.41426", null, false ] ]
+, [ 299, "8602BBAF-1DC6-4DF9-B09D-76DA109DF4D7", 299, 1335763765, "401820", 1335763765, "401820", "{\n}", "20 Turk St", "Mason", "3' to 25' west of Mason", "22", "N", "good", " ", "1992-11-01T00:00:00", [ null, "37.78346", "-122.40934", null, false ] ]
+, [ 300, "E6286084-3231-4A75-876B-2214006CBB46", 300, 1335763765, "401820", 1335763765, "401820", "{\n}", "102 Turk St", "Taylor", "0' to 20' west of Taylor", "20", "N", "good", " ", "1992-11-01T00:00:00", [ null, "37.78325", "-122.41097", null, false ] ]
+, [ 301, "5E15C2CA-7761-4FBC-A3BA-A90233B61287", 301, 1335763765, "401820", 1335763765, "401820", "{\n}", "100  Union St", "Battery", "160' to 182' east", "22", "N", " ", " ", null, [ null, "37.8015", "-122.40172", null, false ] ]
+, [ 302, "FDA00681-E4BE-4F00-BFDD-A9F6DA392D63", 302, 1335763765, "401820", 1335763765, "401820", "{\n}", "1900 Union St", "Laguna", "11' to 31' west of Laguna", "20", "N", "fair", " ", "1988-04-27T00:00:00", [ null, "37.79775", "-122.43076", null, false ] ]
+, [ 303, "4659F72F-0E02-4D7D-9C95-DBC7905FFC96", 303, 1335763765, "401820", 1335763765, "401820", "{\n}", "2095 Union St", "Webster", "12' to 30' east of Webster", "18", "S", "fair", " ", "1988-04-27T00:00:00", [ null, "37.79726", "-122.43363", null, false ] ]
+, [ 304, "9CA4E008-7B60-4669-A50C-8C9D41C8A571", 304, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Union St", "Battery", "0' to 18' east of Battery", "18", "S", "good", " ", "1991-06-30T00:00:00", [ null, "37.80135", "-122.40142", null, false ] ]
+, [ 305, "6A094E7C-2E9B-400C-9F11-03DAB163118E", 305, 1335763765, "401820", 1335763765, "401820", "{\n}", "333 Valencia St", "14th St", "155' to 179' south of 14th St", "24", "E", "fair", " ", "1988-04-20T00:00:00", [ null, "37.76763", "-122.42204", null, false ] ]
+, [ 306, "24FF6EA1-1CD7-4006-B0FC-D554DE5EEF8C", 306, 1335763765, "401820", 1335763765, "401820", "{\n}", "1602 Valencia St", "Tiffany", "5' to 24' south of Tiffany", "19", "W", "good", " ", "1992-06-19T00:00:00", [ null, "37.74636", "-122.42022", null, false ] ]
+, [ 307, "03F88125-25F0-4B13-88D6-5CE0B46F549F", 307, 1335763765, "401820", 1335763765, "401820", "{\n}", "199 Vallejo St", "Battery", "0' to 18' east of Battery", "18", "S", "good", " ", "1991-06-30T00:00:00", [ null, "37.7995", "-122.401", null, false ] ]
+, [ 308, "FCFE8DD9-EE5F-4F28-B10B-19CBE474018F", 308, 1335763765, "401820", 1335763765, "401820", "{\n}", "1420 Van Ness Av", "Austin", "2' to 22' north of Austin", "20", "E", " ", " ", null, [ null, "37.78908", "-122.4219", null, false ] ]
+, [ 309, "E5403594-DDFD-40CF-9B8D-626C01952C91", 309, 1335763765, "401820", 1335763765, "401820", "{\n}", "1142 Van Ness Av", "Cedar", "3' to 22' north of Cedar", "19", "E", "good", " ", null, [ null, "37.78629", "-122.42134", null, false ] ]
+, [ 310, "21EF7269-4792-4722-ABB3-83C7D0833A24", 310, 1335763765, "401820", 1335763765, "401820", "{\n}", "79 Van Ness Ave", "Fell", "47'-69' south of Fell", "22", "W", " ", " ", null, [ null, "37.77607", "-122.4196", null, false ] ]
+, [ 311, "EDFAEBD9-DB62-4AE2-A57E-F64F301AB481", 311, 1335763765, "401820", 1335763765, "401820", "{\n}", "505 Van Ness Ave", "McAllister", "5' to 47' north of McAllister, 6PM-11PM ONLY", "42", "W", " ", " ", null, [ null, "37.7803", "-122.42046", null, false ] ]
+, [ 312, "C5E60F97-000E-4B2C-BFB4-15556A905D15", 312, 1335763765, "401820", 1335763765, "401820", "{\n}", "234 Van Ness Ave", "Lech Walesa", "7' to 26' north of Lech Walesa", "19", "E", "good", " ", "1988-04-09T00:00:00", [ null, "37.77772", "-122.41961", null, false ] ]
+, [ 313, "AB131563-4B26-4500-B986-9E7BF8BFA32F", 313, 1335763765, "401820", 1335763765, "401820", "{\n}", "595 Van Ness Ave", "Golden Gate", "6' to 26' south of Golden Gate", "20", "W", "good", " ", "1991-06-30T00:00:00", [ null, "37.78088", "-122.42057", null, false ] ]
+, [ 314, "51523E35-30E1-4F2E-B69A-500D70CB37C9", 314, 1335763765, "401820", 1335763765, "401820", "{\n}", "30 Van Ness Ave", "Market", "161' to 187' north of Market", "26", "E", "good", " ", "1991-06-30T00:00:00", [ null, "37.77596", "-122.41926", null, false ] ]
+, [ 315, "53AAC85A-CE8A-4946-8F2B-E2D06CF87EB4", 315, 1335763765, "401820", 1335763765, "401820", "{\n}", "401 Van Ness Ave", "McAllister", "162' to 184' south of McAllister", "22", "W", "good", " ", "1993-02-11T00:00:00", [ null, "37.77966", "-122.42039", null, false ] ]
+, [ 316, "ABF828C3-FDA1-4B9B-81AD-40993B89AF24", 316, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Vermont St", "Alameda", "0-18' north of Alameda", "18", "E", " ", " ", null, [ null, "37.76868", "-122.4048", null, false ] ]
+, [ 317, "5A0627B8-972B-458E-A00B-49BCFC543275", 317, 1335763765, "401820", 1335763765, "401820", "{\n}", "430 Walnut St", "Sacramento", "98' to 116' south of Sacramento", "18", "E", "good", " ", "1988-04-08T00:00:00", [ null, "37.78767", "-122.44853", null, false ] ]
+, [ 318, "0643EDE2-72B2-4A41-988A-B65809EE588F", 318, 1335763765, "401820", 1335763765, "401820", "{\n}", "1525 Silver Av", "Barneveld", "90' to 112' east of Barneveld", "22", "N", "poor", " ", "1988-04-08T00:00:00", [ null, "37.73224", "-122.40643", null, false ] ]
+, [ 319, "B1905131-EA00-4ED4-A03B-773ED8DFD1FF", 319, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Starr King Way", "Franklin", "From the west side of parking bay to 25' east", "25", "N", "good", " ", null, [ null, "37.78462", "-122.42316", null, false ] ]
+, [ 320, "E10F00D5-9B52-44F8-8A93-1EBD2A3291B9", 320, 1335763765, "401820", 1335763765, "401820", "{\n}", "Stonecrest", "Winston", "0' to 18' south of Winston", "18", "W", "good", " ", "1992-04-18T00:00:00", [ null, "37.72679", "-122.47428", null, false ] ]
+, [ 321, "07E76B4B-5714-458D-AAFF-01717FF9122A", 321, 1335763765, "401820", 1335763765, "401820", "{\n}", "191 Van Ness Ave", "Hayes", "7' to 30' south of Hayes", "23", "W", " ", " ", null, [ null, "37.77713", "-122.41982", null, false ] ]
+, [ 322, "205F7025-4D44-4989-AAC1-B5E9AC250610", 322, 1335763765, "401820", 1335763765, "401820", "{\n}", "2490 Washington St", "Fillmore", "8' to 30' east of Fillmore", "22", "S", "good", " ", "1993-05-26T00:00:00", [ null, "37.79156", "-122.43417", null, false ] ]
+, [ 323, "862AEC54-BD57-469F-B684-8FE3784E1C54", 323, 1335763765, "401820", 1335763765, "401820", "{\n}", "620 Washington St", "Columbus", "27' to 45' west of Columbus", "18", "N", "good", " ", "1993-08-25T00:00:00", [ null, "37.79555", "-122.40364", null, false ] ]
+, [ 324, "4B273414-183D-4B41-BEE8-B13A1AA279E0", 324, 1335763765, "401820", 1335763765, "401820", "{\n}", "550 Washington St", "Hotaling", "7' to 29' west of Hotaling", "22", "N", "good", " ", "1993-08-25T00:00:00", [ null, "37.79564", "-122.40286", null, false ] ]
+, [ 325, "CFFCE3CD-923D-4D00-9D91-40CE37150CC9", 325, 1335763765, "401820", 1335763765, "401820", "{\n}", "710 Washington St", "Kearny", "2' to 20' west of Kearny", "18", "N", "good", " ", "1993-08-25T00:00:00", [ null, "37.79535", "-122.40517", null, false ] ]
+, [ 326, "78708ACB-E4DB-4BDC-9784-80051841F364", 326, 1335763765, "401820", 1335763765, "401820", "{\n}", "1001 Webster St", "Golden Gate", "44' to 66' north of Golden Gate on Webster", "22", "W", " ", " ", null, [ null, "37.77987", "-122.43042", null, false ] ]
+, [ 327, "769313D1-D56A-46A1-ABB4-0F6C80CD03E1", 327, 1335763765, "401820", 1335763765, "401820", "{\n}", "1510 Webster St", "Geary", "2' to 22' north of Geary", "20", "E", "good", " ", "1991-06-30T00:00:00", [ null, "37.78489", "-122.43111", null, false ] ]
+, [ 328, "E4E892A8-DF5E-444C-A251-5AB127B239EB", 328, 1335763765, "401820", 1335763765, "401820", "{\n}", "174 West Portal Ave", "Vicente", "off-street public parking lot", "20", "N", " ", " ", "1990-02-14T00:00:00", [ null, "37.73895", "-122.46772", null, false ] ]
+, [ 329, "4975B260-3E37-4820-9804-4D3A87B516C9", 329, 1335763765, "401820", 1335763765, "401820", "{\n}", "300 West Portal Ave", "14th Ave", "14' angled stall replacing parking meter no. 304", "14", "N", "good", " ", "1991-07-18T00:00:00", [ null, "37.7379", "-122.46932", null, false ] ]
+, [ 330, "76AB59E8-C6E1-4701-BEBE-F70E30DC5E62", 330, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 West Portal Ave", "Vicente", "14' angled stall replacing parking meter no. 57", "14", "S", "good", " ", "1991-07-31T00:00:00", [ null, "37.73983", "-122.46672", null, false ] ]
+, [ 331, "8EAA3D5A-56DB-4FED-B98F-5C33D86C3B2B", 331, 1335763765, "401820", 1335763765, "401820", "{\n}", "15 West Portal Av", "Ulloa", "From the north property line 14' north", "14", "E", " ", " ", "1991-10-10T00:00:00", [ null, "37.74064", "-122.46588", null, false ] ]
+, [ 332, "6D1B11CD-B8A7-48EA-BAB2-06CF34C16257", 332, 1335763765, "401820", 1335763765, "401820", "{\n}", "399 Willow St", "Gough", "20' to 42' east of Gough on Willow", "22", " ", " ", " ", null, [ null, "37.78285", "-122.4241", null, false ] ]
+, [ 333, "352959DF-B55D-4023-9514-9E64A745BFA2", 333, 1335763765, "401820", 1335763765, "401820", "{\n}", "20 Woodside Av", " ", "From west building line 22' west", "22", " ", " ", " ", null, [ null, "37.74674", "-122.45836", null, false ] ]
+, [ 334, "EF0998D4-F0DC-4AB3-B3AB-70EC8E87D121", 334, 1335763765, "401820", 1335763765, "401820", "{\n}", "1706 Yosemite St", "Lane", "0-18' west of Lane St", "18", "S", " ", " ", null, [ null, "37.72808", "-122.39362", null, false ] ]
+, [ 335, "AA81632B-F7F2-4237-9865-9BEF3296988E", 335, 1335763765, "401820", 1335763765, "401820", "{\n}", "700 Parker Av", "McAllister", "6' to 15' south of McAllister", "9", "E", "good", " ", "1993-10-01T00:00:00", [ null, "37.77575", "-122.45287", null, false ] ]
+, [ 336, "B469C80D-2E1B-4F42-8D97-B302F53C9712", 336, 1335763765, "401820", 1335763765, "401820", "{\n}", "601 Parker St", "Turk", "11' to 20' south of Turk", "9", "W", "good", " ", "1994-03-03T00:00:00", [ null, "37.7768", "-122.45328", null, false ] ]
+, [ 337, "84D65108-691F-4F5D-9E8E-9072957CC611", 337, 1335763765, "401820", 1335763765, "401820", "{\n}", "600 Parnassus Av", "3rd Ave", "22' to 40' west of 3rd Ave crosswalk", "18", "S", "good", " ", null, [ null, "37.76293", "-122.45953", null, false ] ]
+, [ 338, "AE8EBDFE-A700-4655-9B05-1D51448E8E52", 338, 1335763765, "401820", 1335763765, "401820", "{\n}", "490 Parnassus Av", "3rd Ave", "242' to 267' east of 3rd Ave", "25", "N", "good", " ", null, [ null, "37.76327", "-122.45886", null, false ] ]
+, [ 339, "D46973E7-E5F9-4070-9ECE-04F2BB95D4AB", 339, 1335763765, "401820", 1335763765, "401820", "{\n}", "400 Parnassus Av", "Arguello", "28' to 50' east of west end of parking bay", "22", " ", " ", " ", null, [ null, "37.7637", "-122.45742", null, false ] ]
+, [ 340, "832C7B5B-DF61-44EF-94D5-00FF1AF49DBF", 340, 1335763765, "401820", 1335763765, "401820", "{\n}", "400 Parnassus Av", "Arguello", "From west end of parking bay 22' east", "22", " ", " ", " ", null, [ null, "37.76372", "-122.45736", null, false ] ]
+, [ 341, "2F3A07CE-3934-43C2-BE2D-A3B878E69A8C", 341, 1335763765, "401820", 1335763765, "401820", "{\n}", "350 Parnassus Av", "Willard", "30' to 52' west of east property line", "22", " ", " ", " ", null, [ null, "37.76406", "-122.45605", null, false ] ]
+, [ 342, "C37822DA-2BC3-4031-AC63-65B85C89833F", 342, 1335763765, "401820", 1335763765, "401820", "{\n}", "30 Pearl St", "Pink Alley", "21' to 42' north of Pink Alley", "21", " ", " ", " ", null, [ null, "37.7708", "-122.42396", null, false ] ]
+, [ 343, "E687F090-C337-479B-B498-8A4813237DA2", 343, 1335763765, "401820", 1335763765, "401820", "{\n}", "1301 Pierce St", "Ellis", "From the northwest corner 22' north", "22", "W", " ", " ", null, [ null, "37.78225", "-122.43593", null, false ] ]
+, [ 344, "8623577F-6FDF-403B-8DF8-E98E8B04C6C1", 344, 1335763765, "401820", 1335763765, "401820", "{\n}", "810 Pierce St", "McAllister", "16' to 38' north of the south building line", "22", "E", " ", " ", null, [ null, "37.77774", "-122.43488", null, false ] ]
+, [ 345, "C6D5D200-B11B-4329-A48B-6DCE3890BAD9", 345, 1335763765, "401820", 1335763765, "401820", "{\n}", "810 Pierce St", "McAllister", "38' to 60' north of the south building line", "22", "E", " ", " ", null, [ null, "37.77774", "-122.43488", null, false ] ]
+, [ 346, "51A18CA1-E16D-4AEC-98A8-B6AC9FF2F6A4", 346, 1335763765, "401820", 1335763765, "401820", "{\n}", "3252 Pierce St", "Chestnut", "replace meter Mar. G1#1-8 (5 blue spaces)", "10", "E", " ", "607-32240", "1990-04-30T00:00:00", [ null, "37.80008", "-122.4394", null, false ] ]
+, [ 347, "BB7AF130-B4F4-4257-B160-18D3377BD3D4", 347, 1335763765, "401820", 1335763765, "401820", "{\n}", "2707 Pine St", "Divisadero", "49' to 71' west of east property line", "22", "S", " ", " ", null, [ null, "37.78701", "-122.44051", null, false ] ]
+, [ 348, "C41CA1F8-AA8C-4D84-A360-992C0D39A2E6", 348, 1335763765, "401820", 1335763765, "401820", "{\n}", "1402 Pine St", "Larkin", "0' to 20' west of Larkin", "20", "N", "good", " ", "1991-02-26T00:00:00", [ null, "37.78987", "-122.41902", null, false ] ]
+, [ 349, "0AB9491E-722E-4F76-9FD5-7E494F564EEF", 349, 1335763765, "401820", 1335763765, "401820", "{\n}", "1434 Polk St", "California", "8' to 30' south of California", "22", "W", " ", " ", null, [ null, "37.79038", "-122.42072", null, false ] ]
+, [ 350, "C0E26EE2-E144-48F9-BF92-A0273E135FED", 350, 1335763765, "401820", 1335763765, "401820", "{\n}", "99 Polk St", "Hayes", "10' to 28' south of Hayes", "18", "W", "good", " ", "1988-05-12T00:00:00", [ null, "37.77733", "-122.41809", null, false ] ]
+, [ 351, "F748FCE3-F762-4C6E-8B0B-D8514E45F6D0", 351, 1335763765, "401820", 1335763765, "401820", "{\n}", "575 Polk St", "Turk", "4' to 25' south of Turk", "21", "W", "good", " ", "1988-05-25T00:00:00", [ null, "37.78201", "-122.41904", null, false ] ]
+, [ 352, "A292ED73-83C0-43EB-998B-49ABE5EDA9AD", 352, 1335763765, "401820", 1335763765, "401820", "{\n}", "799 Polk St", "Ellis", "3' to 26' south of Ellis", "23", "W", "good", " ", "1992-06-04T00:00:00", [ null, "37.78386", "-122.41941", null, false ] ]
+, [ 353, "3C48E8D4-89C1-48A0-A21B-9B116C95C654", 353, 1335763765, "401820", 1335763765, "401820", "{\n}", "2302 Polk St", "Green", "0' to 21' north of Green", "21", "E", "good", " ", "1992-06-04T00:00:00", [ null, "37.79797", "-122.4221", null, false ] ]
+, [ 354, "FE7F9DE7-DEA5-4A3B-B986-E1FE82D4D84B", 354, 1335763765, "401820", 1335763765, "401820", "{\n}", "125 Polk St", "Hemlock", "6' to 28' south of Hemlock", "22", "W", "good", " ", "1992-06-04T00:00:00", [ null, "37.77789", "-122.41821", null, false ] ]
+, [ 355, "DFA0DAA7-6236-4177-9350-3F69FA8439B1", 355, 1335763765, "401820", 1335763765, "401820", "{\n}", "1591 Polk St", "Sacramento", "14' to 36' south of Sacramento", "22", "W", "good", " ", "1992-06-04T00:00:00", [ null, "37.79135", "-122.42092", null, false ] ]
+, [ 356, "A18CF29D-0C0C-43E3-9F4F-B865F630ADF5", 356, 1335763765, "401820", 1335763765, "401820", "{\n}", "549 Polk St", "Elm", "6' to 26' south of Elm", "20", "W", "good", " ", "1993-03-26T00:00:00", [ null, "37.78161", "-122.41896", null, false ] ]
+, [ 357, "5F5C2404-5C13-49E2-8BAE-1D5CDFF4341E", 357, 1335763765, "401820", 1335763765, "401820", "{\n}", "491 Polk St", "Golden Gate", "10' to 52' south of Golden Gate", "42", "W", "good", " ", "1994-03-12T00:00:00", [ null, "37.7811", "-122.41886", null, false ] ]
+, [ 358, "88E090A9-035D-424F-B3C3-0E33AD5DAB60", 358, 1335763765, "401820", 1335763765, "401820", "{\n}", "693 Portola", "Fowler", "replacing parking meter # 693 (angled stall)", "12", "S", "good", " ", "1992-04-17T00:00:00", [ null, "37.7445", "-122.45302", null, false ] ]
+, [ 359, "2471E619-B1C8-4887-A2E1-BD9CF6807C6C", 359, 1335763765, "401820", 1335763765, "401820", "{\n}", "250 Post St", "Grant", "24' to 46' west of east property line", "22", "N", " ", " ", null, [ null, "37.78867", "-122.40502", null, false ] ]
+, [ 360, "E25A89F2-2F88-452B-988D-02D7F6C69147", 360, 1335763765, "401820", 1335763765, "401820", "{\n}", "101 Post St", "Kearny", "27' to 51' west of Kearny", "24", "S", "good", " ", null, [ null, "37.78881", "-122.40387", null, false ] ]
+, [ 361, "8D1C543B-EE5B-43B7-8037-B0A96E35F843", 361, 1335763765, "401820", 1335763765, "401820", "{\n}", "390 Post St", "Powell", "28' to 50' east of Powell", "22", "N", "good", " ", null, [ null, "37.78838", "-122.40815", null, false ] ]
+, [ 362, "09B4D4CA-CF89-4B50-B89D-AF20157CD00F", 362, 1335763765, "401820", 1335763765, "401820", "{\n}", "239 Post St", "Stockton", "0 to 26' east of Stockton", "26", "S", " ", " ", null, [ null, "37.78847", "-122.40659", null, false ] ]
+, [ 363, "4BD46600-75E4-4D15-AA0E-E61B234B2467", 363, 1335763765, "401820", 1335763765, "401820", "{\n}", "585 Post St", "Taylor", "80' to 98' east of Taylor", "18", "S", "poor", " ", null, [ null, "37.78787", "-122.4113", null, false ] ]
+, [ 364, "A013E523-8928-4557-83CF-A2E4F6200EA0", 364, 1335763765, "401820", 1335763765, "401820", "{\n}", "2302 Post St", "Divisadero", "0' to 20' west of Divisadero", "20", "N", "good", " ", "1991-06-30T00:00:00", [ null, "37.78436", "-122.43987", null, false ] ]
+, [ 365, "75C69F79-3D94-4BA6-9870-C15BD70B2589", 365, 1335763765, "401820", 1335763765, "401820", "{\n}", "1890 Post St", "Fillmore", "15' to 35' east of Fillmore", "20", "S", "good", " ", "1991-06-30T00:00:00", [ null, "37.78512", "-122.43284", null, false ] ]
+, [ 366, "25B9A84F-FBA2-4C68-8E0B-C40E67B25B6C", 366, 1335763765, "401820", 1335763765, "401820", "{\n}", "111 Potrero Ave", "Alameda", "0-26' north of south property line", "26", "E", " ", " ", "1990-04-30T00:00:00", [ null, "37.7682", "-122.40765", null, false ] ]
+, [ 367, "94DDA940-9CA0-44FF-A9A6-B74FAD6DF16B", 367, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Powell St", "Jackson", "10' to 32' north of Jackson", "22", "E", " ", " ", null, [ null, "37.79579", "-122.40984", null, false ] ]
+, [ 368, "AD05D5E5-FD89-40F1-91C5-FACA23D66A84", 368, 1335763765, "401820", 1335763765, "401820", "{\n}", "1179 Powell St", "Jackson", "49' to 69' south of Jackson", "20", "W", " ", " ", null, [ null, "37.79538", "-122.40994", null, false ] ]
+, [ 369, "28395FDA-89DE-414A-85CD-1BEE7D69C370", 369, 1335763765, "401820", 1335763765, "401820", "{\n}", "940 Powell St", "Sacramento", "22' to 44' north of the south building line", "22", "E", " ", " ", null, [ null, "37.79348", "-122.40938", null, false ] ]
+, [ 370, "B32DC616-48C2-4392-9EF4-1BE4F1073CAF", 370, 1335763765, "401820", 1335763765, "401820", "{\n}", "1400 Powell St", "Vallejo", "67' to 85' south of Vallejo", "18", "E", " ", " ", null, [ null, "37.79811", "-122.41032", null, false ] ]
+, [ 371, "1126DD87-02B1-425A-9DE0-59F534005A77", 371, 1335763765, "401820", 1335763765, "401820", "{\n}", "229 Powell St", "Geary", "13-31' south of Geary", "18", "W", " ", " ", "1990-12-19T00:00:00", [ null, "37.78719", "-122.40826", null, false ] ]
+, [ 372, "206D5F64-8666-4C5F-B58E-00E8874ED948", 372, 1335763765, "401820", 1335763765, "401820", "{\n}", "402 Powell St", "Post", "north of Post Street", "0", " ", " ", " ", "1991-01-14T00:00:00", [ null, "37.78847", "-122.40838", null, false ] ]
+, [ 373, "AF911BDC-893F-4724-9684-3F31FFFBCA0D", 373, 1335763765, "401820", 1335763765, "401820", "{\n}", "1702 Powell St", "Green", "0' to 22' north of Green", "22", "E", "good", " ", "1994-04-19T00:00:00", [ null, "37.79947", "-122.41061", null, false ] ]
+, [ 374, "D54D02D9-5820-4BD7-9693-DC568B70B050", 374, 1335763765, "401820", 1335763765, "401820", "{\n}", "355 Precita Avenue", "Harrison", "12-30' west of Harrison", "18", "N", " ", " ", "1990-04-30T00:00:00", [ null, "37.74733", "-122.41158", null, false ] ]
+, [ 375, "FFB2FB0D-1368-4A4D-82DE-0F972D5B0F12", 375, 1335763765, "401820", 1335763765, "401820", "{\n}", "446 Randolph Street", "Ramsell", "0-18' west of Ramsell", "18", "N", " ", " ", "1990-04-30T00:00:00", [ null, "37.71436", "-122.46633", null, false ] ]
+, [ 376, "9FA747AC-EA43-4A32-AA29-E20D65A2C391", 376, 1335763765, "401820", 1335763765, "401820", "{\n}", "101 Redwood St", "Polk", "2' to 24' west of Polk", "22", "S", "good", " ", "1988-04-08T00:00:00", [ null, "37.78104", "-122.41884", null, false ] ]
+, [ 377, "A0224B5B-1A69-405B-8605-6B055D583C75", 377, 1335763765, "401820", 1335763765, "401820", "{\n}", "3602 Sacramento St", "Locust", "3' to 25' east of Locust", "22", "N", " ", " ", null, [ null, "37.78758", "-122.45216", null, false ] ]
+, [ 378, "446615A9-FD08-4AEF-93E2-88E8EC35909C", 378, 1335763765, "401820", 1335763765, "401820", "{\n}", "3801 Sacramento St", "Maple", "9' to 53' west of east property line", "44", "S", " ", " ", null, [ null, "37.78706", "-122.45544", null, false ] ]
+, [ 379, "9D948DAF-09DA-413C-80A8-34A3C33001F7", 379, 1335763765, "401820", 1335763765, "401820", "{\n}", "2450 Sacramento St", "Webster", "0' to 19' west of Webster", "19", "N", "good", " ", "1994-09-16T00:00:00", [ null, "37.79008", "-122.43257", null, false ] ]
+, [ 380, "342D815C-B733-40DB-9842-3EC8E23ED8C2", 380, 1335763765, "401820", 1335763765, "401820", "{\n}", "32 Ocean Av", "Persia", "4' to 22' east of Persia", "18", "N", " ", " ", null, [ null, "37.72388", "-122.43626", null, false ] ]
+, [ 381, "00756D2E-0D0B-4381-9680-92D02A6AAED1", 381, 1335763765, "401820", 1335763765, "401820", "{\n}", "700 Parker Av", "McAllister", "9' north from nrth side of Xwalk at McAllister 90d", "9", "E", " ", " ", null, [ null, "37.77566", "-122.45285", null, false ] ]
+, [ 382, "880C2F38-4968-4ABF-930A-6970098AD4F0", 382, 1335763765, "401820", 1335763765, "401820", "{\n}", "707 Parnassus Av", "4th Ave", "From meter PNS 707 36' east", "36", " ", " ", " ", null, [ null, "37.76252", "-122.461", null, false ] ]
+, [ 383, "F1AA2579-0D37-44B0-9880-BE76B0D980B7", 383, 1335763765, "401820", 1335763765, "401820", "{\n}", "2450 San Bruno", "Silliman", "15' to 33' south of Silliman", "18", "W", "good", " ", "1992-02-28T00:00:00", [ null, "37.73107", "-122.4051", null, false ] ]
+, [ 384, "B93ACD7B-8FDB-49BD-A9A9-B76554AE4A43", 384, 1335763765, "401820", 1335763765, "401820", "{\n}", "399 San Fernando Way", "Ocean", "From the north building to 27' south", "27", " ", " ", " ", null, [ null, "37.7309", "-122.4697", null, false ] ]
+, [ 385, "AC1D86E9-6694-4EEF-B85C-359A5EE494B4", 385, 1335763765, "401820", 1335763765, "401820", "{\n}", "305 San Fernando Way", "Darien", "12' to 30' south of Darien", "18", "W", "good", " ", "1992-09-24T00:00:00", [ null, "37.73179", "-122.46967", null, false ] ]
+, [ 386, "D48AA542-9324-471D-A8A1-BFA2F978A140", 386, 1335763765, "401820", 1335763765, "401820", "{\n}", "1308 Sansome St", "Filbert", "By ramp that leads to Plaza", "22", "E", " ", " ", null, [ null, "37.80241", "-122.40294", null, false ] ]
+, [ 387, "0DA14826-02EE-487A-817F-97C4E11AC156", 387, 1335763765, "401820", 1335763765, "401820", "{\n}", "1200 Sansome St", "Union", "1st parking place north of Union", "22", "E", " ", " ", null, [ null, "37.80139", "-122.40274", null, false ] ]
+, [ 388, "BF99392A-E550-4D85-B2A5-EB9E6D7B52AB", 388, 1335763765, "401820", 1335763765, "401820", "{\n}", "2 Scott Street", "Duboce", "0 to 22' north of Duboce", "0", " ", " ", " ", null, [ null, "37.76926", "-122.43485", null, false ] ]
+, [ 389, "DC8B042D-9487-42BA-9E4D-BAB6DC227F82", 389, 1335763765, "401820", 1335763765, "401820", "{\n}", "207 Skyline Blvd", " ", "From main gate 33' east", "33", " ", " ", " ", null, [ null, "37.72865", "-122.50176", null, false ] ]
+, [ 390, "9923B8DF-D734-4CC7-AC99-3F5C410F989D", 390, 1335763765, "401820", 1335763765, "401820", "{\n}", "2800 Sloat Blvd", "Zoo", "10' diag pkg spaces west of main zoo entrance", "0", "S", "good", " ", null, [ null, "37.73528", "-122.50406", null, false ] ]
+, [ 391, "F869401B-A838-449B-969C-1E76CCD1A3E2", 391, 1335763765, "401820", 1335763765, "401820", "{\n}", "2800 Sloat Blvd", "45th Ave", "0' to 22' east of 45th Ave", "22", "S", "good", " ", "1992-04-24T00:00:00", [ null, "37.73528", "-122.50403", null, false ] ]
+, [ 392, "7107DD05-04FC-48A5-B1D2-56DE8E0F4BAA", 392, 1335763765, "401820", 1335763765, "401820", "{\n}", "301 Spear St", "Folsom", "Folsom to 22' south", "22", "E", " ", " ", null, [ null, "37.79016", "-122.3907", null, false ] ]
+, [ 393, "7FAAB48D-024B-4157-B346-A2C95F96283A", 393, 1335763765, "401820", 1335763765, "401820", "{\n}", "50 Spear St", "Mission", "134' to 156' north of Mission", "22", "W", " ", " ", null, [ null, "37.79285", "-122.39458", null, false ] ]
+, [ 394, "5D4751FF-87C5-4A71-A64B-92F59F0FE5C1", 394, 1335763765, "401820", 1335763765, "401820", "{\n}", "200 Spear St", "Howard", "0' to 22' south of Howard", "22", "W", "good", " ", "1991-08-20T00:00:00", [ null, "37.79114", "-122.39243", null, false ] ]
+, [ 395, "FF0BFF71-D354-4DE3-B2D5-BBE61406701E", 395, 1335763765, "401820", 1335763765, "401820", "{\n}", "304 St. Joseph's Av", "Geary", "0 to 51' north of north crosswalk", "51", "E", " ", " ", null, [ null, "37.78241", "-122.44182", null, false ] ]
+, [ 396, "25DB67CF-2EBE-41A3-A6FF-C92A8A30FA33", 396, 1335763765, "401820", 1335763765, "401820", "{\n}", "350 St. Joseph's Av", "O'Farrell", "4' to 26' north of O'Farrell", "22", "E", " ", " ", null, [ null, "37.78244", "-122.4419", null, false ] ]
+, [ 397, "96385BEA-B1B8-421F-85DF-F07B247D8F64", 397, 1335763765, "401820", 1335763765, "401820", "{\n}", "785 Stanyan St", "Beulah", "3' to 25' north of Beulah", "22", " ", " ", " ", null, [ null, "37.76812", "-122.45343", null, false ] ]
+, [ 398, "85CD232B-32B3-447E-9E35-B292B12E4250", 398, 1335763765, "401820", 1335763765, "401820", "{\n}", "180 Steuart St", "Howard", "5' to 29' north of Howard", "24", "E", "good", " ", null, [ null, "37.79206", "-122.39184", null, false ] ]
+, [ 399, "2F4F6136-3D95-45AB-8ED2-C24756A07AC2", 399, 1335763765, "401820", 1335763765, "401820", "{\n}", "1520 Stockton St", "Green", "From north property line 22' south", "22", "E", " ", " ", null, [ null, "37.79999", "-122.40903", null, false ] ]
+, [ 400, "C3FA1A7D-3C6D-4B18-9BC3-F66D75B943A2", 400, 1335763765, "401820", 1335763765, "401820", "{\n}", "1602 Stockton St", "Union", "0' to 18' north of Union", "18", "E", " ", " ", "1991-06-11T00:00:00", [ null, "37.8006", "-122.40915", null, false ] ]
+, [ 401, "51A486F4-B6C8-4AF7-A4D1-3F16B9E4B205", 401, 1335763765, "401820", 1335763765, "401820", "{\n}", "Franklin", "Fell", "NE corner of intersection", "0", "E", " ", " ", null, [ null, "37.77639", "-122.4211", null, false ] ]
+, [ 402, "9993EB8F-C17D-4B46-89A2-5B4BB2B2FC71", 402, 1335763765, "401820", 1335763765, "401820", "{\n}", "Grove", "Van Ness", "SW corner of intersection", "0", "S", " ", " ", null, [ null, "37.77809", "-122.42051", null, false ] ]
+, [ 403, "5AC422C6-931F-4D64-BF06-47B3483E3413", 403, 1335763765, "401820", 1335763765, "401820", "{\n}", "Grove", " ", " ", "0", " ", " ", " ", null, [ null, "37.7781", "-122.42043", null, false ] ]
+, [ 404, "8AD3F83A-79FA-4D71-995B-2514D32B40F2", 404, 1335763765, "401820", 1335763765, "401820", "{\n}", "Grove", " ", " ", "0", " ", " ", " ", null, [ null, "37.7781", "-122.42037", null, false ] ]
+, [ 405, "9E71E6E0-16D1-415F-A5D0-CA7D9AA17E48", 405, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77876", "-122.41691", null, false ] ]
+, [ 406, "8C120DB3-EED7-4FB1-A264-32220892853A", 406, 1335763765, "401820", 1335763765, "401820", "{\n}", "McAllister", " ", " ", "0", " ", " ", " ", null, [ null, "37.78", "-122.42057", null, false ] ]
+, [ 407, "E6D88D97-5C5A-41A0-8189-0553259F644C", 407, 1335763765, "401820", 1335763765, "401820", "{\n}", "McAllister", " ", " ", "0", " ", " ", " ", null, [ null, "37.78001", "-122.42049", null, false ] ]
+, [ 408, "EAA76F43-997D-47E1-8B9A-81ECA850630C", 408, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77966", "-122.42", null, false ] ]
+, [ 409, "6ADBFDB8-387A-49DF-9A5C-80DE96DD9DCC", 409, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78128", "-122.42247", null, false ] ]
+, [ 410, "CBD004B7-44BA-4604-A121-7B149303CE36", 410, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78252", "-122.41729", null, false ] ]
+, [ 411, "A0600A0A-5FF5-432D-B237-9FDD82F78C8F", 411, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77947", "-122.41655", null, false ] ]
+, [ 412, "010D3106-A611-4886-AE8B-676644E95EEF", 412, 1335763765, "401820", 1335763765, "401820", "{\n}", "Grove", " ", " ", "0", " ", " ", " ", null, [ null, "37.77861", "-122.41635", null, false ] ]
+, [ 413, "F39ACEB8-3229-4639-905C-8AC3BAEDB8D1", 413, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78888", "-122.38921", null, false ] ]
+, [ 414, "43AAFAB2-176D-44AC-B387-096578A330A6", 414, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78336", "-122.39412", null, false ] ]
+, [ 415, "7401AA66-A1E1-444A-827E-82F44F075983", 415, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78167", "-122.39201", null, false ] ]
+, [ 416, "8171876D-4963-450A-922E-AAB3C20405F0", 416, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78146", "-122.40061", null, false ] ]
+, [ 417, "1E82CAE9-A2F8-40A8-808C-F429AB00768A", 417, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78106", "-122.40011", null, false ] ]
+, [ 418, "7BD834A0-637F-4A99-A0F7-E29F83FE1EC1", 418, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77997", "-122.40287", null, false ] ]
+, [ 419, "2B346E68-FC77-453F-B414-24D182E139DA", 419, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77804", "-122.39363", null, false ] ]
+, [ 420, "F99EFFC9-C630-4BDD-8560-362F2281ABF0", 420, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78509", "-122.39826", null, false ] ]
+, [ 421, "15A92E23-C2BD-491E-89B2-7CF7C180A15F", 421, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78697", "-122.39836", null, false ] ]
+, [ 422, "13E3DD7C-7F13-4821-8D25-7A7D1DE2F85D", 422, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78781", "-122.39968", null, false ] ]
+, [ 423, "487F0FC6-42CD-48DB-9CA4-A3EC51B2B787", 423, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79004", "-122.3992", null, false ] ]
+, [ 424, "7C2479E2-D9B1-43BB-A03E-DA6DD15BB7CF", 424, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78923", "-122.39722", null, false ] ]
+, [ 425, "0EB4FB5E-4600-4FBD-8039-42BB357A81A8", 425, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78971", "-122.39417", null, false ] ]
+, [ 426, "69DECF0E-9261-4EA5-98B2-A80F58937E65", 426, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7933", "-122.39295", null, false ] ]
+, [ 427, "BDF53F96-8AAE-4A3B-806D-7AAE33BEA97C", 427, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79466", "-122.39793", null, false ] ]
+, [ 428, "E1535E12-4CCA-427F-A5D4-E0B449DE89E3", 428, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7963", "-122.39668", null, false ] ]
+, [ 429, "86192D66-53F8-4062-8CC4-E3AD87744A11", 429, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79415", "-122.40465", null, false ] ]
+, [ 430, "BE53FF59-93C5-42CD-90C3-872695F678A0", 430, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79101", "-122.40079", null, false ] ]
+, [ 431, "1CEAD8EE-76AE-4931-8440-35011DCDAC0C", 431, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78499", "-122.42916", null, false ] ]
+, [ 432, "9A89BD76-628A-48F2-89E9-70DC37441B40", 432, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7856", "-122.43008", null, false ] ]
+, [ 433, "6A9659B8-ABA1-4F58-BED3-8CDF4F4FFA92", 433, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78611", "-122.43348", null, false ] ]
+, [ 434, "D1680CD2-43D1-4F60-A633-26D3A9DDDC9F", 434, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78759", "-122.43351", null, false ] ]
+, [ 435, "1ABB311E-FB0A-4FE2-93D4-BC8B56C6DF0A", 435, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78988", "-122.43244", null, false ] ]
+, [ 436, "90F5085B-6439-4618-88E8-816ABBDD94AD", 436, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7911", "-122.43251", null, false ] ]
+, [ 437, "F400AFC0-237B-4A77-A482-116D90AC47DB", 437, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79096", "-122.43272", null, false ] ]
+, [ 438, "F6019683-8D5E-4323-815B-18288AFB8CE3", 438, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80632", "-122.42355", null, false ] ]
+, [ 439, "724CFCB9-6169-4DBE-BF16-B8F71EF32321", 439, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.8064", "-122.422", null, false ] ]
+, [ 440, "4E1895EC-6056-42ED-91A1-BEA1E9A2BF32", 440, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80555", "-122.42212", null, false ] ]
+, [ 441, "31DF6A43-7432-423F-A01F-10AE47C7D6D7", 441, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.8071", "-122.41746", null, false ] ]
+, [ 442, "8DB3611F-41EB-4D78-B7BB-558541479A95", 442, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76581", "-122.42186", null, false ] ]
+, [ 443, "E3FCE545-B689-4852-89CB-413871DD307F", 443, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76494", "-122.41876", null, false ] ]
+, [ 444, "5167FF9B-4467-415B-B896-C4BDC75F6B66", 444, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76348", "-122.41976", null, false ] ]
+, [ 445, "D9B0AAE4-AB83-4FF4-A6E5-F29700FABD7C", 445, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7586", "-122.41883", null, false ] ]
+, [ 446, "E6C718B1-620E-4624-B3BE-579A5801612D", 446, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75749", "-122.41903", null, false ] ]
+, [ 447, "789B52E2-B553-4BCE-BFB6-FCBB2A3BAC5F", 447, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75743", "-122.41903", null, false ] ]
+, [ 448, "E082B1AD-986C-42E3-B740-B99672F229D2", 448, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75532", "-122.4197", null, false ] ]
+, [ 449, "1E5865FE-8A7A-45BA-B6EA-0720C5ABEF27", 449, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75542", "-122.42002", null, false ] ]
+, [ 450, "165121F7-71AC-4B26-960D-C003B3AEDA8A", 450, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7554", "-122.41844", null, false ] ]
+, [ 451, "C779888F-FF42-48B6-A37E-D38AFCFB6011", 451, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.754", "-122.41663", null, false ] ]
+, [ 452, "ED397DF9-5AC5-4346-8E8D-861378CE9DB0", 452, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7923", "-122.3914", null, false ] ]
+, [ 453, "6153D7E9-1EC9-42E8-928C-60E24B09468F", 453, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78928", "-122.38852", null, false ] ]
+, [ 454, "BFD3201F-9014-4E2B-9903-8C0A7BECD4A9", 454, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78692", "-122.38809", null, false ] ]
+, [ 455, "459A0620-696E-43E1-9719-EC4BD327C0B5", 455, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78629", "-122.38942", null, false ] ]
+, [ 456, "04A3E68D-A6FC-4898-985F-D52A672016B9", 456, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78455", "-122.38828", null, false ] ]
+, [ 457, "732B9905-314B-48ED-B78F-59C12A6126DD", 457, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78327", "-122.38927", null, false ] ]
+, [ 458, "9933EC53-7AA3-4F60-A1A5-B69BC5985EDF", 458, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78306", "-122.3893", null, false ] ]
+, [ 459, "4431A061-05A2-4CD3-A6A7-A18E21FC5DD1", 459, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77609", "-122.3876", null, false ] ]
+, [ 460, "B42BC735-930A-4F2F-8A81-B5B33AE5DDF5", 460, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77609", "-122.38767", null, false ] ]
+, [ 461, "AF0A0B12-BAA2-41F0-A974-691B64C1A8C0", 461, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77583", "-122.38752", null, false ] ]
+, [ 462, "09D1CE63-0342-4D29-A03A-ABDBE0DF9431", 462, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77576", "-122.38752", null, false ] ]
+, [ 463, "7B521127-1909-41F2-810D-60EB6F8D9A9B", 463, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77583", "-122.38745", null, false ] ]
+, [ 464, "9FC81F5D-3D0C-4903-8EB7-6A10830CD020", 464, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77583", "-122.38759", null, false ] ]
+, [ 465, "3DC2910C-D8D3-4CD5-A573-C7A680C4F376", 465, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77575", "-122.38759", null, false ] ]
+, [ 466, "52E71D11-C03F-4E46-8C82-6DA2FB2FC4AF", 466, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77576", "-122.38745", null, false ] ]
+, [ 467, "96EB4344-5427-4C97-BEFA-24F4B8775338", 467, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79709", "-122.39544", null, false ] ]
+, [ 468, "F0B6269D-5D20-4099-8EF8-54A4511C8756", 468, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79738", "-122.39569", null, false ] ]
+, [ 469, "67014415-9D05-47B5-95F9-9FBFFD49B055", 469, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79743", "-122.39573", null, false ] ]
+, [ 470, "05AFF9AB-006C-4B4F-A25D-1A066C524D15", 470, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80057", "-122.40006", null, false ] ]
+, [ 471, "ACDEB9D3-FAF8-4FA0-A091-F6D855EE6E22", 471, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80078", "-122.39948", null, false ] ]
+, [ 472, "7AF1AF90-0D8E-48FD-9D7B-28420DA62128", 472, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80067", "-122.39917", null, false ] ]
+, [ 473, "D00C454D-25FA-4CB1-9F67-856C22978C36", 473, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80288", "-122.40114", null, false ] ]
+, [ 474, "303113A3-5A93-4DF5-A36B-1FFEA37CB8CB", 474, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80416", "-122.40291", null, false ] ]
+, [ 475, "C2ED434C-ECFE-4FEB-AF58-4FDEFC9504E9", 475, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80419", "-122.40267", null, false ] ]
+, [ 476, "7725A3B3-F5A4-47EF-9AFC-D8FC78354CA2", 476, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80555", "-122.40611", null, false ] ]
+, [ 477, "9FFCE945-8344-4C42-AA11-6D215A9D2388", 477, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80546", "-122.40678", null, false ] ]
+, [ 478, "0DF8AD98-735A-4C1A-BC16-EB45DF483023", 478, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80725", "-122.4088", null, false ] ]
+, [ 479, "B7B5F3E1-D8F6-487C-8193-E8DDFB5AB98C", 479, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.8075", "-122.42093", null, false ] ]
+, [ 480, "6133D610-D28C-4F4E-8283-1CCE46F71F12", 480, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.8075", "-122.42087", null, false ] ]
+, [ 481, "BFCD68E1-1C80-4E7D-9592-70E94155880C", 481, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77874", "-122.41815", null, false ] ]
+, [ 482, "25656F23-555E-46F3-AD59-80B1D9EAEC57", 482, 1335763765, "401820", 1335763765, "401820", "{\n}", "Grove", " ", " ", "0", " ", " ", " ", null, [ null, "37.77842", "-122.418", null, false ] ]
+, [ 483, "B79248FC-BAE1-4F25-A5D5-66140E562A36", 483, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77591", "-122.42258", null, false ] ]
+, [ 484, "1308BB00-41EA-4C29-88A9-969AF792A617", 484, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79817", "-122.42747", null, false ] ]
+, [ 485, "80C77858-4C29-411F-9B60-859B04FF7329", 485, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78328", "-122.46115", null, false ] ]
+, [ 486, "0FBC52C2-3B47-46FE-8868-EAA4C47D46E6", 486, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77061", "-122.47982", null, false ] ]
+, [ 487, "62FE3746-EE1F-4404-956E-57C5D73CDA8B", 487, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77064", "-122.47973", null, false ] ]
+, [ 488, "1945203A-BB4E-431E-A445-A213C7448E94", 488, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77067", "-122.47961", null, false ] ]
+, [ 489, "41AB4727-786D-408E-95D2-BDB436A91946", 489, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77047", "-122.47973", null, false ] ]
+, [ 490, "297C2A7C-F96C-4B07-A816-B4FB5AA1F41A", 490, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7705", "-122.47962", null, false ] ]
+, [ 491, "836E54E8-8031-4DCB-9257-FD95DF8061BD", 491, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77053", "-122.47953", null, false ] ]
+, [ 492, "7D56F8EA-E030-464C-A221-06F63EF1FA9D", 492, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7707", "-122.47703", null, false ] ]
+, [ 493, "F34B4975-FD87-45FD-B17D-B628B23A3816", 493, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76917", "-122.47753", null, false ] ]
+, [ 494, "FE74AEC7-1215-48D8-B02F-382AD7B19EBA", 494, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7687", "-122.47268", null, false ] ]
+, [ 495, "5D33202D-62D3-41AC-A4F4-79A892FE7757", 495, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76885", "-122.47256", null, false ] ]
+, [ 496, "0037C3D1-BE32-4E1C-BE94-8077EA8F8DBF", 496, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77095", "-122.47488", null, false ] ]
+, [ 497, "EC4B8BD9-8FD5-4F63-8F87-AB8B41B8510C", 497, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77149", "-122.47742", null, false ] ]
+, [ 498, "0F13B639-5EA3-41F3-8EC5-C3F45FE22F70", 498, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77307", "-122.4715", null, false ] ]
+, [ 499, "C4C81464-1432-46F8-AF93-DC68447794A1", 499, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77308", "-122.47132", null, false ] ]
+, [ 500, "5EAAAB4D-9406-4FFB-B6F7-250D163FDEB5", 500, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77322", "-122.46821", null, false ] ]
+, [ 501, "2E4DDF2A-F76C-45AB-9BE1-E61FFD89CD5F", 501, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77331", "-122.46614", null, false ] ]
+, [ 502, "4ED5F13A-2E34-4933-AE72-FCB6F6733414", 502, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77332", "-122.466", null, false ] ]
+, [ 503, "156EAF35-6C41-4CAE-8CDE-A9096BB09D38", 503, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77353", "-122.46378", null, false ] ]
+, [ 504, "A52B531E-35A6-4298-844D-923548D04DFB", 504, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77356", "-122.46355", null, false ] ]
+, [ 505, "78B8152E-3C1A-4B72-BCD0-198A1C3913E9", 505, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7714", "-122.45918", null, false ] ]
+, [ 506, "BE0ED199-4F1B-4D25-B4B8-C14EB7874449", 506, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77179", "-122.46168", null, false ] ]
+, [ 507, "83FBE5D5-072F-4BAB-98C2-6110F8F280CC", 507, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76839", "-122.45884", null, false ] ]
+, [ 508, "0912F2F6-B53A-4E06-98FD-7107C38DD66C", 508, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76846", "-122.45866", null, false ] ]
+, [ 509, "D39D54F7-B5AB-4D23-8AF0-FCB9AACB4AFA", 509, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76854", "-122.45865", null, false ] ]
+, [ 510, "63E55C61-EAF2-4739-AE73-77AB9771352A", 510, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76909", "-122.46546", null, false ] ]
+, [ 511, "CED4F9E9-AC25-4F64-BBB9-3C1E295C9C20", 511, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76905", "-122.46551", null, false ] ]
+, [ 512, "9E3255A5-68B5-49DB-9C3D-8776791C0796", 512, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76901", "-122.46557", null, false ] ]
+, [ 513, "D4119438-B2C9-4D70-BE9E-B315DA3CD770", 513, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76681", "-122.45789", null, false ] ]
+, [ 514, "185B7196-8492-4304-83FF-99AF5F9FEA35", 514, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76695", "-122.46657", null, false ] ]
+, [ 515, "E68DD49F-0044-47E1-8F4B-5F91D4CFA7F5", 515, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7668", "-122.46655", null, false ] ]
+, [ 516, "0278E407-A6F9-4CFC-A6B4-BBF54B8B3E06", 516, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76908", "-122.46865", null, false ] ]
+, [ 517, "E510724C-6DCC-42EF-B646-A38E394483A6", 517, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76914", "-122.4686", null, false ] ]
+, [ 518, "A7374F00-21BB-4AC1-AF36-55A0A5D38213", 518, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7692", "-122.46858", null, false ] ]
+, [ 519, "A549179B-4E65-4806-8825-90EAD9803C4D", 519, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76922", "-122.46856", null, false ] ]
+, [ 520, "1859B3C7-F014-440B-B62C-80842635A049", 520, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76911", "-122.4688", null, false ] ]
+, [ 521, "8CB3FED0-73AE-483B-A9B7-5AADFC1A28D6", 521, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7693", "-122.46992", null, false ] ]
+, [ 522, "59195425-3C55-4D8A-AAA5-B39882C0E624", 522, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7693", "-122.47005", null, false ] ]
+, [ 523, "9E4329CB-61E9-46C5-97E9-E2E8DC4DFAA3", 523, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76929", "-122.4702", null, false ] ]
+, [ 524, "6C40BFC6-A8BB-48C3-8FEA-0A5FDB17249E", 524, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76929", "-122.47033", null, false ] ]
+, [ 525, "AC0331AD-3EC1-42D2-84F0-C339A0E622A0", 525, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76917", "-122.47021", null, false ] ]
+, [ 526, "0845FE34-5D95-4803-A1E5-40FA3B90AA65", 526, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77244", "-122.46816", null, false ] ]
+, [ 527, "15C275DD-68C9-4203-80A7-04E3C551AFD2", 527, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77255", "-122.46844", null, false ] ]
+, [ 528, "B37BF989-BD10-4366-A699-24C5248C19A6", 528, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77257", "-122.46828", null, false ] ]
+, [ 529, "B36E045D-F359-4BFD-80B0-D54B03FBB097", 529, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77259", "-122.46814", null, false ] ]
+, [ 530, "1E385F3E-A4FF-479B-A838-895C743ADAF1", 530, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77259", "-122.46799", null, false ] ]
+, [ 531, "47ED335A-111D-4366-B354-8BFB9B62182B", 531, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77254", "-122.46854", null, false ] ]
+, [ 532, "2778EFA1-64EF-4378-A19C-61E318609D4A", 532, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77267", "-122.46659", null, false ] ]
+, [ 533, "4C4F0F84-916B-4A79-888D-A06938935DF5", 533, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7727", "-122.46596", null, false ] ]
+, [ 534, "14629A3A-CD7E-4002-85A7-C583AF0D12DB", 534, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77269", "-122.46628", null, false ] ]
+, [ 535, "CBEEBBB4-E3D4-4836-A430-D73D4FD456BD", 535, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7727", "-122.46612", null, false ] ]
+, [ 536, "55451F7A-EDF2-4E9F-9461-5D07880F6A08", 536, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7727", "-122.46604", null, false ] ]
+, [ 537, "DCD0B3B8-6121-4E53-B343-98F48B314883", 537, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77269", "-122.46621", null, false ] ]
+, [ 538, "5B6EAA0A-C5E6-4E5A-BC16-1E1E8FDDF73A", 538, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77267", "-122.4665", null, false ] ]
+, [ 539, "36BD35B6-3711-47F9-A8B2-1E23396E8A30", 539, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77268", "-122.46643", null, false ] ]
+, [ 540, "6D2E2D5E-F0CE-4965-BB00-6775C81520A4", 540, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77268", "-122.46636", null, false ] ]
+, [ 541, "B970FBE5-01BC-46F7-AB1F-D7701CEA6A82", 541, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77237", "-122.45949", null, false ] ]
+, [ 542, "36E3BDA1-B48F-45B8-AA9D-47436B14417F", 542, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76727", "-122.50782", null, false ] ]
+, [ 543, "2BA12CE8-71E7-4253-8A03-5E9BAC3A916D", 543, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77099", "-122.50306", null, false ] ]
+, [ 544, "9789BFCB-F3C3-45AB-A83B-1EB16CD6271E", 544, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77072", "-122.50768", null, false ] ]
+, [ 545, "CAF5F52B-C51C-483A-86A3-71DE0ED237A6", 545, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76922", "-122.51005", null, false ] ]
+, [ 546, "3F3FA8F2-7E15-4B3A-837C-941DCE3E0DC4", 546, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76912", "-122.51004", null, false ] ]
+, [ 547, "006BE166-283C-4251-8CF0-274AE6F35E30", 547, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76902", "-122.51003", null, false ] ]
+, [ 548, "CE99C015-4A26-48C2-AC0E-E158A25E86A7", 548, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77013", "-122.50956", null, false ] ]
+, [ 549, "7ECF5BA9-CBBA-407C-96C9-3CF029EE21B9", 549, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76759", "-122.50266", null, false ] ]
+, [ 550, "DDFCB6EA-5E3E-4063-960F-A4C007BA3039", 550, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76751", "-122.50303", null, false ] ]
+, [ 551, "DD888587-4EAB-43FB-AB24-77D940FAE430", 551, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77103", "-122.49892", null, false ] ]
+, [ 552, "A57A3127-4931-4E4D-B76B-82EC95578078", 552, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77175", "-122.49715", null, false ] ]
+, [ 553, "63205AFB-5CEC-4C95-B47E-6FBD83CF3CE6", 553, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77176", "-122.49704", null, false ] ]
+, [ 554, "9C13130F-85F4-4D76-9AF7-9E36666FD4AC", 554, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77177", "-122.49693", null, false ] ]
+, [ 555, "F93307DC-2F75-4BCB-A003-9BA80452318C", 555, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77034", "-122.49385", null, false ] ]
+, [ 556, "6B946BCD-CE05-4936-94A1-F6223CEA44EB", 556, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7702", "-122.49377", null, false ] ]
+, [ 557, "DDCC9085-F58E-48E2-877E-056F1D6AA8D2", 557, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77003", "-122.49535", null, false ] ]
+, [ 558, "AA67CDD7-D061-4DD9-AAF9-AF063FE6A0E6", 558, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7689", "-122.49833", null, false ] ]
+, [ 559, "5AD75FF5-7DA6-4C39-AF6D-6DCD23C07A8F", 559, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77062", "-122.5077", null, false ] ]
+, [ 560, "823CB1C8-EF74-4E54-941D-4246493C873C", 560, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76981", "-122.46043", null, false ] ]
+, [ 561, "13348948-A91A-4663-9CA6-A83F7C6AFCEE", 561, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77209", "-122.4543", null, false ] ]
+, [ 562, "63DFDD62-40EC-4990-8838-F57F0E4A9706", 562, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77159", "-122.45422", null, false ] ]
+, [ 563, "5B20E703-DD5A-4758-8C35-247379B9F713", 563, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77186", "-122.45424", null, false ] ]
+, [ 564, "CA27A671-21D2-43AF-A394-7D26810A25B4", 564, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77196", "-122.45427", null, false ] ]
+, [ 565, "82E6486A-C6CF-4243-95AF-AD14CE74BE75", 565, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.772", "-122.45428", null, false ] ]
+, [ 566, "859550C4-A405-445D-ABF7-702FB90075B3", 566, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77205", "-122.45429", null, false ] ]
+, [ 567, "5D95544A-53DF-4FC9-A65E-F43C5E99F9FE", 567, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77191", "-122.45426", null, false ] ]
+, [ 568, "14CE6613-60C2-4630-A2F3-DE64EB3B50AB", 568, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7718", "-122.45424", null, false ] ]
+, [ 569, "372FE832-2BE4-49D4-A175-DC31D9AE807E", 569, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77175", "-122.45423", null, false ] ]
+, [ 570, "478DB39A-6241-4CE3-BC8C-6C1B31104B72", 570, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77169", "-122.45422", null, false ] ]
+, [ 571, "BAA3D7E8-8A33-4E98-B3ED-43C52D35F94C", 571, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77164", "-122.45422", null, false ] ]
+, [ 572, "A850BA09-9783-408A-BE53-4EF3F1681F07", 572, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76924", "-122.4519", null, false ] ]
+, [ 573, "8E6FBD37-8161-4E36-AFE8-AF402911A65D", 573, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76976", "-122.45018", null, false ] ]
+, [ 574, "069B8026-742B-42F7-BA4C-60C716499777", 574, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77187", "-122.43184", null, false ] ]
+, [ 575, "4F489DA5-E217-4A81-B71E-08DB85D352A0", 575, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77377", "-122.41962", null, false ] ]
+, [ 576, "142BC51C-82E6-4F98-AE6A-C53D00AED4E9", 576, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77028", "-122.45367", null, false ] ]
+, [ 577, "FB6D107A-78EB-4AA8-9DB8-5B61B8F176E8", 577, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.71618", "-122.44008", null, false ] ]
+, [ 578, "01DD772A-B3B8-4E80-8F12-3DA064CCFB13", 578, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.71587", "-122.44014", null, false ] ]
+, [ 579, "6AD949CA-7C0D-48F6-AE79-D3B11A84A646", 579, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75436", "-122.47748", null, false ] ]
+, [ 580, "1BF189C8-BF71-4F3A-9CD7-DB9C6A5276BA", 580, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.73199", "-122.47413", null, false ] ]
+, [ 581, "3F606FC5-4A4E-4538-8DED-87C463497DFD", 581, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74322", "-122.47375", null, false ] ]
+, [ 582, "9362FE47-DFC3-4C73-BF98-16B06899333C", 582, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75484", "-122.44654", null, false ] ]
+, [ 583, "D73197EF-7619-4142-BB1A-3CCD12465278", 583, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76378", "-122.39882", null, false ] ]
+, [ 584, "67811BF2-39E6-46D8-8A2B-9BCACE9161CA", 584, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74664", "-122.38772", null, false ] ]
+, [ 585, "B6D1518A-FB4B-42B5-B208-4C67C7DFB53E", 585, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74646", "-122.38824", null, false ] ]
+, [ 586, "C28D7F16-9FBB-4C62-91CA-20B66594F341", 586, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74107", "-122.39874", null, false ] ]
+, [ 587, "B0567199-E62B-4DBD-80AA-4638EE16EFDA", 587, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.73652", "-122.38102", null, false ] ]
+, [ 588, "4A898AFA-524C-42EB-88B3-8567922F58E8", 588, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7639", "-122.43372", null, false ] ]
+, [ 589, "09F8193C-BF52-4294-8459-6EDE8E94DC94", 589, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74274", "-122.48079", null, false ] ]
+, [ 590, "846135D1-F38B-4786-B9B9-F82289F2F7C6", 590, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76674", "-122.45786", null, false ] ]
+, [ 591, "A48A7424-4CFE-4154-8F93-881A2465FA5C", 591, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7819", "-122.40973", null, false ] ]
+, [ 592, "F77CF448-067B-4F22-890E-9FD9F3CCBC96", 592, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79145", "-122.42238", null, false ] ]
+, [ 593, "A9E205BC-93F6-4416-B897-C6ACC7EC4D1F", 593, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78719", "-122.42152", null, false ] ]
+, [ 594, "AD8E0D08-B504-468E-A9B3-6AC4A952C53C", 594, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78438", "-122.41952", null, false ] ]
+, [ 595, "3B7022DD-645F-49B0-9A18-2F14CB2CB353", 595, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78624", "-122.41989", null, false ] ]
+, [ 596, "E094E96D-67F0-4F8C-9D71-41AFC11C1000", 596, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78717", "-122.42008", null, false ] ]
+, [ 597, "B2C136D6-D89A-48AB-AB3D-F4DCB5A66469", 597, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78537", "-122.41786", null, false ] ]
+, [ 598, "10461CE4-A75D-4C12-8541-E1815DCC8A74", 598, 1335763765, "401820", 1335763765, "401820", "{\n}", "900 Hyde St", "Bush", "South of parking bay", "22", "E", " ", " ", null, [ null, "37.78957", "-122.41703", null, false ] ]
+, [ 599, "C3F3D8EC-3015-466E-B039-51AF2F8699EA", 599, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77073", "-122.41965", null, false ] ]
+, [ 600, "6AB56494-9BF8-4FBA-972B-E037569A0D19", 600, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7709", "-122.41959", null, false ] ]
+, [ 601, "AB950167-B238-4871-9A6B-C2B0A9336660", 601, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77118", "-122.41949", null, false ] ]
+, [ 602, "E10B7684-9AA4-40C5-8110-EC37426BC56B", 602, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77212", "-122.41809", null, false ] ]
+, [ 603, "EAFFBA18-CD28-4200-861F-37DD5A3D13C1", 603, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77158", "-122.42041", null, false ] ]
+, [ 604, "2715E56D-B1ED-4F87-A595-F5CB853DB5DA", 604, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77274", "-122.42142", null, false ] ]
+, [ 605, "69DC16C0-1F22-495B-841A-E1794DF71A22", 605, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77152", "-122.42348", null, false ] ]
+, [ 606, "EBFE6951-903A-41A1-9EE4-927DAECC8822", 606, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76887", "-122.42238", null, false ] ]
+, [ 607, "B8FFA94C-4C99-41D4-8D27-B2B2DF32BDA5", 607, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77595", "-122.43822", null, false ] ]
+, [ 608, "413FAA3E-7641-4DD9-8E46-BAD0BE058182", 608, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77984", "-122.41671", null, false ] ]
+, [ 609, "63C79125-4C76-44B1-A94B-5EA8BDDCCD11", 609, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77014", "-122.40674", null, false ] ]
+, [ 610, "4C7CFF03-C82A-497E-BDA8-94D49E1F726F", 610, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77645", "-122.41146", null, false ] ]
+, [ 611, "687FA558-C087-45A8-94CA-51D19A4E23FB", 611, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77026", "-122.40706", null, false ] ]
+, [ 612, "7AF371EF-7786-4C8F-9C29-8B4FEE31AF3B", 612, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77863", "-122.41448", null, false ] ]
+, [ 613, "C310B30D-2EDA-4CDD-91F1-FE6FBCD8F260", 613, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77895", "-122.41045", null, false ] ]
+, [ 614, "0FE62F76-C2E7-4CAA-8492-047847D223DA", 614, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77627", "-122.39823", null, false ] ]
+, [ 615, "CADEEAE0-72B6-4E9A-9DAE-55616552C117", 615, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77389", "-122.44765", null, false ] ]
+, [ 616, "F20E4DA2-FC8D-4973-AB9A-EED4922F6867", 616, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78245", "-122.40756", null, false ] ]
+, [ 617, "0426434D-A91B-4D0D-B0FC-766EABD4827E", 617, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78137", "-122.39561", null, false ] ]
+, [ 618, "A9553A3F-F8EE-4E0F-85CC-40A6B8789B40", 618, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77574", "-122.40307", null, false ] ]
+, [ 619, "CD5EE25A-AA77-411E-A2BE-2E4F570CD8A2", 619, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77578", "-122.40302", null, false ] ]
+, [ 620, "CFDEBB51-750C-41DE-830F-0DE98DB00191", 620, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79673", "-122.422", null, false ] ]
+, [ 621, "2A503796-28A8-41C2-9B96-D57E5FB0E1F9", 621, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79725", "-122.39829", null, false ] ]
+, [ 622, "47F0C62D-C574-4A52-9714-5085D7115E66", 622, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80152", "-122.40096", null, false ] ]
+, [ 623, "85515A26-BE01-4BF6-81EC-2F26B5CDB2B2", 623, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77189", "-122.42373", null, false ] ]
+, [ 624, "A520634A-D311-4F07-BF33-7A606F160974", 624, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80009", "-122.41087", null, false ] ]
+, [ 625, "696C52A4-2A30-4B16-B535-48A57E3E7442", 625, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78527", "-122.44009", null, false ] ]
+, [ 626, "2C804309-3AD6-4C45-BBC3-7FA811248309", 626, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78428", "-122.43945", null, false ] ]
+, [ 627, "219B98FC-F7C6-4C18-941D-53C86F84BB6E", 627, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78283", "-122.44216", null, false ] ]
+, [ 628, "DBA48BDC-73FF-4D63-BF9F-1213BD9BD9AE", 628, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78253", "-122.44271", null, false ] ]
+, [ 629, "81F602E9-8992-41E1-AD9B-B3879DB4AD60", 629, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78451", "-122.43961", null, false ] ]
+, [ 630, "36F8A777-88CD-466D-9B1B-C8B011188069", 630, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78801", "-122.44792", null, false ] ]
+, [ 631, "860BD62C-41D8-4837-A848-E24B9ED8CE76", 631, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76358", "-122.47843", null, false ] ]
+, [ 632, "8B8749D7-B2A7-458B-B57B-2C0E39FBD33E", 632, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76334", "-122.48377", null, false ] ]
+, [ 633, "65FBEF95-BC7E-4DF4-A265-3FA3C3B4C35E", 633, 1335763765, "401820", 1335763765, "401820", "{\n}", "389 Parnassus Av", "Arguello", "2' to 44' east of the driveway", "42", " ", " ", " ", null, [ null, "37.76354", "-122.45738", null, false ] ]
+, [ 634, "76F8F60C-7567-4FA1-B796-C717076AD815", 634, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76577", "-122.44976", null, false ] ]
+, [ 635, "6060D955-FCFF-4160-BF76-B86C6A9AAFDA", 635, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76952", "-122.44968", null, false ] ]
+, [ 636, "A5D249DD-3581-4E74-BC48-2D41947A3821", 636, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74384", "-122.45382", null, false ] ]
+, [ 637, "BE738E3F-BDD9-49ED-8857-DABA98132998", 637, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.73374", "-122.43401", null, false ] ]
+, [ 638, "D3368D54-0AFA-44D8-87A9-41AD0C24815D", 638, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7508", "-122.41821", null, false ] ]
+, [ 639, "4F4A86D0-3183-4811-8364-01CD1A7BC895", 639, 1335763765, "401820", 1335763765, "401820", "{\n}", "3120 Mission St", "Army", "4' to 48' south of north property line", "44", "W", " ", " ", null, [ null, "37.74764", "-122.41867", null, false ] ]
+, [ 640, "00638BCC-98E3-485C-BD37-C8101845EC1E", 640, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.75273", "-122.41115", null, false ] ]
+, [ 641, "EDDD96B8-FBB5-4F24-8374-893432D92FDC", 641, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74409", "-122.42109", null, false ] ]
+, [ 642, "77389B15-92C8-4EF2-8965-6056CE229574", 642, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.74304", "-122.42164", null, false ] ]
+, [ 643, "C1C4C912-B991-423B-9B7B-86298800E809", 643, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.7697", "-122.46409", null, false ] ]
+, [ 644, "2440DFDB-AAA8-4964-9CAD-164B32FF9B68", 644, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72197", "-122.4817", null, false ] ]
+, [ 645, "14ECD032-E349-4A8A-BC2D-F40D0B97B7D6", 645, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72195", "-122.48126", null, false ] ]
+, [ 646, "846218D5-5A81-4013-88C8-A0821350780C", 646, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72195", "-122.48114", null, false ] ]
+, [ 647, "462691DA-DBCB-46A7-B022-BEE9996B281D", 647, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72193", "-122.48066", null, false ] ]
+, [ 648, "337C452F-D418-4AA3-B072-CD890F11669C", 648, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72097", "-122.47927", null, false ] ]
+, [ 649, "662E3B79-DD84-46C9-8168-EE8E3BA4D322", 649, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72092", "-122.47765", null, false ] ]
+, [ 650, "7292605D-0CBB-424B-82C4-77D0E0BE4B37", 650, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72092", "-122.47772", null, false ] ]
+, [ 651, "C5AF9CD2-F624-48AC-B474-789C6B6A38A3", 651, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72568", "-122.43416", null, false ] ]
+, [ 652, "A739493B-321F-44D8-A3ED-7A2E938BC22D", 652, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72583", "-122.43381", null, false ] ]
+, [ 653, "6E71400D-EDCE-437B-BA0F-56283952FD2A", 653, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72092", "-122.47781", null, false ] ]
+, [ 654, "21CFA7EB-2558-40CD-8AAF-B966D37D2C41", 654, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.72087", "-122.47632", null, false ] ]
+, [ 655, "5313F34A-F9DA-4E67-A89D-0A249BD0E486", 655, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77666", "-122.42422", null, false ] ]
+, [ 656, "7A535EA5-D1E4-4C47-B6F4-5797A891CE9D", 656, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78122", "-122.40443", null, false ] ]
+, [ 657, "52FDE2B7-72BC-4958-B81F-C45BF8E05A09", 657, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76598", "-122.44253", null, false ] ]
+, [ 658, "13072393-7D7B-4F71-9519-4CB0713D79C2", 658, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77438", "-122.41366", null, false ] ]
+, [ 659, "9802360B-5141-468A-9B0E-D69537CFD606", 659, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80128", "-122.43305", null, false ] ]
+, [ 660, "EF3C1BC3-6FE6-484A-A84A-8BCDC8F875C7", 660, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80109", "-122.4346", null, false ] ]
+, [ 661, "E1EDB083-D5DA-4732-B8D5-E6DB2A6A5108", 661, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.8034", "-122.44346", null, false ] ]
+, [ 662, "DDC0E252-8824-4D36-8F56-C1B820FD92E4", 662, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.759", "-122.41371", null, false ] ]
+, [ 663, "68889B3B-6A60-44D2-9A51-FE5FB994D3CD", 663, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76823", "-122.40669", null, false ] ]
+, [ 664, "991DDB2C-670A-4569-83CD-2FC5B95DEAD7", 664, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76612", "-122.41328", null, false ] ]
+, [ 665, "21B17741-0D72-41DB-A863-F5714BFD5972", 665, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80631", "-122.42363", null, false ] ]
+, [ 666, "208CED2E-D21E-4BAE-BE8F-62EA65390C4D", 666, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76832", "-122.40753", null, false ] ]
+, [ 667, "EBD6DA20-721E-4AFD-B4A4-1FCB47912C95", 667, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80742", "-122.41558", null, false ] ]
+, [ 668, "76B4D985-D163-4EBF-AE0F-1B0C9E0BEE27", 668, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77938", "-122.43198", null, false ] ]
+, [ 669, "2927FA5E-EAEA-4622-8347-7AD414A2F5BC", 669, 1335763765, "401820", 1335763765, "401820", "{\n}", "3800 20th St", "Dolores", "3800 20th St", "22", "N", " ", " ", null, [ null, "37.75826", "-122.42602", null, false ] ]
+, [ 670, "F6B06163-31DD-4AC5-8AEC-3D84AF758791", 670, 1335763765, "401820", 1335763765, "401820", "{\n}", "1523 Ocean Ave", "Capitol", " ", "22", "S", " ", " ", null, [ null, "37.72439", "-122.45898", null, false ] ]
+, [ 671, "052DBA32-B811-48D2-AA79-5FDFB36B1F9B", 671, 1335763765, "401820", 1335763765, "401820", "{\n}", "404 Pacific", "Sansome", " ", "22", "N", " ", " ", null, [ null, "37.79751", "-122.40229", null, false ] ]
+, [ 672, "41411E34-8AF8-4F76-BA7D-77B97CDBCB65", 672, 1335763765, "401820", 1335763765, "401820", "{\n}", "729 Divisadero", "Bush", " ", "22", "W", " ", " ", null, [ null, "37.78602", "-122.44014", null, false ] ]
+, [ 673, "E3D1EF12-72A1-4BF8-AF45-C2CC3F081737", 673, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Fillmore", "2099 Lombard", "22", "S", " ", " ", null, [ null, "37.79976", "-122.43583", null, false ] ]
+, [ 674, "D6112D5F-BC1C-457A-8A10-3010395208B7", 674, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76492", "-122.42654", null, false ] ]
+, [ 675, "35E235A6-1D1A-4247-8278-6B6689ADBC87", 675, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76923", "-122.43393", null, false ] ]
+, [ 676, "9D64FF0C-62AB-4229-9621-BD2303F8CBAA", 676, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.73495", "-122.39049", null, false ] ]
+, [ 677, "7C2F1A63-3AAA-4793-8016-7296DDD5D6BA", 677, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Chestnut St", "Pierce St Garage - metered spaces", "0", " ", " ", "916-00040", null, [ null, "37.8002", "-122.43916", null, false ] ]
+, [ 678, "1F25F048-C5A4-4149-82E3-36890EE17B4D", 678, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Chestnut St", "Pierce St Garage - metered spaces", "0", " ", " ", "916-00030", null, [ null, "37.8002", "-122.43922", null, false ] ]
+, [ 679, "22EADF29-3DC5-436D-BF7C-38183E047C71", 679, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Chestnut St", "Pierce St Garage - metered spaces", "0", " ", " ", "916-00020", null, [ null, "37.80019", "-122.43927", null, false ] ]
+, [ 680, "DE9EDF09-FE4C-49B7-83AE-25EAAFDACBC9", 680, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Chestnut St", "Pierce St Garage - metered spaces", "0", " ", " ", "916-00010", null, [ null, "37.80019", "-122.4393", null, false ] ]
+, [ 681, "7E91E3AA-061B-4840-93CB-FAF1CE9E1A38", 681, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Chestnut St", "Pierce St Garage - metered spaces", "0", " ", " ", "916-00050", null, [ null, "37.80021", "-122.43911", null, false ] ]
+, [ 682, "C690DAE6-EF45-4849-88B2-65F2B47C523C", 682, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Steiner St", "Cal Steiner lot", "0", " ", " ", "902-02440", null, [ null, "37.78898", "-122.43475", null, false ] ]
+, [ 683, "40FB8736-F8F6-46C4-B2FD-4BD60C8BBEAC", 683, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", "Steiner St", "Cal Steiner lot", "0", " ", " ", "902-02430", null, [ null, "37.78894", "-122.43474", null, false ] ]
+, [ 684, "B0BAC9D8-C809-4994-A35C-87709331A85F", 684, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78", "-122.4151", null, false ] ]
+, [ 685, "73F38DD1-0BA2-4BD9-88AB-142083112744", 685, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.78334", "-122.41592", null, false ] ]
+, [ 686, "9698964E-A341-473B-B516-123F065E9C84", 686, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76416", "-122.41209", null, false ] ]
+, [ 687, "F0FF7B90-EF0C-47C3-A290-5300E6F5C9BE", 687, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76657", "-122.42229", null, false ] ]
+, [ 688, "86EE6467-2649-43C9-B7A6-B6CDCB093837", 688, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.76432", "-122.41222", null, false ] ]
+, [ 689, "493CF601-3EF6-4322-8AA8-C026487207D3", 689, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.77615", "-122.40566", null, false ] ]
+, [ 690, "C53C5605-C5F8-4A77-B622-9F4BF62325C8", 690, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.80143", "-122.40188", null, false ] ]
+, [ 691, "CC00EBE8-F99D-4C44-A97C-EF169B580177", 691, 1335763765, "401820", 1335763765, "401820", "{\n}", " ", " ", " ", "0", " ", " ", " ", null, [ null, "37.79074", "-122.43442", null, false ] ]
+, [ 692, "DE4EBEBB-8D58-4C30-8DB7-F80F1A74728F", 692, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "E", " ", "767-00200", "2007-03-23T00:00:00", [ null, "37.72933", "-122.50192", null, false ] ]
+, [ 693, "E40909F1-4DC5-4157-8104-F6FC622A6553", 693, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "E", " ", "767-00100", "2007-03-23T00:00:00", [ null, "37.72981", "-122.50218", null, false ] ]
+, [ 694, "61E55A25-DAB5-4415-B24F-8722042D3D72", 694, 1335763765, "401820", 1335763765, "401820", "{\n}", "SLOAT BLVD", "46th Ave", "S side of median", "0", "N", " ", "765-27610", "2007-03-23T00:00:00", [ null, "37.73544", "-122.50402", null, false ] ]
+, [ 695, "28BD974C-05EC-4E45-815A-3028E9E525B8", 695, 1335763765, "401820", 1335763765, "401820", "{\n}", "BERRY ST", "4th St", "SE corner of intersection", "0", "SE", " ", "339-01650", "2007-03-23T00:00:00", [ null, "37.77629", "-122.39257", null, false ] ]
+, [ 696, "37EB420F-78A0-4BFC-AF05-A14D1FD58167", 696, 1335763765, "401820", 1335763765, "401820", "{\n}", "CALIFORNIA ST", "Presidio", "NE corner of intersection", "0", "N", " ", "350-31230", "2007-03-23T00:00:00", [ null, "37.78742", "-122.44615", null, false ] ]
+, [ 697, "321D815C-6400-452C-8FA7-A058930381CD", 697, 1335763765, "401820", 1335763765, "401820", "{\n}", "STEVENSON ST", "6th St", "E side of intersection", "0", "SE", " ", "661-04950", "2007-03-23T00:00:00", [ null, "37.78185", "-122.40953", null, false ] ]
+, [ 698, "9F5EBC08-F804-4137-918C-2012805A6CD4", 698, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "E", " ", "767-00080", "2007-03-23T00:00:00", [ null, "37.72991", "-122.50225", null, false ] ]
+, [ 699, "74679EF5-B6F2-44CC-BF5A-8321A72D5F6F", 699, 1335763765, "401820", 1335763765, "401820", "{\n}", "EDDY ST", "Gough", "SE corner of intersection", "0", "S", " ", "400-09390", "2007-03-23T00:00:00", [ null, "37.78245", "-122.42386", null, false ] ]
+, [ 700, "3A233491-E00A-4FB6-B1C0-AB0C3F8822B8", 700, 1335763765, "401820", 1335763765, "401820", "{\n}", "ANZA ST", "9th Ave", "NW corner of intersection", "0", "N", " ", "307-18020", "2007-03-23T00:00:00", [ null, "37.77901", "-122.4675", null, false ] ]
+, [ 701, "23772E3E-FD39-43D9-BFF9-CB620D39B57C", 701, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "S", " ", "766-01010", "2007-03-23T00:00:00", [ null, "37.73069", "-122.5012", null, false ] ]
+, [ 702, "5F62E044-0D2B-454B-BFC6-28A8D6C63439", 702, 1335763765, "401820", 1335763765, "401820", "{\n}", "SLOAT BLVD", "46th Ave", "S side of median", "0", "s", " ", "765-27590", "2007-03-23T00:00:00", [ null, "37.73544", "-122.50414", null, false ] ]
+, [ 703, "620F1489-677A-4836-83BB-25709947AC08", 703, 1335763765, "401820", 1335763765, "401820", "{\n}", "SLOAT BLVD", "46th Ave", "S side of Sloat", "0", "S", " ", "765-27990", "2007-03-23T00:00:00", [ null, "37.73528", "-122.50419", null, false ] ]
+, [ 704, "57EF9791-06B5-4AFB-AF14-A76868D95572", 704, 1335763765, "401820", 1335763765, "401820", "{\n}", "MISSION ST", "Cesar Chavez", "SW corner of intersection", "0", "W", " ", "568-31040", "2007-03-23T00:00:00", [ null, "37.74791", "-122.4185", null, false ] ]
+, [ 705, "7C19ED3D-5031-4D7C-872C-C2DBB4A91131", 705, 1335763765, "401820", 1335763765, "401820", "{\n}", "TELEGRAPH HILL BLVD", "Greenwich", "SW corner of intersection", "0", "W", " ", "789-02580", "2007-03-23T00:00:00", [ null, "37.80269", "-122.40596", null, false ] ]
+, [ 706, "B6AB067C-A428-4841-8419-98F20C89B8B5", 706, 1335763765, "401820", 1335763765, "401820", "{\n}", "FUNSTON AVE", "Lake", "NW corner of intersection", "0", "W", " ", "762-00130", "2007-03-23T00:00:00", [ null, "37.78646", "-122.47226", null, false ] ]
+, [ 707, "E92EF90F-7FD7-441A-82C1-1E81FDB9C9A8", 707, 1335763765, "401820", 1335763765, "401820", "{\n}", "GEARY BLVD", "30th Ave", "SE corner of intersection", "0", "S", " ", "440-65290", "2007-03-23T00:00:00", [ null, "37.77972", "-122.48991", null, false ] ]
+, [ 708, "C3BC0325-5294-43F9-B866-ADE1126D73B8", 708, 1335763765, "401820", 1335763765, "401820", "{\n}", "RANDOLPH ST", "Ramsell", "SE corner of intersection", "0", "S", " ", "778-03230", "2007-03-23T00:00:00", [ null, "37.71421", "-122.46595", null, false ] ]
+, [ 709, "7DE56C0D-ACE2-48CF-BC11-FB9711E0725D", 709, 1335763765, "401820", 1335763765, "401820", "{\n}", "32ND AVE", "Geary", "SE corner of intersection", "0", "E", " ", "132-05480", "2007-03-23T00:00:00", [ null, "37.77877", "-122.49209", null, false ] ]
+, [ 710, "F1EBBEBE-B646-489D-AF81-2300EDEA5127", 710, 1335763765, "401820", 1335763765, "401820", "{\n}", "DIAMOND HEIGHTS BLVD", "Safira", "NE corner of intersection", "0", "E", " ", "775-51650", "2007-03-23T00:00:00", [ null, "37.74647", "-122.44003", null, false ] ]
+, [ 711, "8A4B464A-D48F-476C-B536-48E602EFC283", 711, 1335763765, "401820", 1335763765, "401820", "{\n}", "SLOAT BLVD", "46th Ave", "S side of Sloat", "0", "S", " ", "765-27890", "2007-03-23T00:00:00", [ null, "37.73528", "-122.50391", null, false ] ]
+, [ 712, "19050BC4-CBA2-415C-84CA-50DE98BC613D", 712, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "S", " ", "766-01310", "2007-03-23T00:00:00", [ null, "37.73058", "-122.50146", null, false ] ]
+, [ 713, "EC35E88A-D46D-4F9A-A371-001A55328AFC", 713, 1335763765, "401820", 1335763765, "401820", "{\n}", "DIAMOND HEIGHTS BLVD", "Safira", "NE corner of intersection", "0", "E", " ", "775-51610", "2007-03-23T00:00:00", [ null, "37.74666", "-122.44005", null, false ] ]
+, [ 714, "A9A591E8-07E2-4858-B592-53B044A52D76", 714, 1335763765, "401820", 1335763765, "401820", "{\n}", "10TH ST", "Market", "SW side of intersection", "0", "W", " ", "210-00020", "2007-03-23T00:00:00", [ null, "37.77632", "-122.41737", null, false ] ]
+, [ 715, "3C7A4EA7-2792-4512-A3EE-409C48E75055", 715, 1335763765, "401820", 1335763765, "401820", "{\n}", "MOSCOW ST", "Italy", "SE corner of intersection", "0", "E", " ", "780-07950", "2007-03-23T00:00:00", [ null, "37.715", "-122.43227", null, false ] ]
+, [ 716, "BE8BF851-1C26-4B3B-984F-B40BD87F1821", 716, 1335763765, "401820", 1335763765, "401820", "{\n}", "PARKER AVE", "Turk", "SW corner of intersection", "0", "W", " ", "609-06010", "2007-03-23T00:00:00", [ null, "37.77765", "-122.45345", null, false ] ]
+, [ 717, "94C56DFE-0244-44D0-8176-A4D12AADC2A1", 717, 1335763765, "401820", 1335763765, "401820", "{\n}", "NOE ST", "24th St", "NE corner of intersection", "0", "E", " ", "583-10710", "2007-03-23T00:00:00", [ null, "37.75159", "-122.43181", null, false ] ]
+, [ 718, "2EA66B91-EA68-4CFF-B0B8-F48E465E8670", 718, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "S", " ", "766-01330", "2007-03-23T00:00:00", [ null, "37.73053", "-122.50158", null, false ] ]
+, [ 719, "A72053D5-7D23-4B93-87A2-73C7F07BF08C", 719, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "S", " ", "766-01030", "2007-03-23T00:00:00", [ null, "37.73066", "-122.50127", null, false ] ]
+, [ 720, "E419CB6A-8CCF-4847-82EF-1A834453BAC6", 720, 1335763765, "401820", 1335763765, "401820", "{\n}", "20TH ST", "Valencia", "NW corner of intersection", "0", "N", " ", "220-36040", "2007-03-23T00:00:00", [ null, "37.75853", "-122.42155", null, false ] ]
+, [ 721, "CDCB2AE3-5958-45F3-862D-1C89A37D4A0E", 721, 1335763765, "401820", 1335763765, "401820", "{\n}", "24TH ST", "Lilac", "SE corner of intersection", "0", "S", " ", "901-00020", "2007-03-23T00:00:00", [ null, "37.75217", "-122.41776", null, false ] ]
+, [ 722, "1F88F572-3964-4DF2-87D9-5B6DC3BF9404", 722, 1335763765, "401820", 1335763765, "401820", "{\n}", "POINT LOBOS AVE", "43rd AVe", "SE corner of intersection", "0", "S", " ", "763-00400", "2007-03-23T00:00:00", [ null, "37.77954", "-122.50375", null, false ] ]
+, [ 723, "87073CDB-54BA-4269-9837-0AFA10A2AF18", 723, 1335763765, "401820", 1335763765, "401820", "{\n}", "GOLDEN GATE AVE", "Parker", "SE corner of intersection", "0", "S", " ", "442-25370", "2007-03-23T00:00:00", [ null, "37.77682", "-122.45297", null, false ] ]
+, [ 724, "69C1ADA1-CE22-44CF-BBC7-9476C2BE6815", 724, 1335763765, "401820", 1335763765, "401820", "{\n}", "BURKE AVE", "3rd St", "NE corner of intersection", "0", "N", " ", "797-15020", "2007-03-23T00:00:00", [ null, "37.74392", "-122.38493", null, false ] ]
+, [ 725, "EFAD09B4-7412-490A-95C5-54E9F7C8DC7E", 725, 1335763765, "401820", 1335763765, "401820", "{\n}", "HENRY ADAMS ST", "15th St", "NE corner of intersection", "0", "E", " ", "526-01790", "2007-03-23T00:00:00", [ null, "37.76742", "-122.40369", null, false ] ]
+, [ 726, "7FBD20D7-F36B-4DE8-9DDD-FBD789203907", 726, 1335763765, "401820", 1335763765, "401820", "{\n}", "HERBST", "Skyline", "SE part of zoo", "0", "E", " ", "767-00180", "2007-03-23T00:00:00", [ null, "37.72944", "-122.50197", null, false ] ]
+, [ 727, "5141026C-7AB2-4B22-AD4F-3765C7EEEC9D", 727, 1335763765, "401820", 1335763765, "401820", "{\n}", "BEALE ST", "Bryant", "SE corner of intersection", "0", "NE", " ", "816-05610", "2007-03-23T00:00:00", [ null, "37.78555", "-122.38866", null, false ] ]
+, [ 728, "17F707C7-0320-40BB-942F-8F7220A41774", 728, 1335763765, "401820", 1335763765, "401820", "{\n}", "BEALE ST", "Bryant", "SE corner of intersection", "0", "NE", " ", "816-05590", "2007-03-23T00:00:00", [ null, "37.78558", "-122.3887", null, false ] ]
+, [ 729, "A5115A63-07AB-4A15-9A08-DD6ECBBC5223", 729, 1335763765, "401820", 1335763765, "401820", "{\n}", "BEALE ST", "Bryant", "SE corner of intersection", "0", "NE", " ", "816-05570", "2007-03-23T00:00:00", [ null, "37.7856", "-122.38873", null, false ] ]
+, [ 730, "FD654960-FD55-46F8-998A-F7FFF769D011", 730, 1335763765, "401820", 1335763765, "401820", "{\n}", "OCEAN AVE", "Lee", "NE corner of intersection", "0", "N", " ", "924-00220", "2007-03-23T00:00:00", [ null, "37.72356", "-122.45392", null, false ] ]
+, [ 731, "AF0D311C-51CF-4109-9764-190DF779DF11", 731, 1335763765, "401820", 1335763765, "401820", "{\n}", "THE EMBARCADERO", "Pier Three", "NE side of intersection", "0", "E", " ", "830-03230", "2007-03-23T00:00:00", [ null, "37.79805", "-122.3963", null, false ] ]
+, [ 732, "5815FEBE-E746-486C-8EE2-68583A2869A4", 732, 1335763765, "401820", 1335763765, "401820", "{\n}", "BERRY ST", "6th St", "SE corner of intersection", "0", "E", " ", "339-04250", "2007-03-23T00:00:00", [ null, "37.77169", "-122.39842", null, false ] ]
+, [ 733, "82AEE90A-F918-446A-8704-51178D125E51", 733, 1335763765, "401820", 1335763765, "401820", "{\n}", "291 19th St", " ", "19' to 41' south of the north property line", "22", "S", " ", " ", null, [ null, "37.76049", "-122.38767", null, false ] ]
+ ]
+}

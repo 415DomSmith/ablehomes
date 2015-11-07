@@ -1,0 +1,416 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "7s6f-mfgz",
+      "name" : "schools_public_pt",
+      "averageRating" : 0,
+      "createdAt" : 1383950241,
+      "displayType" : "geoRows",
+      "downloadCount" : 87,
+      "indexUpdatedAt" : 1414543028,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 6330301,
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 1337221,
+      "publicationStage" : "published",
+      "tableId" : 1337221,
+      "totalTimesRated" : 0,
+      "viewCount" : 14,
+      "viewLastModified" : 1383950242,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 113616121,
+        "name" : "FACILITY_N",
+        "dataTypeName" : "text",
+        "fieldName" : "facility_n",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 16106692,
+        "cachedContents" : {
+          "non_null" : 168,
+          "smallest" : "Academy of Arts and Sciences",
+          "null" : 0,
+          "largest" : "Yu, Alice Fong Alternative School",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Leadership Charter High School"
+          }, {
+            "count" : 19,
+            "item" : "Life Learning Academy Charter School"
+          }, {
+            "count" : 18,
+            "item" : "Presidio Early Education School"
+          }, {
+            "count" : 17,
+            "item" : "City Arts and Tech High School"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 113616120,
+        "name" : "FACILITY_I",
+        "dataTypeName" : "text",
+        "fieldName" : "facility_i",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 16106691,
+        "cachedContents" : {
+          "non_null" : 168,
+          "smallest" : "0000001042",
+          "null" : 0,
+          "largest" : "0000060170",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0000060167"
+          }, {
+            "count" : 19,
+            "item" : "0000060168"
+          }, {
+            "count" : 18,
+            "item" : "0000060169"
+          }, {
+            "count" : 17,
+            "item" : "0000060170"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 113616122,
+        "name" : "DEPTNAME",
+        "dataTypeName" : "text",
+        "fieldName" : "deptname",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 16106693,
+        "cachedContents" : {
+          "non_null" : 168,
+          "smallest" : "SF Unified School District (SFUSD)",
+          "null" : 0,
+          "largest" : "SF Unified School District (SFUSD)",
+          "top" : [ {
+            "count" : 20,
+            "item" : "SF Unified School District (SFUSD)"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 113616123,
+        "name" : "DEPT",
+        "dataTypeName" : "number",
+        "fieldName" : "dept",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 16106694,
+        "cachedContents" : {
+          "non_null" : 168,
+          "smallest" : "7",
+          "sum" : "1176",
+          "null" : 0,
+          "average" : "7",
+          "largest" : "7",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 113616124,
+        "name" : "SCHOOL_TYP",
+        "dataTypeName" : "text",
+        "fieldName" : "school_typ",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 16106695,
+        "cachedContents" : {
+          "non_null" : 168,
+          "smallest" : "Charter School",
+          "null" : 0,
+          "largest" : "Middle School",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Elementary"
+          }, {
+            "count" : 19,
+            "item" : "Middle School"
+          }, {
+            "count" : 18,
+            "item" : "Early Education"
+          }, {
+            "count" : 17,
+            "item" : "Charter School"
+          }, {
+            "count" : 16,
+            "item" : "High School"
+          }, {
+            "count" : 15,
+            "item" : "County School"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "vm9c-ykir",
+        "displayName" : "Steven Massey",
+        "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Steven Massey",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "vm9c-ykir",
+        "displayName" : "Steven Massey",
+        "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Steven Massey",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "geo_sert-rabb-1.1", null, null, null, null, null, null, "Ulloa Elementary School", "0000003185", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 2, "geo_sert-rabb-1.2", null, null, null, null, null, null, "FRANCISCO MIDDLE SCHOOL", "0000003094", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 3, "geo_sert-rabb-1.3", null, null, null, null, null, null, "Yick Wo Elementary School", "0000003095", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 4, "geo_sert-rabb-1.4", null, null, null, null, null, null, "Garfield Elementary School", "0000003096", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 5, "geo_sert-rabb-1.5", null, null, null, null, null, null, "Parker, Jean Elementary School", "0000003102", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 6, "geo_sert-rabb-1.6", null, null, null, null, null, null, "Spring Valley Elementary School", "0000003104", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 7, "geo_sert-rabb-1.7", null, null, null, null, null, null, "Chinese Education Center Elementary School", "0000003106", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 8, "geo_sert-rabb-1.8", null, null, null, null, null, null, "Marina Middle School", "0000003112", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 9, "geo_sert-rabb-1.9", null, null, null, null, null, null, "Tule Elk Park Early Education School", "0000003113", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 10, "geo_sert-rabb-1.10", null, null, null, null, null, null, "Sherman Elementary School", "0000003115", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 11, "geo_sert-rabb-1.11", null, null, null, null, null, null, "Redding Elementary School", "0000003119", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 12, "geo_sert-rabb-1.12", null, null, null, null, null, null, "Gateway High School", "0000003122", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 13, "geo_sert-rabb-1.13", null, null, null, null, null, null, "HARVEY MILK CHILDREN CENTER", "0000003125", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 14, "geo_sert-rabb-1.14", null, null, null, null, null, null, "Creative Arts Charter School", "0000003126", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 15, "geo_sert-rabb-1.15", null, null, null, null, null, null, "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL", "0000003127", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 16, "geo_sert-rabb-1.16", null, null, null, null, null, null, "Muir, John Elementary School", "0000003131", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 17, "geo_sert-rabb-1.17", null, null, null, null, null, null, "Cobb, Dr. William L. Elementary School", "0000003137", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 18, "geo_sert-rabb-1.18", null, null, null, null, null, null, "Roosevelt, Theodore Middle School", "0000003138", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 19, "geo_sert-rabb-1.19", null, null, null, null, null, null, "Wallenberg, Raoul High School", "0000003140", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 20, "geo_sert-rabb-1.20", null, null, null, null, null, null, "New Traditions Elementary School", "0000003141", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 21, "geo_sert-rabb-1.21", null, null, null, null, null, null, "Grattan Elementary School", "0000003146", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 22, "geo_sert-rabb-1.22", null, null, null, null, null, null, "Alamo Elementary School", "0000003149", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 23, "geo_sert-rabb-1.23", null, null, null, null, null, null, "Sutro Elementary School", "0000003151", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 24, "geo_sert-rabb-1.24", null, null, null, null, null, null, "Peabody, George Elementary School", "0000003152", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 25, "geo_sert-rabb-1.25", null, null, null, null, null, null, "Presidio Middle School", "0000003155", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 26, "geo_sert-rabb-1.26", null, null, null, null, null, null, "Washington, George High School", "0000003157", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 27, "geo_sert-rabb-1.27", null, null, null, null, null, null, "Lafayette Elementary School", "0000003158", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 28, "geo_sert-rabb-1.28", null, null, null, null, null, null, "S.F. County Special Education School", "0000003161", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 29, "geo_sert-rabb-1.29", null, null, null, null, null, null, "Argonne Elementary School", "0000003162", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 30, "geo_sert-rabb-1.30", null, null, null, null, null, null, "McCoppin, Frank Elementary School", "0000003163", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 31, "geo_sert-rabb-1.31", null, null, null, null, null, null, "Argonne Early Education School", "0000003164", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 32, "geo_sert-rabb-1.32", null, null, null, null, null, null, "PCC/Big Picture San Francisco", "0000003165", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 33, "geo_sert-rabb-1.33", null, null, null, null, null, null, "Jefferson Elementary School", "0000003166", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 34, "geo_sert-rabb-1.34", null, null, null, null, null, null, "Jefferson Early Education School", "0000003167", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 35, "geo_sert-rabb-1.35", null, null, null, null, null, null, "Walden House", "0000003169", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 36, "geo_sert-rabb-1.36", null, null, null, null, null, null, "Lawton Alternative School", "0000003171", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 37, "geo_sert-rabb-1.37", null, null, null, null, null, null, "Key, Francis Scott Elementary School", "0000003172", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 38, "geo_sert-rabb-1.38", null, null, null, null, null, null, "Giannini, A. P. Middle School", "0000003176", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 39, "geo_sert-rabb-1.39", null, null, null, null, null, null, "Stevenson, Robert Louis Elementary School", "0000003177", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 40, "geo_sert-rabb-1.40", null, null, null, null, null, null, "Hoover, Herbert Middle School", "0000003180", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 41, "geo_sert-rabb-1.41", null, null, null, null, null, null, "Feinstein, Dianne Elementary School", "0000003184", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 42, "geo_sert-rabb-1.42", null, null, null, null, null, null, "McKinley Elementary School", "0000003188", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 43, "geo_sert-rabb-1.43", null, null, null, null, null, null, "Alvarado Elementary School", "0000003194", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 44, "geo_sert-rabb-1.44", null, null, null, null, null, null, "Miraloma Elementary School", "0000003198", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 45, "geo_sert-rabb-1.45", null, null, null, null, null, null, "West Portal Elementary School", "0000003199", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 46, "geo_sert-rabb-1.46", null, null, null, null, null, null, "Sunnyside Elementary School", "0000003200", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 47, "geo_sert-rabb-1.47", null, null, null, null, null, null, "Sloat, Commodore Elementary School", "0000003202", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 48, "geo_sert-rabb-1.48", null, null, null, null, null, null, "Marshall Elementary School", "0000003207", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 49, "geo_sert-rabb-1.49", null, null, null, null, null, null, "Sanchez Elementary School", "0000003209", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 50, "geo_sert-rabb-1.50", null, null, null, null, null, null, "Everett Middle School", "0000003210", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 51, "geo_sert-rabb-1.51", null, null, null, null, null, null, "Log Cabin Ranch County School", "0000001042", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 52, "geo_sert-rabb-1.52", null, null, null, null, null, null, "Mission High School", "0000003213", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 53, "geo_sert-rabb-1.53", null, null, null, null, null, null, "Edison Charter K-8", "0000003218", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 54, "geo_sert-rabb-1.54", null, null, null, null, null, null, "Buena Vista/Horace Mann", "0000003221", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 55, "geo_sert-rabb-1.55", null, null, null, null, null, null, "Carmichael, Bessie (6-8 Campus)", "0000003224", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 56, "geo_sert-rabb-1.56", null, null, null, null, null, null, "Carmichael, Bessie (K-5 Campus)", "0000001831", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 57, "geo_sert-rabb-1.57", null, null, null, null, null, null, "Downtown High School", "0000003230", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 58, "geo_sert-rabb-1.58", null, null, null, null, null, null, "Webster, Daniel Elementary School", "0000003232", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 59, "geo_sert-rabb-1.59", null, null, null, null, null, null, "Bryant Elementary School", "0000003234", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 60, "geo_sert-rabb-1.60", null, null, null, null, null, null, "Starr King Elementary School", "0000003235", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 61, "geo_sert-rabb-1.61", null, null, null, null, null, null, "Bryant Early Education School", "0000003237", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 62, "geo_sert-rabb-1.62", null, null, null, null, null, null, "POTRERO NURSERY", "0000003238", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 63, "geo_sert-rabb-1.63", null, null, null, null, null, null, "Harte, Bret Elementary School", "0000003245", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 64, "geo_sert-rabb-1.64", null, null, null, null, null, null, "Havard, Leola M. Early Education School", "0000060162", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 65, "geo_sert-rabb-1.65", null, null, null, null, null, null, "Marshall, Thurgood High School", "0000003250", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 66, "geo_sert-rabb-1.66", null, null, null, null, null, null, "Drew, Dr. Charles R. Elementary School", "0000003251", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 67, "geo_sert-rabb-1.67", null, null, null, null, null, null, "Revere, Paul School", "0000003256", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 68, "geo_sert-rabb-1.68", null, null, null, null, null, null, "Serra, Junipero Elementary School", "0000003257", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 69, "geo_sert-rabb-1.69", null, null, null, null, null, null, "Hillcrest Elementary School", "0000003259", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 70, "geo_sert-rabb-1.70", null, null, null, null, null, null, "King, Dr. Martin Luther, Jr. Middle School", "0000003260", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 71, "geo_sert-rabb-1.71", null, null, null, null, null, null, "Taylor, E. R. Elementary School", "0000003261", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 72, "geo_sert-rabb-1.72", null, null, null, null, null, null, "Excelsior Monroe Early Education School", "0000003262", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 73, "geo_sert-rabb-1.73", null, null, null, null, null, null, "S.F. COMMUNITY SCHOOL", "0000003263", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 74, "geo_sert-rabb-1.74", null, null, null, null, null, null, "Jordan, June High School", "0000003265", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 75, "geo_sert-rabb-1.75", null, null, null, null, null, null, "Cleveland Elementary School", "0000003266", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 76, "geo_sert-rabb-1.76", null, null, null, null, null, null, "Burton, Phillip and Sala High School", "0000003267", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 77, "geo_sert-rabb-1.77", null, null, null, null, null, null, "El Dorado Elementary School", "0000003268", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 78, "geo_sert-rabb-1.78", null, null, null, null, null, null, "Visitacion Valley Middle School", "0000003270", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 79, "geo_sert-rabb-1.79", null, null, null, null, null, null, "Visitacion Valley Elementary School", "0000003273", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 80, "geo_sert-rabb-1.80", null, null, null, null, null, null, "McLaren, John Early Education School", "0000003274", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 81, "geo_sert-rabb-1.81", null, null, null, null, null, null, "Excelsior Guadalupe Early Education School", "0000003275", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 82, "geo_sert-rabb-1.82", null, null, null, null, null, null, "Longfellow Elementary School", "0000003276", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 83, "geo_sert-rabb-1.83", null, null, null, null, null, null, "Rodriguez, Zaida T. Early Education School", "0000003277", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 84, "geo_sert-rabb-1.84", null, null, null, null, null, null, "Lick, James Middle School", "0000003278", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 85, "geo_sert-rabb-1.85", null, null, null, null, null, null, "Mission Education Center Elementary School", "0000003279", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 86, "geo_sert-rabb-1.86", null, null, null, null, null, null, "Fairmount Elementary School", "0000003280", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 87, "geo_sert-rabb-1.87", null, null, null, null, null, null, "Glen Park Elementary School", "0000003282", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 88, "geo_sert-rabb-1.88", null, null, null, null, null, null, "Balboa High School", "0000003283", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 89, "geo_sert-rabb-1.89", null, null, null, null, null, null, "Denman, James Middle School", "0000003284", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 90, "geo_sert-rabb-1.90", null, null, null, null, null, null, "San Miguel Early Education School", "0000003285", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 91, "geo_sert-rabb-1.91", null, null, null, null, null, null, "Ortega, Jose Elementary School", "0000003286", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 92, "geo_sert-rabb-1.92", null, null, null, null, null, null, "Sheridan Elementary School", "0000003287", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 93, "geo_sert-rabb-1.93", null, null, null, null, null, null, "Lakeshore Elementary School", "0000003293", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 94, "geo_sert-rabb-1.94", null, null, null, null, null, null, "LOWELL HIGH SCHOOL", "0000003294", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 95, "geo_sert-rabb-1.95", null, null, null, null, null, null, "Hilltop Special Services Center", "0000003236", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 96, "geo_sert-rabb-1.96", null, null, null, null, null, null, "Gateway Middle School", "0000003116", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 97, "geo_sert-rabb-1.97", null, null, null, null, null, null, "Lilienthal, Claire (3-8 Winfield Scott Campus)", "0000003134", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 98, "geo_sert-rabb-1.98", null, null, null, null, null, null, "Wells, Ida B. High School", "0000003129", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 99, "geo_sert-rabb-1.99", null, null, null, null, null, null, "Chinese Immersion School at DeAvila", "0000003144", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 100, "geo_sert-rabb-1.100", null, null, null, null, null, null, "APTOS MIDDLE SCHOOL", "0000003203", "SF Unified School District (SFUSD)", "7", "Middle School" ]
+, [ 101, "geo_sert-rabb-1.101", null, null, null, null, null, null, "Lincoln, Abraham High School", "0000010186", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 102, "geo_sert-rabb-1.102", null, null, null, null, null, null, "SUNSET ELEMENTARY SCHOOL", "0000003533", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 103, "geo_sert-rabb-1.103", null, null, null, null, null, null, "Chin, John Yehall Elementary School", "0000003100", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 104, "geo_sert-rabb-1.104", null, null, null, null, null, null, "Stockton, Commodore Early Education School", "0000003105", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 105, "geo_sert-rabb-1.105", null, null, null, null, null, null, "Lau, Gordon J. Elementary School", "0000003107", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 106, "geo_sert-rabb-1.106", null, null, null, null, null, null, "Galileo High School", "0000003110", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 107, "geo_sert-rabb-1.107", null, null, null, null, null, null, "Parks, Rosa Elementary School", "0000003123", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 108, "geo_sert-rabb-1.108", null, null, null, null, null, null, "Civic Center Secondary School", "0000003128", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 109, "geo_sert-rabb-1.109", null, null, null, null, null, null, "Lilienthal, Claire (K-2 Madison Campus)", "0000003136", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 110, "geo_sert-rabb-1.110", null, null, null, null, null, null, "Yu, Alice Fong Alternative School", "0000003170", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 111, "geo_sert-rabb-1.111", null, null, null, null, null, null, "Noriega Early Education School", "0000003173", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 112, "geo_sert-rabb-1.112", null, null, null, null, null, null, "Independence High School", "0000003182", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 113, "geo_sert-rabb-1.113", null, null, null, null, null, null, "Clarendon Elementary School", "0000003189", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 114, "geo_sert-rabb-1.114", null, null, null, null, null, null, "HARVEY MILK CIVIL RIGHTS ACADEMY", "0000003190", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 115, "geo_sert-rabb-1.115", null, null, null, null, null, null, "Rooftop (5-8 Mayeda Campus)", "0000003191", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 116, "geo_sert-rabb-1.116", null, null, null, null, null, null, "Rooftop (K-4 Burnett Campus)", "0000003193", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 117, "geo_sert-rabb-1.117", null, null, null, null, null, null, "Moscone, George Elementary School", "0000003216", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 118, "geo_sert-rabb-1.118", null, null, null, null, null, null, "Mahler, Theresa S. Early Education School", "0000003217", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 119, "geo_sert-rabb-1.119", null, null, null, null, null, null, "Chavez, Cesar Elementary School", "0000003220", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 120, "geo_sert-rabb-1.120", null, null, null, null, null, null, "International Studies Academy", "0000003231", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 121, "geo_sert-rabb-1.121", null, null, null, null, null, null, "Malcolm X Elementary School", "0000003242", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 122, "geo_sert-rabb-1.122", null, null, null, null, null, null, "Metropolitan Arts and Tech", "0000003244", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 123, "geo_sert-rabb-1.123", null, null, null, null, null, null, "Flynn, Leonard Elementary School", "0000003254", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 124, "geo_sert-rabb-1.124", null, null, null, null, null, null, "Asawa, Ruth - San Francisco School of the Arts (SOTA)", "0000003296", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 125, "geo_sert-rabb-1.125", null, null, null, null, null, null, "Carver, Dr. George Washington Elementary School", "0000010187", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 126, "geo_sert-rabb-1.126", null, null, null, null, null, null, "Five Keys Charter", "0000060081", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 127, "geo_sert-rabb-1.127", null, null, null, null, null, null, "Tenderloin Elementary School", "0000060086", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 128, "geo_sert-rabb-1.128", null, null, null, null, null, null, "O'Connell, John High School", "0000060087", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 129, "geo_sert-rabb-1.129", null, null, null, null, null, null, "Academy of Arts and Sciences", "0000060127", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 130, "geo_sert-rabb-1.130", null, null, null, null, null, null, "S. F. International High School", "0000060128", "SF Unified School District (SFUSD)", "7", "High School" ]
+, [ 131, "geo_sert-rabb-1.131", null, null, null, null, null, null, "Carmichael, Bessie Early Education School", "0000060129", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 132, "geo_sert-rabb-1.132", null, null, null, null, null, null, "Chavez, Cesar Preschool", "0000060130", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 133, "geo_sert-rabb-1.133", null, null, null, null, null, null, "Cobb, Dr. William Preschool", "0000060131", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 134, "geo_sert-rabb-1.134", null, null, null, null, null, null, "Drew, Dr. Charles Early Education School", "0000060132", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 135, "geo_sert-rabb-1.135", null, null, null, null, null, null, "Sanchez Preschool", "0000060133", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 136, "geo_sert-rabb-1.136", null, null, null, null, null, null, "Flynn, Leonard Early Education School", "0000060135", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 137, "geo_sert-rabb-1.137", null, null, null, null, null, null, "Garfield Early Education School", "0000060136", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 138, "geo_sert-rabb-1.138", null, null, null, null, null, null, "Grattan Early Education School", "0000060137", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 139, "geo_sert-rabb-1.139", null, null, null, null, null, null, "Guadalupe Elementary School", "0000060138", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 140, "geo_sert-rabb-1.140", null, null, null, null, null, null, "Harte, Bret Early Education School", "0000060139", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 141, "geo_sert-rabb-1.141", null, null, null, null, null, null, "Key, Francis Scott Early Education School", "0000060140", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 142, "geo_sert-rabb-1.142", null, null, null, null, null, null, "Taylor, E.R. Preschool", "0000060141", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 143, "geo_sert-rabb-1.143", null, null, null, null, null, null, "Las Americas Early Education School", "0000060142", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 144, "geo_sert-rabb-1.144", null, null, null, null, null, null, "Lau, Gordon J. Preschool", "0000060143", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 145, "geo_sert-rabb-1.145", null, null, null, null, null, null, "McCoppin, Frank Early Education School", "0000060144", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 146, "geo_sert-rabb-1.146", null, null, null, null, null, null, "Monroe Elementary School", "0000060145", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 147, "geo_sert-rabb-1.147", null, null, null, null, null, null, "Muir, John Preschool", "0000060146", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 148, "geo_sert-rabb-1.148", null, null, null, null, null, null, "Parker, Jean Early Education School", "0000060147", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 149, "geo_sert-rabb-1.149", null, null, null, null, null, null, "Redding Early Education School", "0000060148", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 150, "geo_sert-rabb-1.150", null, null, null, null, null, null, "S. F. Montessori Early Education School", "0000060150", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 151, "geo_sert-rabb-1.151", null, null, null, null, null, null, "S. F. Public Montessori Elementary School", "0000060151", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 152, "geo_sert-rabb-1.152", null, null, null, null, null, null, "Serra, Junipero Early Education School (1)", "0000060152", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 153, "geo_sert-rabb-1.153", null, null, null, null, null, null, "Serra, Junipero Early Education School (2)", "0000060153", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 154, "geo_sert-rabb-1.154", null, null, null, null, null, null, "Spring Valley Early Education School", "0000060155", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 155, "geo_sert-rabb-1.155", null, null, null, null, null, null, "Starr King Preschool", "0000060156", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 156, "geo_sert-rabb-1.156", null, null, null, null, null, null, "Sutro Early Education School", "0000060157", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 157, "geo_sert-rabb-1.157", null, null, null, null, null, null, "Tenderloin Early Education School", "0000060158", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 158, "geo_sert-rabb-1.158", null, null, null, null, null, null, "Webster, Daniel Early Education School", "0000060159", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 159, "geo_sert-rabb-1.159", null, null, null, null, null, null, "Weill, Raphael Early Education School", "0000060160", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 160, "geo_sert-rabb-1.160", null, null, null, null, null, null, "Woodside Learning Center", "0000060161", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 161, "geo_sert-rabb-1.161", null, null, null, null, null, null, "Jefferson Out Of School (OST) Program", "0000060163", "SF Unified School District (SFUSD)", "7", "Elementary" ]
+, [ 162, "geo_sert-rabb-1.162", null, null, null, null, null, null, "KIPP Bayview Academy", "0000060164", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 163, "geo_sert-rabb-1.163", null, null, null, null, null, null, "KIPP SF Bay Academy", "0000060165", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 164, "geo_sert-rabb-1.164", null, null, null, null, null, null, "Larkin Street Youth Services", "0000060166", "SF Unified School District (SFUSD)", "7", "County School" ]
+, [ 165, "geo_sert-rabb-1.165", null, null, null, null, null, null, "Leadership Charter High School", "0000060167", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 166, "geo_sert-rabb-1.166", null, null, null, null, null, null, "Life Learning Academy Charter School", "0000060168", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+, [ 167, "geo_sert-rabb-1.167", null, null, null, null, null, null, "Presidio Early Education School", "0000060169", "SF Unified School District (SFUSD)", "7", "Early Education" ]
+, [ 168, "geo_sert-rabb-1.168", null, null, null, null, null, null, "City Arts and Tech High School", "0000060170", "SF Unified School District (SFUSD)", "7", "Charter School" ]
+ ]
+}
