@@ -1,17 +1,12 @@
-/*
 
-	Set all routes of the freedoor application
-
-*/
-
-var userController = require('../../controllers/userController')
-	, categoryController = require('../../controllers/categoryController')
-	, productController=require('../../controllers/productController')
-	, baseurl = '/freedoor/v1'
-;
-
+var listingsController = require('../../controllers/listingsController')
+	, baseurl = '/abledhomes/v1';
 module.exports = function(app, env) {
-	//set all the routes for freedoor application
-		
+	app.get(baseurl + '/listings/:vendor', listingsController.getListings);
+//	app.post(baseurl + '/category/:category_id/product', productController.postProduct);
+//	app.get(baseurl + '/category/:category_id/product/:product_id', productController.getProduct);
+//	app.put(baseurl + '/category/:category_id/product/:product_id', productController.putProduct);
+//	app.delete(baseurl + '/category/:category_id/product/:product_id', productController.deleteProduct);
 
-};
+
+}
