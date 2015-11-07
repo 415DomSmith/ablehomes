@@ -32,6 +32,7 @@ function get_listing(trust_you_id,vendor,callback) {
 
 get_listing("abcxyz",'vendor', function(resp){
     console.log(resp);
+		return res.send(200, resp);
 });
 }
 
