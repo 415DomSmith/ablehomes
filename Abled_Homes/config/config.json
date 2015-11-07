@@ -1,0 +1,14 @@
+{
+    "server": {
+      "httpSecure": false,
+      "debug": false
+    },
+    "memcached": {
+      "locations": "127.0.0.1:11211",
+      "sessionExpiration":0,
+      "options":{}
+    },
+    "mongo": {
+      "url": "mongodb://ablehome:admin@ds049624.mongolab.com:49624/ablehomes"
+    }
+}
