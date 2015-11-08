@@ -34,7 +34,7 @@ function getDbListing(listingId, callback) {
 		// Because mongo is an orm, it's doc needs to be converted to JS object
 		listingObject = listingObject.toObject();
 		//Return the information from database
-		return callback(null, _.omit(listingObject, ['_id', '__v']),result);
+		return callback(null, _.omit(listingObject, ['_id', '__v']));
  	});
 }
 
