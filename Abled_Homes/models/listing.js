@@ -39,7 +39,7 @@ function getDbListing(listingId, callback) {
 }
 
 function getNearAreaData(callback){
-	env.AreaData.find({loc : { $near : { $geometry : { type : "Point", coordinates : [-122.4194160, 37.7749290] }, $maxDistance: 402}}
+	env.AreaData.find({loc : { $near : { $geometry : { type : "Point", coordinates : [-122.4925437, 37.7518589] }, $maxDistance: 402}}
 		}).exec(function (error, areaData) {
 			if (error) {
 				logger.error('Error from database: ' + error);

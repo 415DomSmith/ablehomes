@@ -71,5 +71,23 @@ module.exports.getAreaData = function(req, res) {
 };
 
 
+var request = require("request");
+
+var options = { method: 'GET',
+  url: 'https://data.sfgov.org/resource/yr47-s4hb.json',
+  headers: 
+   {args: 'where=within_circle(location, 37.76, -122.42, 1000)',
+     'x-app-token': 'JBMRiiAfhumWQ6HkheSjGcerh' } 
+ };
+
+request(options, function (error, response, body) {
+  if (error) {
+    return error;
+  } else {
+    console.log(body);
+  }
+});
+
+
 
 
