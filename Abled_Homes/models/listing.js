@@ -59,7 +59,7 @@ function getNearAreaData(callback){
 					}
 				});
 				// console.log("Number of bus stops in area: " + busStops.length + " and number of ramps in area: " + ramps.length);
-				return callback(null, {ramps: ramps.length, busStops: busStops.length});
+				return {ramps: ramps.length, busStops: busStops.length};
 			}
 		});
 }

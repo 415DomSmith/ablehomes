@@ -54,6 +54,7 @@ module.exports.getListings = function(req, res) {
                             console.log(data);
                             ascore+=data.ramps/50;
                             ascore+=data.busStops/3;
+                            ascore*= 3.5;
                         } });
             }
         	res.send(200,retslyResults);
