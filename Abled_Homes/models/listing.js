@@ -64,8 +64,36 @@ function getNearAreaData(callback){
 		});
 }
 
+function getStopsnRamps(box,callback){
+	//var box = [req.query.NE, req.query.SW] //format req.query in to box of bounds    
+	//var box = [ [-122.4925437, 37.7518589], [-122.5004402, 37.7477870]];
+	env.AreaData.find({loc : { "$geoWithin" : {$box : box}}
+		}).exec(function (error, areaData) {
+			if (error) {
+				logger.error('Error from database: ' + error);
+				return callback(error);
+			} if(validator.isNull(areaData)) {
+					logger.debug('Null object received from database');
+					return callback(null, null);
+			} else {
+				var ramps = [];
+				var busStops = [];
+
+				areaData.forEach(function (e) {
+					if (e.type === "bus_stop"){
+						busStops.push(e);
+					} else if (e.type === "curb_ramp"){
+						ramps.push(e);
+					}
+				});
+				 console.log("Number of bus stops in area: " + busStops.length + " and number of ramps in area: " + ramps.length);
+				return callback(null,{ramps: ramps, busStops: busStops});
+			}
+		});
+}
 var moduleExports = {};
 moduleExports.dbInsertListing = dbInsertListing;
 moduleExports.getDbListing = getDbListing;
 moduleExports.getNearAreaData = getNearAreaData;
+moduleExports.getStopsnRamps= getStopsnRamps;
 module.exports = moduleExports;
