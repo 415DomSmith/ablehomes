@@ -4,7 +4,17 @@
   "private": true,
   "dependencies": {
 		"express": "3.4.0",
-
+    "async" : "latest",
+    "moment" : "latest",
+    "node-uuid" : "latest",
+    "nodeunit" : "latest",
+    "nock" : "latest",
+    "request" : "latest",
+    "underscore" : "latest",
+    "validator" : "latest",
+    "z-schema" : "latest",
+    "q" : "latest",
+    "mongoose" : "latest",
 		"forever": "0.10.9",
     "ejs":"*"
   },
