@@ -52,9 +52,6 @@ var clientSchema = new mongoose.Schema({
                 },
     password    : String,
     phone       : Number,
-    pref1       : String,
-    pref2       : String,
-    pref3       : String,
     listings    : [{
                     type: mongoose.Schema.Types.ObjectId,
                     ref: 'Listing'
@@ -67,27 +64,11 @@ var clientSchema = new mongoose.Schema({
 
 var listingSchema = new mongoose.Schema({
 
-	loc 							: {type: [Number], coordinates: [], index: '2dsphere'},
-	lat 							: {type: Number, required: true},
-	long 							: {type: Number, required: true},
-	address 					: {type: String, required: true, unique: true},
-	city 							: String,
-	state 						: String,
-  image             : String,
-  price             : Number,
-  stories           : Number,
-  yearBuilt         : Number,
-  ableScore         : Number,
-  exteriorFeatures  : [],
-  accessibilityFeatures: [],
-	dateCreated 			: {type: Date, default: Date.now},
-	agent: {
-		type 						: mongoose.Schema.Types.ObjectId,
-		ref 						: 'Agent'
-	}
+	listingId							: {type: String, required: true},
+	ascore 						: {type: Number, required: true}
 });
 
-listingSchema.index({loc: '2dsphere'});
+
 
 var categorySchema = new schema({}, { strict: false });
 var productSchema = new schema({}, { strict: false});

@@ -4,50 +4,69 @@ var env = require("../config/environment")
 	, async = require('async')
 	, logger = env.logger
 ;
-
+var url=require('url');
 //set datamodels based on datastoreMode
 
-
+var listingModel = require("../models/listing")
 module.exports.getListings = function(req, res) {
-	var vendor = req.params.vendor;
-  var request = require('request');
-function get_listing(trust_you_id,vendor,callback) {
-    var userId = vendor;
+	var request = require('request');
+	var queryparams=url.parse(req.url,false).query;
 		var options = {
-        uri : 'https://rets.io/api/v1/test/listings?access_token=6baca547742c6f96a6ff71b138424f21',
+        uri : 'https://rets.io/api/v1/test/listings?access_token=6baca547742c6f96a6ff71b138424f21&limit=100&'+queryparams,
         method : 'GET'
     };
 		console.log("URI: " + options.uri);
-    var res = '';
+    var result = '';
     request(options, function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            res = body;
+        	result = JSON.parse(body);
+        	for (var i=0;i<result.bundle.length;i++)
+        	   {
+        		listingModel.getDbListing(result.bundle[i].id, function(error, listingObject) {
+    				if (error) {
+    					logger.error('Error from database in looking up Listing. ' + error);
+    				}
+    				if (validator.isNull(listingObject)) {
+    					logger.debug('Null object received in get User controller, listingId: ' + result.bundle[i].id);
+    					var ascore=0;
+    	        	     console.log("Long lat :" + result.bundle[i].coordinates);
+    	        		 if(result.bundle[i].accessibilityFeatures!=null)
+    	        		 {
+    	        			 console.log("Accessibility Features:" + result.bundle[i].accessibilityFeatures);
+    	        			 if(result.bundle[i].accessibilityFeatures.length==1)
+    	        				 ascore=10;
+    	        			 if(result.bundle[i].accessibilityFeatures.length==2)
+    	        				 ascore=20;
+    	        			 if(result.bundle[i].accessibilityFeatures.length==3)
+    	        				 ascore=30;
+    	        		 }
+    	        		 var listing = {
+    	        				    "listingId": result.bundle[i].id,
+    	        				    "ascore": ascore
+    	        				}
+    	        		 console.log("Object to be inserted: "+ listing);
+    	        		 listingModel.dbInsertListing(listing, function(error, successmessage) {
+    	        				if (error) {
+    	        					logger.error('Error from database in Inserting Listing. ' + error);
+    	        					return res.send(500, env.errorMessages.code500);
+    	        				}
+    	        				console.log("Listing : " + successmessage);
+    	        			});
+    	        		 var appendascore = {"ascore": ascore};
+    	        		 result.bundle[i] = _.extend(result.bundle[i], appendascore);
+    				}
+    				console.log("Listing : " + listingObject.listingId +" with score " + listingObject.ascore );
+    				result.bundle[i].set('ascore',listingObject.ascore);
+    			});
+        		 
+        	   }
         }
         else {
-            res = 'Not Found';
+        	result = 'Not Found';
         }
-        callback(res);
+        res.send(200,result);
     });
 }
 
-get_listing("abcxyz",'vendor', function(resp){
-    console.log(resp);
-		return res.send(200, resp);
-});
-}
 
 
-
-/*module.exports.getCategories = function(req, res) {
-	categoryModel.dbGetCategories(function(error, categories) {
-		if (error) {
-			logger.error('Error from database: ' + error);
-			return res.send(500, env.errorMessages.code500);
-		}
-		if (validator.isNull(categories)) {
-			logger.debug('Null object received in get category controller');
-			return res.send(404, env.errorMessages.code404);
-
-		}
-		return res.send(200, categories);
-	}); */
