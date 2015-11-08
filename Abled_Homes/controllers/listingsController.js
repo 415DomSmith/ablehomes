@@ -5,6 +5,7 @@ var env = require("../config/environment")
 	, logger = env.logger
 ;
 var url=require('url');
+var retslyResults=null;
 //set datamodels based on datastoreMode
 
 var listingModel = require("../models/listing")
@@ -18,47 +19,46 @@ module.exports.getListings = function(req, res) {
 		console.log("URI: " + options.uri);
     var result = '';
     request(options, function (error, response, body) {
+    	if(error){
+    		logger.error('Error Getting Retsly Data ' + error);
+    	}
         if (!error && response.statusCode == 200) {
         	result = JSON.parse(body);
-        	for (var i=0;i<result.bundle.length;i++)
-        	   {
-        		var ascore=0;
-        		if(result.bundle[i].accessibilityFeatures!=null)
-           			 {
-           				 
-           				 console.log("Accessibility Features:" + result.bundle[i].accessibilityFeatures);
-           				 if(result.bundle[i].accessibilityFeatures.length==1)
-           					 ascore=10;
-           				 if(result.bundle[i].accessibilityFeatures.length==2)
-           					 ascore=20;
-           				 if(result.bundle[i].accessibilityFeatures.length==3)
-           					 ascore=30;
-           			 }
-        		
-        		if(result.bundle[i].stories<2)
-        			ascore+=5;
-        		if(result.bundle[i].yearBuilt>1990)
-        			ascore+=5;
-           			 var listing = {
-            				    "listingId": result.bundle[i].id,
-            				    "ascore": ascore
-            				}
-           			 console.log("Object to be inserted: "+ listing.ascore);
-           			 listingModel.dbInsertListing(listing, function(error, successmessage) {
-            				if (error) {
-            					logger.error('Error from database in Inserting Listing. ' + error);
-            					return res.send(500, env.errorMessages.code500);
-            				}
-            				console.log("Listing : " + successmessage);
-            			});
-           			result.bundle[i].ascore=ascore;
-           			
-        	   }
+        	retslyResults=result;''
+        	for (var i=0;i<retslyResults.bundle.length;i++)
+            {
+            	
+                var ascore=0;
+                    if(retslyResults.bundle[i].accessibilityFeatures!=null)
+                    {
+                       				 
+                       	console.log("Accessibility Features:" + retslyResults.bundle[i].accessibilityFeatures);
+                       	if(retslyResults.bundle[i].accessibilityFeatures.length==1)
+                       		ascore+=10;
+                       	if(retslyResults.bundle[i].accessibilityFeatures.length==2)
+                       		ascore+=20;
+                       	if(retslyResults.bundle[i].accessibilityFeatures.length==3)
+                       		ascore+=30;
+                     }
+                    		
+                    if(retslyResults.bundle[i].stories<2)
+                    		ascore+=5;
+                    if(retslyResults.bundle[i].yearBuilt>1990)
+                    		ascore+=5;
+                       			 
+                    retslyResults.bundle[i].ascore=ascore;
+                    listingModel.getNearAreaData([-122.4194160, 37.7749290], function (error, data){
+                        if (error) {
+                            logger.error('Error from database in Inserting Listing. ' + error);
+                        } else {
+                            console.log(data);
+                            ascore+=data.ramps/50;
+                            ascore+=data.busStops/3;
+                        } });
+            }
+        	res.send(200,retslyResults);
+        	
         }
-        else {
-        	result = 'Not Found';
-        }
-        res.send(200,result);
     });
 }
 
