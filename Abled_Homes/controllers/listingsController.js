@@ -22,7 +22,6 @@ module.exports.getListings = function(req, res) {
         	result = JSON.parse(body);
         	for (var i=0;i<result.bundle.length;i++)
         	   {
-        		console.log("Long lat :" + result.bundle[i].coordinates);
         		var ascore=0;
         		if(result.bundle[i].accessibilityFeatures!=null)
            			 {
@@ -35,11 +34,16 @@ module.exports.getListings = function(req, res) {
            				 if(result.bundle[i].accessibilityFeatures.length==3)
            					 ascore=30;
            			 }
+        		
+        		if(result.bundle[i].stories<2)
+        			ascore+=5;
+        		if(result.bundle[i].yearBuilt>1990)
+        			ascore+=5;
            			 var listing = {
             				    "listingId": result.bundle[i].id,
             				    "ascore": ascore
             				}
-           			 console.log("Object to be inserted: "+ listing);
+           			 console.log("Object to be inserted: "+ listing.ascore);
            			 listingModel.dbInsertListing(listing, function(error, successmessage) {
             				if (error) {
             					logger.error('Error from database in Inserting Listing. ' + error);
@@ -48,7 +52,7 @@ module.exports.getListings = function(req, res) {
             				console.log("Listing : " + successmessage);
             			});
            			result.bundle[i].ascore=ascore;
-           			 
+           			
         	   }
         }
         else {
