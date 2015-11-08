@@ -29,7 +29,7 @@ module.exports.getListings = function(req, res) {
       }
         if (!error && response.statusCode == 200) {
           result = JSON.parse(body);
-          retslyResults=result;''
+          retslyResults=result;
           for (var i=0;i<retslyResults.bundle.length;i++)
             {
 
@@ -81,22 +81,6 @@ module.exports.getAreaData = function(req, res) {
 };
 
 
-var request = require("request");
-
-var options = { method: 'GET',
-  url: 'https://data.sfgov.org/resource/yr47-s4hb.json',
-  headers:
-   {args: 'where=within_circle(location, 37.76, -122.42, 1000)',
-     'x-app-token': 'JBMRiiAfhumWQ6HkheSjGcerh' }
- };
-
-request(options, function (error, response, body) {
-  if (error) {
-    return error;
-  } else {
-    console.log(body);
-  }
-});
 module.exports.getOneListing = function(req, res) {
   var request = require('request');
   var listingId=req.params.listingId;
@@ -119,3 +103,18 @@ module.exports.getOneListing = function(req, res) {
 });
     console.log("URI: " + options.uri);
 }
+
+module.exports.getBusRamps = function(req, res) {
+	console.log("Inside bus ramps")
+	  var request = require('request');
+	  listingModel.getStopsnRamps([req.query.NE,req.query.SW],function (error, data){
+	        if (error) {
+	        	console.log('Error from database in getting bus and ramps. ' + error);
+	            logger.error('Error from database in getting bus and ramps. ' + error);
+	            return res.send(500, env.errorMessages.code500);
+	        } else {
+	            console.log(data);
+	            res.send(200, data);
+	        }
+	    });
+	}
