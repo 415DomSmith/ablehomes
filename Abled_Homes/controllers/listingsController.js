@@ -58,9 +58,17 @@ module.exports.getListings = function(req, res) {
     });
 }
 
-// module.exports.getAreaData = function(req, res) {
-//     listingModel.getNearAreaData
-// }
+module.exports.getAreaData = function(req, res) {
+    listingModel.getNearAreaData(function (error, data){
+        if (error) {
+            logger.error('Error from database in Inserting Listing. ' + error);
+            return res.send(500, env.errorMessages.code500);
+        } else {
+            console.log(data);
+            res.send(200, data);
+        }
+    });
+};
 
 
 

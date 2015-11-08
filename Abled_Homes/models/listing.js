@@ -38,23 +38,34 @@ function getDbListing(listingId, callback) {
  	});
 }
 
-function getNearAreaData(lat, long, callback){
-	env.AreaData.find({loc: { $near : { $geometry : { type : "Point", coordinates : [long, lat] }}
-													}, function (error, areaData) {
-														if (error) {
-															logger.error('Error from database: ' + error);
-															return callback(error);
-														} if(validator.isNull(areaData)) {
-															logger.debug('Null object received from database');
-															return callback(null, null);
-														} else {
-															return console.log(areaData);
-														}
-													}
-										});
+function getNearAreaData(callback){
+	env.AreaData.find({loc : { $near : { $geometry : { type : "Point", coordinates : [-122.4194160, 37.7749290] }, $maxDistance: 402}}
+		}).exec(function (error, areaData) {
+			if (error) {
+				logger.error('Error from database: ' + error);
+				return callback(error);
+			} if(validator.isNull(areaData)) {
+					logger.debug('Null object received from database');
+					return callback(null, null);
+			} else {
+				var ramps = [];
+				var busStops = [];
+
+				areaData.forEach(function (e) {
+					if (e.type === "bus_stop"){
+						busStops.push(e);
+					} else if (e.type === "curb_ramp"){
+						ramps.push(e);
+					}
+				});
+				// console.log("Number of bus stops in area: " + busStops.length + " and number of ramps in area: " + ramps.length);
+				return callback(null, {ramps: ramps.length, busStops: busStops.length});
+			}
+		});
 }
 
 var moduleExports = {};
 moduleExports.dbInsertListing = dbInsertListing;
 moduleExports.getDbListing = getDbListing;
+moduleExports.getNearAreaData = getNearAreaData;
 module.exports = moduleExports;
