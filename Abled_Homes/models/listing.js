@@ -37,7 +37,24 @@ function getDbListing(listingId, callback) {
 		return callback(null, _.omit(listingObject, ['_id', '__v']),result);
  	});
 }
-moduleExports = {}
+
+function getNearAreaData(lat, long, callback){
+	env.AreaData.find({loc: { $near : { $geometry : { type : "Point", coordinates : [long, lat] }}
+													}, function (error, areaData) {
+														if (error) {
+															logger.error('Error from database: ' + error);
+															return callback(error);
+														} if(validator.isNull(areaData)) {
+															logger.debug('Null object received from database');
+															return callback(null, null);
+														} else {
+															return console.log(areaData);
+														}
+													}
+										});
+}
+
+var moduleExports = {};
 moduleExports.dbInsertListing = dbInsertListing;
 moduleExports.getDbListing = getDbListing;
 module.exports = moduleExports;

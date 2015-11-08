@@ -68,5 +68,10 @@ module.exports.getListings = function(req, res) {
     });
 }
 
+// module.exports.getAreaData = function(req, res) {
+//     listingModel.getNearAreaData
+// }
+
+
 
 
