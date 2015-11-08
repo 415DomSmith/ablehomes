@@ -93,11 +93,15 @@ request(options, function (error, response, body) {
   }
 });
 module.exports.getOneListing = function(req, res) {
-  var request = require('request');
-  var listingId=req.params.listingId;
-  console.log("Listing ID  " + listingId);
-    var options = {
-        uri : 'https://rets.io/api/v1/test/listings/'+listingId+'?access_token=6baca547742c6f96a6ff71b138424f21&limit=1',
+ var request = require('request');
+  var queryparams=url.parse(req.url,false).query;
+  if(queryparams!=null)
+  var urm = 'https://rets.io/api/v1/test/listings?access_token=6baca547742c6f96a6ff71b138424f21&limit=100&'+queryparams;
+  else {
+    urm = 'https://rets.io/api/v1/test/listings?access_token=6baca547742c6f96a6ff71b138424f21&limit=100';
+  }
+  var options = {
+        uri : urm,
         method : 'GET'
     };
     var result = '';
